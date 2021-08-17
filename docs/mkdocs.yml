@@ -1,0 +1,27 @@
+site_name: Loot's Tools Docs
+markdown_extensions:
+  - attr_list
+  - sane_lists
+theme:
+  name: 'rtd-dropdown'
+  custom_dir: 'rtd_dropdown'
+
+nav:
+    - Introduction to Loot's Tools: index.md
+    - Cards:
+        - Introduction to Cards: cards/index.md
+        - Cards: cards/normalCards.md
+        - Advanced Cards: cards/advCards.md
+    - Loot's Tools Plus: 
+        - About Loot's Tools Plus: plus/index.md
+    - EXtensions: 
+        - Introduction to EXtensions: extensions/index.md
+        - LTEX for Twitch: extensions/twitch/index.md
+        - LTEX for OBS: extensions/obs/index.md
+        - LTEX for Minecraft: extensions/minecraft/index.md
+    - <ion-icon name="chatbubbles-outline"></ion-icon> Contact me:
+        - <ion-icon name="logo-github"></ion-icon> Github: "https://github.com/DaryeDev"
+        - <ion-icon name="logo-twitch"></ion-icon> Twitch: "https://twitch.tv/Darye"
+        - <ion-icon name="logo-discord"></ion-icon> Discord: "https://discord.io/Darye"
+        - <ion-icon name="logo-twitter"></ion-icon> Twitter: "https://twitter.com/Darye__"
+        - <ion-icon name="mail-outline"></ion-icon> Email Me!: "mailto:correodedarye@gmail.com?subject=Loot%27s%20Tools%3A%20"
