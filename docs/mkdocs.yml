@@ -6,8 +6,14 @@ theme:
   name: 'rtd-dropdown'
   custom_dir: 'rtd_dropdown'
 
+site_url: https://daryedev.github.io/LootsTools/
+
+site_description: "Documentation for Loot's Tools"
+site_author: "Darye."
+
 nav:
     - Introduction to Loot's Tools: index.md
+    - Getting Started: gettingStarted.md
     - Cards:
         - Introduction to Cards: cards/index.md
         - Cards: cards/normalCards.md
@@ -16,9 +22,11 @@ nav:
         - About Loot's Tools Plus: plus/index.md
     - EXtensions: 
         - Introduction to EXtensions: extensions/index.md
-        - LTEX for Twitch: extensions/twitch/index.md
-        - LTEX for OBS: extensions/obs/index.md
-        - LTEX for Minecraft: extensions/minecraft/index.md
+        - Create EXtensions: extensions/developers.md
+        - LootsToolsEX for Twitch: extensions/twitch/index.md
+        - LootsToolsEX for OBS: extensions/obs/index.md
+        - LootsToolsEX for Minecraft: extensions/minecraft/index.md
+    
     - <ion-icon name="chatbubbles-outline"></ion-icon> Contact me:
         - <ion-icon name="logo-github"></ion-icon> Github: "https://github.com/DaryeDev"
         - <ion-icon name="logo-twitch"></ion-icon> Twitch: "https://twitch.tv/Darye"

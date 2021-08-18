@@ -1,4 +1,4 @@
-# Introduction to EXtensions
+# Create EXtensions
 
 <sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is required.)</sup>
 
@@ -17,7 +17,7 @@ To install them you only need to unzip the *Package* into ```<Loot's Tools' Root
 
 ## Available EXtensions
 
-There are a few *EXtensions* available right now, but developers can make their own ([More info clicking here](developers))
+There are a few *EXtensions* available right now, but developers can make their own ([More info clicking here](forDevelopers))
 
 - [Loot's Tools EX for Minecraft](../../extensions/minecraft)
 - [Loot's Tools EX for Twitch](../../extensions/twitch)

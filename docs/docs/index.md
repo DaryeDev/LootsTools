@@ -2,9 +2,11 @@
 
 <center>**Loot's Tools** is a tool for [Streamloots](https://streamloots.com){target=_blank}, to enhance its functionality and let the streamer have better and *Next Level* interactions between them and the audience.
 
-Let it be controlled by the audience Minecraft Streams (Examples [here](https://www.youtube.com/watch?v=BqhNUN1Ft6w){target=_blank}, [here](https://www.youtube.com/watch?v=LNAmppbpLXA){target=_blank}, or [here](https://www.youtube.com/watch?v=LBEQGj77ftQ){target=_blank}), effects on camera (Examples pending), or anything that interacts with your game, stream, IoT gadgets around you\* and much more; everything can now be controlled with Streamloots Cards and **Loot's Tools**!
+Let it be controlled by the audience Minecraft Streams (Examples [here](https://www.youtube.com/watch?v=BqhNUN1Ft6w){target=_blank}, [here](https://www.youtube.com/watch?v=LNAmppbpLXA){target=_blank}, or [here](https://www.youtube.com/watch?v=LBEQGj77ftQ){target=_blank}), effects on camera (Examples pending), or anything that interacts with your game, stream, **IoT gadgets** around you\*, **gifting Packs** and much more; everything can now be controlled with Streamloots Cards and **Loot's Tools**!
 
 (Some functions need ***Loot's Tools Plus*** to be unlocked, learn more about it [here](plus).)
+
+[Getting Started](/LootsTools/gettingStarted){: style="font-size:22px"}
 
 [OBS Forums' Page](https://obsproject.com/forum/resources/loots-tools.1341/){target=_blank : style="font-size:22px;text-align: center;"}
 
@@ -12,6 +14,8 @@ Let it be controlled by the audience Minecraft Streams (Examples [here](https://
 
 [Report Issues](https://github.com/DaryeDev/LootsTools/issues){target=_blank : style="font-size:22px"}
 
-[Download](https://github.com/DaryeDev/LootsTools/releases/latest){target=_blank : style="font-size:22px"}</center>
+[Download](https://github.com/DaryeDev/LootsTools/releases/latest){target=_blank : style="font-size:22px"}
 
-Continue on [Cards](/cards).
+</center>
+
+Continue on [Getting Started](/LootsTools/gettingStarted).
