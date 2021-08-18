@@ -9,8 +9,8 @@ With ***Loot's Tools Plus*** you unlock two things:
 
 ## Upgrading to Loot's Tools Plus
 
-To upgrade to ***Loot's Tools Plus*** open ***Loot's Tools*** and click on the link when it prompts you to upgrade.
+To upgrade to ***Loot's Tools Plus***, open ***Loot's Tools*** and click on the link when it prompts you to upgrade.
 
-Your account will upgrade at the moment of payment, only restart ***Loot's Tools*** to enjoy your upgrade!
+Your account will upgrade at the moment of payment, only restart the program to enjoy your upgrade!
 
-Consider supporting Darye and the development of Loot's Tools by upgrading to ***Loot's Tools Plus***.
+Consider supporting Darye and the development of ***Loot's Tools***, by upgrading to ***Loot's Tools Plus***.

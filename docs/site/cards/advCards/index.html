@@ -440,6 +440,7 @@
 <h2 id="install-dependencies">Install dependencies</h2>
 <p>Your Python Script might need some dependencies, install them over <code>&lt;Loot's Tools Folder&gt;/dependencies/</code>.</p>
 <p>You can do it through pip like this: <code>pip install --target="&lt;Loot's Tools Folder&gt;/dependencies/" &lt;packageName&gt;</code></p>
+<hr />
 <h2 id="examples">Examples</h2>
 <p><em>Advanced cards</em>, despite it's name, don't need to be very complex. Let's see some example <em>Advanced Cards</em>:</p>
 <h3 id="shady-search">Shady Search</h3>
@@ -506,14 +507,15 @@ class advCard:
 <li><a href="../dependencies/playsound.zip" target="_blank">playsound</a></li>
 </ul>
 <p>Also, download <code>kazotsky-kick-3.mp3</code> on the Card's Name folder, on the same one than <code>run.py</code>: <a href="../dependencies/kazotsky-kick-3.mp3">kazotsky-kick-3.mp3</a></p>
+<hr />
 <h2 id="how-to">How To</h2>
-<p>An <strong>Advanced Card</strong>'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.</p>
-<p>It needs to have an special header in order for <strong><em>Loot's Tools</em></strong> to detect that it's an <strong>Advanced Card</strong>.</p>
+<p>An <em>Advanced Card</em>'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.</p>
+<p>It needs to have an special header in order for <strong><em>Loot's Tools</em></strong> to detect that it's an <em>Advanced Card</em>.</p>
 <pre><code class="language-python">class advCard:
     async def run(self, **args):
 </code></pre>
 <h3 id="variables">Variables</h3>
-<p>Using an <strong>Advanced Card</strong> also gives us access to information about the redeemed Card, like tags, but with variables:</p>
+<p>Using an <em>Advanced Card</em> also gives us access to information about the redeemed Card, like <em>Tags</em>, but with variables:</p>
 <ul>
 <li><code>commandPath</code>: The path of the Card, where <code>run.py</code> is.</li>
 <li><code>streamer</code>: The streamer's name.</li>

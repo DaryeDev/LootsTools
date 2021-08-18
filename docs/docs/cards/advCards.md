@@ -12,6 +12,8 @@ Your Python Script might need some dependencies, install them over ```<Loot's To
 
 You can do it through pip like this: ```pip install --target="<Loot's Tools Folder>/dependencies/" <packageName>```
 
+---
+
 ## Examples
 
 *Advanced cards*, despite it's name, don't need to be very complex. Let's see some example *Advanced Cards*:
@@ -100,12 +102,14 @@ Install the following dependencies in the ```dependencies``` folder:
 
 Also, download ```kazotsky-kick-3.mp3``` on the Card's Name folder, on the same one than ```run.py```: [kazotsky-kick-3.mp3](dependencies/kazotsky-kick-3.mp3)
 
+---
+
 ## How To
 
 
-An **Advanced Card**'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.
+An *Advanced Card*'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.
 
-It needs to have an special header in order for ***Loot's Tools*** to detect that it's an **Advanced Card**.
+It needs to have an special header in order for ***Loot's Tools*** to detect that it's an *Advanced Card*.
 
 ```python
 class advCard:
@@ -113,7 +117,7 @@ class advCard:
 ```
 
 ### Variables
-Using an **Advanced Card** also gives us access to information about the redeemed Card, like tags, but with variables:
+Using an *Advanced Card* also gives us access to information about the redeemed Card, like *Tags*, but with variables:
 
 - ```commandPath```: The path of the Card, where ```run.py``` is.
 - ```streamer```: The streamer's name.
