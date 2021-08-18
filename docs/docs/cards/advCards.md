@@ -1,12 +1,16 @@
 # Advanced Cards
 
-<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is needed.)</sup>
+<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is required.)</sup>
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
 You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py```
 
+## Install dependencies
+
 Your Python Script might need some dependencies, install them over ```<Loot's Tools Folder>/dependencies/```.
+
+You can do it through pip like this: ```pip install --target="<Loot's Tools Folder>/dependencies/" <packageName>```
 
 ## Examples
 
@@ -35,9 +39,9 @@ class advCard:
 
 #### Dependencies
 
-No extra dependencies, because all of the used libraries are included with Python.
+No extra dependencies.
 
-### Do a Barrel Roll!
+### Do a Barrel Roll! (Windows only)
 
 This *Advanced Card*, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.
 
@@ -61,11 +65,11 @@ class advCard:
 
 #### Dependencies
 
-Unzip the following dependencies in the ```dependencies``` folder:
+Install the following dependencies in the ```dependencies``` folder:
 
 - [rotatescreen](dependencies/rotatescreen.zip){target=_blank}
 
-### Vodka
+### Vodka (Windows only)
 
 This *Advanced Card* changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.
 
@@ -89,7 +93,7 @@ class advCard:
 
 #### Dependencies
 
-Unzip the following dependencies in the ```dependencies``` folder:
+Install the following dependencies in the ```dependencies``` folder:
 
 - [py_win_keyboard_layout](dependencies/py_win_keyboard_layout.zip){target=_blank}
 - [playsound](dependencies/playsound.zip){target=_blank}

@@ -7,6 +7,12 @@
  */
  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
+ .hljs{
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  padding: 2px 5px !important;
+}
+
  * {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;

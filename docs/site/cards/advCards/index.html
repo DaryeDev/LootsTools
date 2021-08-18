@@ -111,9 +111,14 @@
     <ul class="subnav-l2 current">
     
       
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#install-dependencies">Install dependencies</a>
+        </li>
+    
+      
           
 
-  <li class="toctree-l3 current with-children">
+  <li class="toctree-l3">
     <a href="#examples">
       Examples
       <span class="toctree-expand"></span>
@@ -122,13 +127,98 @@
 
 
 
-  <li class="toctree-l3 current">
-    <ul class="subnav-l3 current">
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
     
       
-        <li class="toctree-l4">
-          <a class="toctree-l5" href="#shady-search">Shady Search</a>
+          
+
+  <li class="toctree-l4 current with-children">
+    <a href="#shady-search">
+      Shady Search
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4 current">
+    <ul class="subnav-l4 current">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#code">Code</a>
         </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#dependencies">Dependencies</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#do-a-barrel-roll-windows-only">
+      Do a Barrel Roll! (Windows only)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#code_1">Code</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#dependencies_1">Dependencies</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#vodka-windows-only">
+      Vodka (Windows only)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#code_2">Code</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#dependencies_2">Dependencies</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
     
     </ul>
   </li>
@@ -319,16 +409,78 @@
             <div class="section">
               
                 <h1 id="advanced-cards">Advanced Cards</h1>
-<p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is needed.)</sup></p>
+<p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is required.)</sup></p>
 <p>This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.</p>
 <p>You can find the "run.py" file on <code>&lt;Loot's Tools Folder&gt;/commands/&lt;Card's name Folder&gt;/run.py</code></p>
+<h2 id="install-dependencies">Install dependencies</h2>
+<p>Your Python Script might need some dependencies, install them over <code>&lt;Loot's Tools Folder&gt;/dependencies/</code>.</p>
+<p>You can do it through pip like this: <code>pip install --target="&lt;Loot's Tools Folder&gt;/dependencies/" &lt;packageName&gt;</code></p>
 <h2 id="examples">Examples</h2>
 <p><em>Advanced cards</em>, despite it's name, don't need to be very complex. Let's see some example <em>Advanced Cards</em>:</p>
 <h3 id="shady-search">Shady Search</h3>
-<p>This Advanced Card searches a random query from a list full of weird stuff; enough for creeping out your FBI agent.</p>
-<p>The code in cuestion wold be like this:</p>
-<pre><code class="language-python">
+<p>This <em>Advanced Card</em> searches a random query from a list full of weird stuff; enough for creeping out your FBI agent and for your chat to have a good laugh.</p>
+<h4 id="code">Code</h4>
+<pre><code class="language-python">import webbrowser
+import random
+class advCard:
+    async def run(self, **args):
+        # Weird queries
+        turbio = (&quot;panales para adultos&quot;, &quot;manzanas de plástico&quot;, &quot;cerdos venenosos&quot;, &quot;como hacer que me crezca el pelo&quot;, &quot;vacunas caseras contra el covid&quot;, &quot;casco para el brazo&quot;, &quot;descargar ram sin virus&quot;, &quot;descargar counter strike 1.6 sin virus&quot;, &quot;naranjito&quot;, &quot;dacaco046&quot;, &quot;bolas&quot;, &quot;los mocos producen cancer&quot;, &quot;caracoles sin concha&quot;, &quot;osos inmaduros&quot; &quot;bicho bola con sombrero&quot;, &quot;americano en traje de baño&quot;, &quot;boris johnson en traje de baño&quot;)
+        # We get a random query
+        item = turbio[random.randint(0, len(turbio))]
+
+        # We URL encode the random query and search it on our default web browser
+        import urllib.parse
+        webbrowser.get().open(f&quot;https://google.com/search?q={urllib.parse.quote_plus(item)}&quot;)
 </code></pre>
+<h4 id="dependencies">Dependencies</h4>
+<p>No extra dependencies.</p>
+<h3 id="do-a-barrel-roll-windows-only">Do a Barrel Roll! (Windows only)</h3>
+<p>This <em>Advanced Card</em>, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.</p>
+<h4 id="code_1">Code</h4>
+<pre><code class="language-python">import rotatescreen
+
+class advCard:
+    async def run(self, **args):
+        import time
+
+        screen = rotatescreen.get_primary_display() # Identificamos la pantalla principal
+        start_pos = screen.current_orientation # Pillamos la orientación de la pantalla principal
+
+        for i in range(1, 5): # Lavadora: Giramos 5 veces, aunque la primera vez lo gira a 0
+            pos = abs((start_pos - i * 90) % 360)
+            screen.rotate_to(pos) # Rotamos a la posición calculada en la anterior linea
+            time.sleep(1.5)
+</code></pre>
+<h4 id="dependencies_1">Dependencies</h4>
+<p>Install the following dependencies in the <code>dependencies</code> folder:</p>
+<ul>
+<li><a href="../dependencies/rotatescreen.zip" target="_blank">rotatescreen</a></li>
+</ul>
+<h3 id="vodka-windows-only">Vodka (Windows only)</h3>
+<p>This <em>Advanced Card</em> changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.</p>
+<h4 id="code_2">Code</h4>
+<pre><code class="language-python">import time
+import os
+import py_win_keyboard_layout
+from playsound import playsound
+
+
+class advCard:
+    async def run(self, **args): 
+        previousLayout = py_win_keyboard_layout.get_foreground_window_keyboard_layout() # It grabs the keyboard language to restore it later
+        py_win_keyboard_layout.change_foreground_window_keyboard_layout(68748313) # It changes the keyboard layout to Russian
+        playsound(os.path.join(args[&quot;commandPath&quot;],&quot;kazotsky-kick-3.mp3&quot;)) # The song is played
+        time.sleep(5) # It waits 5 seconds
+        py_win_keyboard_layout.change_foreground_window_keyboard_layout(previousLayout) # It restores the original keyboard language
+</code></pre>
+<h4 id="dependencies_2">Dependencies</h4>
+<p>Install the following dependencies in the <code>dependencies</code> folder:</p>
+<ul>
+<li><a href="../dependencies/py_win_keyboard_layout.zip" target="_blank">py_win_keyboard_layout</a></li>
+<li><a href="../dependencies/playsound.zip" target="_blank">playsound</a></li>
+</ul>
+<p>Also, download <code>kazotsky-kick-3.mp3</code> on the Card's Name folder, on the same one than <code>run.py</code>: <a href="../dependencies/kazotsky-kick-3.mp3">kazotsky-kick-3.mp3</a></p>
               
             </div>
           </div>

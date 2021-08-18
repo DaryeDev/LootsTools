@@ -1,4 +1,4 @@
-![LootsToolsPlus](img/LTPlus.png)
+# ![LootsToolsPlus](img/LTPlus.png)
 
 ***Loot's Tools Plus*** is an upgrade over ***Loot's Tools*** that's designed for Power users or users that want the best of the best.
 
@@ -7,8 +7,10 @@ With ***Loot's Tools Plus*** you unlock two things:
 - [Use of EXtensions](../extensions)
 - [Advanced Cards](../cards/advCards.md)
 
-You can support Darye, the development of Loot's Tools and upgrade to Loot's Tools Plus here.
+## Upgrading to Loot's Tools Plus
 
-[<img src="img/upgradeButton.png" style="height: 150px;width: auto;margin-left: auto;margin-right: auto;display: flex;">](http://google.com.au/){target=_blank}
+To upgrade to ***Loot's Tools Plus*** open ***Loot's Tools*** and click on the link when it prompts you to upgrade.
 
+Your account will upgrade at the moment of payment, only restart ***Loot's Tools*** to enjoy your upgrade!
 
+Consider supporting Darye and the development of Loot's Tools by upgrading to ***Loot's Tools Plus***.
