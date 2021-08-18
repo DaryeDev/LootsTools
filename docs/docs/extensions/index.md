@@ -15,6 +15,8 @@ EXtensions come packed on a ZIP file, with the EXtension in itself and its Depen
 
 To install them you only need to unzip the *Package* into ```<Loot's Tools' Root Folder>```.
 
+---
+
 ## Available EXtensions
 
 There are a few *EXtensions* available right now, but developers can make their own ([More info clicking here](developers))
@@ -22,3 +24,9 @@ There are a few *EXtensions* available right now, but developers can make their 
 - [Loot's Tools EX for Minecraft](../../extensions/minecraft)
 - [Loot's Tools EX for Twitch](../../extensions/twitch)
 - [Loot's Tools EX for OBS](../../extensions/obs)
+
+---
+
+## Create your EXtensions
+
+If you are a developer and/or you want to make an *EXtension*, head over to [*Create EXtensions*](developers) to know how.

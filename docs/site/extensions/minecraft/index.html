@@ -8,7 +8,7 @@
   
   <meta name="author" content="Darye.">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>LTEX for Minecraft - Loot's Tools Docs</title>
+  <title>LootsToolsEX for Minecraft - Loot's Tools Docs</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "LTEX for Minecraft";
+    var mkdocs_page_name = "LootsToolsEX for Minecraft";
     var mkdocs_page_input_path = "extensions/minecraft/index.md";
     var mkdocs_page_url = "/LootsTools/extensions/minecraft/";
   </script>
@@ -163,7 +163,7 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../twitch/">LTEX for Twitch</a>
+    <a class="" href="../developers/">Create EXtensions</a>
   </li>
         
           
@@ -172,7 +172,16 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../obs/">LTEX for OBS</a>
+    <a class="" href="../twitch/">LootsToolsEX for Twitch</a>
+  </li>
+        
+          
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../obs/">LootsToolsEX for OBS</a>
   </li>
         
           
@@ -184,11 +193,131 @@
     
     <li class="navtree toctree-l2 page current">
       <a class="current" href="./">
-        LTEX for Minecraft
+        LootsToolsEX for Minecraft
           <span class="toctree-expand"></span>
       </a>
     </li>
     
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#setup">Setup</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#commands">
+      Commands
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l4 current with-children">
+    <a href="#minecraftcmd-minecraftcmd">
+      MINECRAFTCMD (minecraftCMD)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4 current">
+    <ul class="subnav-l4 current">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#minecraftpet-minecraftpet">
+      MINECRAFTPET (minecraftPet)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_1">Usage</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l5">
+    <a href="#arguments_1">
+      Arguments
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l5">
+    <ul class="subnav-l5 toc-hidden">
+    
+      
+        <li class="toctree-l6">
+          <a class="toctree-l7" href="#pet-attributes">Pet Attributes</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#additional-notes">Additional Notes</a>
+        </li>
+    
+    </ul>
+  </li>
+
 
   
         
@@ -282,7 +411,7 @@
         
       
     
-    <li>LTEX for Minecraft</li>
+    <li>LootsToolsEX for Minecraft</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -292,7 +421,44 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="lootstoolsex-for-minecraft">LootsToolsEX for Minecraft</h1>
+<p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is required.)</sup></p>
+<p><img alt="TwitchEX" src="img/MinecraftEX.png" style="height: 150px;width: 150px;float: left;margin: 20px;" /></p>
+<p><em>LootsToolsEX for Minecraft</em> is an <em>EXtension</em> which allows the interactivity between <strong>Minecraft</strong> and <strong><em>Loot's Tools</em></strong>.</p>
+<p>It makes possible sending <strong>commands</strong> to the game and <strong>giving pets</strong> to players in the game.</p>
+<p>You can see some example clips of <em>LootsToolsEX for Minecraft</em> in-game <a href="https://www.youtube.com/watch?v=BqhNUN1Ft6w" target="_blank">here</a>, <a href="https://www.youtube.com/watch?v=LNAmppbpLXA" target="_blank">here</a>, or <a href="https://www.youtube.com/watch?v=LBEQGj77ftQ" target="_blank">here</a>.</p>
+<hr />
+<h2 id="setup">Setup</h2>
+<p>It's needed for this <em>EXtension</em> to work a <em>Paper</em>, <em>Bukkit</em> or <em>Spigot</em> Minecraft server, and this plugin (<a href="LootsToolsSpigot.jar">LootsToolsSpigot.jar</a>) installed on it.</p>
+<p>It's <strong>very important</strong> to start <strong>first</strong> Loot's Tools and <strong>then</strong> the Minecraft Server.</p>
+<hr />
+<h2 id="commands">Commands</h2>
+<p>(Note: the name between parenthesis is the function's name, used for calling them with <a href="../../cards/advCards/">Advanced Cards</a>' Scripts)</p>
+<h3 id="minecraftcmd-minecraftcmd">MINECRAFTCMD (minecraftCMD)</h3>
+<p>This command sends a command to Minecraft to execute.</p>
+<h4 id="usage">Usage</h4>
+<p><code>MINECRAFTCMD {command}</code></p>
+<h4 id="arguments">Arguments</h4>
+<ul>
+<li><strong>command</strong> [str]: The command you want to execute on Minecraft.</li>
+</ul>
+<h3 id="minecraftpet-minecraftpet">MINECRAFTPET (minecraftPet)</h3>
+<p>This command summons a Pet for the player specified on Minecraft.</p>
+<h4 id="usage_1">Usage</h4>
+<p><code>MINECRAFTPET {petAttributes}</code></p>
+<h4 id="arguments_1">Arguments</h4>
+<ul>
+<li><strong>petAttributes</strong> [json]: The pet's atributes. Example: <code>{"Type":"DOG","Owner":"ALL","Name":"woof"</code>.</li>
+</ul>
+<h5 id="pet-attributes">Pet Attributes</h5>
+<ul>
+<li><code>Type</code>: The type of Pet. Possible values: <code>DOG</code>, <code>CAT</code>, <code>PARROT</code>.</li>
+<li><code>Owner</code>: The Owner of the Pet. If it's <code>ALL</code>, a Pet is given to every player online.</li>
+<li><code>Name</code>: The name of the Pet.</li>
+</ul>
+<hr />
+<h2 id="additional-notes">Additional Notes</h2>
+<p>If on the commands of <a href="#minecraftcmd-minecraftcmd"><code>MINECRAFTCMD</code></a> you put <code>%PLAYER%</code>, that command is done for every player online, replacing the tag for their names.</p>
               
             </div>
           </div>
@@ -301,7 +467,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="../obs/" class="btn btn-neutral" title="LTEX for OBS"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../obs/" class="btn btn-neutral" title="LootsToolsEX for OBS"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   

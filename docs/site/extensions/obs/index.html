@@ -8,7 +8,7 @@
   
   <meta name="author" content="Darye.">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>LTEX for OBS - Loot's Tools Docs</title>
+  <title>LootsToolsEX for OBS - Loot's Tools Docs</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "LTEX for OBS";
+    var mkdocs_page_name = "LootsToolsEX for OBS";
     var mkdocs_page_input_path = "extensions/obs/index.md";
     var mkdocs_page_url = "/LootsTools/extensions/obs/";
   </script>
@@ -163,7 +163,16 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../twitch/">LTEX for Twitch</a>
+    <a class="" href="../developers/">Create EXtensions</a>
+  </li>
+        
+          
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../twitch/">LootsToolsEX for Twitch</a>
   </li>
         
           
@@ -175,11 +184,226 @@
     
     <li class="navtree toctree-l2 page current">
       <a class="current" href="./">
-        LTEX for OBS
+        LootsToolsEX for OBS
           <span class="toctree-expand"></span>
       </a>
     </li>
     
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#setup">Setup</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#commands">
+      Commands
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l4 current with-children">
+    <a href="#obschangescene-obschangescene">
+      OBSCHANGESCENE (obsChangeScene)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4 current">
+    <ul class="subnav-l4 current">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#obschangetext-obschangetext">
+      OBSCHANGETEXT (obsChangeText)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_1">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_1">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#obschangesettings-obschangesettings">
+      OBSCHANGESETTINGS (obsChangeSettings)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_2">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_2">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#obsmute-obsmute">
+      OBSMUTE (obsMute)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_3">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_3">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#obsstreaming-obsstreaming">
+      OBSSTREAMING (obsStreaming)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_4">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_4">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#obsrecording-obsrecording">
+      OBSRECORDING (obsRecording)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_5">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_5">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
 
   
         
@@ -189,7 +413,7 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../minecraft/">LTEX for Minecraft</a>
+    <a class="" href="../minecraft/">LootsToolsEX for Minecraft</a>
   </li>
         
       </ul>
@@ -282,7 +506,7 @@
         
       
     
-    <li>LTEX for OBS</li>
+    <li>LootsToolsEX for OBS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -292,7 +516,70 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="lootstoolsex-for-obs">LootsToolsEX for OBS</h1>
+<p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is required.)</sup></p>
+<p><img alt="TwitchEX" src="img/OBSEX.png" style="height: 150px;width: 150px;float: left;margin: 20px;" /></p>
+<p><em>LootsToolsEX for OBS</em> is an <em>EXtension</em> which allows controlling <strong>OBS</strong> with <strong><em>Loot's Tools</em></strong>.</p>
+<p>It makes possible things like <strong>changing scenes</strong>, <strong>changing</strong> the <strong>text</strong> of a Text Source, <strong>changing Source Settings</strong> , <strong>muting Sources</strong> and <strong>toggle Recording</strong> and <strong>Streaming</strong>.</p>
+<p>‎</p>
+<hr />
+<h2 id="setup">Setup</h2>
+<p>You need to have installed <code>OBS Websocket</code>on your OBS. You can download it <a href="https://github.com/Palakis/obs-websocket/releases/latest">here</a></p>
+<hr />
+<h2 id="commands">Commands</h2>
+<p>(Note: the name between parenthesis is the function's name, used for calling them with <a href="../../cards/advCards/">Advanced Cards</a>' Scripts)</p>
+<h3 id="obschangescene-obschangescene">OBSCHANGESCENE (obsChangeScene)</h3>
+<p>This command changes the active Scene on OBS.</p>
+<h4 id="usage">Usage</h4>
+<p><code>OBSCHANGESCENE {scene}</code></p>
+<h4 id="arguments">Arguments</h4>
+<ul>
+<li><strong>scene</strong> [str]: The scene you want to change to.</li>
+</ul>
+<h3 id="obschangetext-obschangetext">OBSCHANGETEXT (obsChangeText)</h3>
+<p>This command changes the text of a Text Scene on OBS.</p>
+<h4 id="usage_1">Usage</h4>
+<p><code>OBSCHANGETEXT {source} {text}</code></p>
+<h4 id="arguments_1">Arguments</h4>
+<ul>
+<li><strong>source</strong> [str]: The Text Source you want to change the text from.</li>
+<li><strong>text</strong> [str]: The text you want to be changed to.</li>
+</ul>
+<h3 id="obschangesettings-obschangesettings">OBSCHANGESETTINGS (obsChangeSettings)</h3>
+<p>This command changes the Settings of a Source on OBS.</p>
+<h4 id="usage_2">Usage</h4>
+<p><code>OBSCHANGESETTINGS {source} {configChanged} {config}</code></p>
+<h4 id="arguments_2">Arguments</h4>
+<ul>
+<li><strong>source</strong> [str]: The Source you want to change the setting of.</li>
+<li><strong>configChanged</strong> [str]: The Setting you want to change.</li>
+<li><strong>config</strong> [str]: The value you want the Setting to be.</li>
+</ul>
+<h3 id="obsmute-obsmute">OBSMUTE (obsMute)</h3>
+<p>This command mutes a Source on OBS.</p>
+<h4 id="usage_3">Usage</h4>
+<p><code>OBSMUTE {source} {option}</code></p>
+<h4 id="arguments_3">Arguments</h4>
+<ul>
+<li><strong>source</strong> [str]: The name of the Source to mute/unmute.</li>
+<li><strong>option</strong> [str] (Optional): <code>mute</code> or <code>unmute</code>. If not specified, it toggles the mute.</li>
+</ul>
+<h3 id="obsstreaming-obsstreaming">OBSSTREAMING (obsStreaming)</h3>
+<p>This command toggles Streaming on OBS.</p>
+<h4 id="usage_4">Usage</h4>
+<p><code>OBSSTREAMING {option}</code></p>
+<h4 id="arguments_4">Arguments</h4>
+<ul>
+<li><strong>option</strong> [str]: Possible values: <code>start</code>, <code>stop</code> or <code>toggle</code>.</li>
+</ul>
+<h3 id="obsrecording-obsrecording">OBSRECORDING (obsRecording)</h3>
+<p>This command toggles Recording on OBS.</p>
+<h4 id="usage_5">Usage</h4>
+<p><code>OBSRECORDING {option}</code></p>
+<h4 id="arguments_5">Arguments</h4>
+<ul>
+<li><strong>option</strong> [str]: Possible values: <code>start</code>, <code>stop</code>, <code>toggle</code>, <code>pause</code> or <code>resume</code>.</li>
+</ul>
               
             </div>
           </div>
@@ -300,10 +587,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../minecraft/" class="btn btn-neutral float-right" title="LTEX for Minecraft">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../minecraft/" class="btn btn-neutral float-right" title="LootsToolsEX for Minecraft">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../twitch/" class="btn btn-neutral" title="LTEX for Twitch"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../twitch/" class="btn btn-neutral" title="LootsToolsEX for Twitch"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   

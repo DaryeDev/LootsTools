@@ -8,7 +8,7 @@
   
   <meta name="author" content="Darye.">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>LTEX for Twitch - Loot's Tools Docs</title>
+  <title>LootsToolsEX for Twitch - Loot's Tools Docs</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "LTEX for Twitch";
+    var mkdocs_page_name = "LootsToolsEX for Twitch";
     var mkdocs_page_input_path = "extensions/twitch/index.md";
     var mkdocs_page_url = "/LootsTools/extensions/twitch/";
   </script>
@@ -162,15 +162,329 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../developers/">Create EXtensions</a>
+  </li>
+        
+          
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
   
     
     <li class="navtree toctree-l2 page current">
       <a class="current" href="./">
-        LTEX for Twitch
+        LootsToolsEX for Twitch
           <span class="toctree-expand"></span>
       </a>
     </li>
     
+      
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#setup">Setup</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#commands">
+      Commands
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l4 current with-children">
+    <a href="#twitchsend-twitchsend">
+      TWITCHSEND (twitchSend)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4 current">
+    <ul class="subnav-l4 current">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchmarker-twitchmarker">
+      TWITCHMARKER (twitchMarker)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_1">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_1">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchgetstream-twitchgetstream">
+      TWITCHGETSTREAM (twitchGetStream)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_2">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_2">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchsetgame-twitchsetgame">
+      TWITCHSETGAME (twitchSetGame)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_3">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_3">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchsettitle-twitchsettitle">
+      TWITCHSETTITLE (twitchSetTitle)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_4">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_4">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchvip-twitchvip">
+      TWITCHVIP (twitchVIP)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_5">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_5">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchunvip-twitchunvip">
+      TWITCHUNVIP (twitchUnVIP)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_6">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_6">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchban-twitchban">
+      TWITCHBAN (twitchBan)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_7">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_7">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#twitchunban-twitchunban">
+      TWITCHUNBAN (twitchUnban)
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_8">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_8">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
 
   
         
@@ -180,7 +494,7 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../obs/">LTEX for OBS</a>
+    <a class="" href="../obs/">LootsToolsEX for OBS</a>
   </li>
         
           
@@ -189,7 +503,7 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../minecraft/">LTEX for Minecraft</a>
+    <a class="" href="../minecraft/">LootsToolsEX for Minecraft</a>
   </li>
         
       </ul>
@@ -282,7 +596,7 @@
         
       
     
-    <li>LTEX for Twitch</li>
+    <li>LootsToolsEX for Twitch</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -292,7 +606,92 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="lootstoolsex-for-twitch">LootsToolsEX for Twitch</h1>
+<p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is required.)</sup></p>
+<p><img alt="TwitchEX" src="img/TwitchEX.png" style="height: 150px;width: 150px;float: left;margin: 20px;" /></p>
+<p><em>LootsToolsEX for Twitch</em> is an <em>EXtension</em> which allows the interactivity between <strong>Twitch.tv</strong> and <strong><em>Loot's Tools</em></strong>.</p>
+<p>It makes possible things like <strong>changing the</strong> <strong>Stream's Title</strong> and <strong>Game</strong>, <strong>sending messages</strong> to Chat, <strong>marking a moment</strong> on the VOD, <strong>getting the Stream's info</strong> (Useful for <a href="../../cards/advCards/">Advanced Cards</a>), manage <strong>VIPs</strong> (<em>VIPing</em> and <em>unVIPing</em>), and <strong>bans</strong> (<em>banning</em> and <em>unbanning</em>).</p>
+<hr />
+<h2 id="setup">Setup</h2>
+<p>After installing the <em>EXtension</em>, you need to provide some values in order for this <em>EXtension</em> to work:</p>
+<ul>
+<li>An OAuth Twitch Chat Token (<a href="https://twitchapps.com/tmi/">You can get it here</a>)</li>
+<li>A ClientID and a Client Secret of the same account (<a href="http://faq.demostoreprestashop.com/faq.php?fid=144&amp;pid=41">You can learn how to get it here</a>)</li>
+</ul>
+<p>Then, go to the <code>/extensions/</code> folder and edit on <code>obsEX.py</code>, the values <code>oauth_token</code>, <code>client_id</code> and <code>client_secret</code> with yours.</p>
+<hr />
+<h2 id="commands">Commands</h2>
+<p>(Note: the name between parenthesis is the function's name, used for calling them with <a href="../../cards/advCards/">Advanced Cards</a>' Scripts)</p>
+<h3 id="twitchsend-twitchsend">TWITCHSEND (twitchSend)</h3>
+<p>This command sends a message to your Chat on Twitch.</p>
+<h4 id="usage">Usage</h4>
+<p><code>TWITCHSEND {message}</code></p>
+<h4 id="arguments">Arguments</h4>
+<ul>
+<li><strong>message</strong> [str]: The message you want to send.</li>
+</ul>
+<h3 id="twitchmarker-twitchmarker">TWITCHMARKER (twitchMarker)</h3>
+<p>This command marks a moment in the VOD.</p>
+<h4 id="usage_1">Usage</h4>
+<p><code>TWITCHMARKER {markerDescription}</code></p>
+<h4 id="arguments_1">Arguments</h4>
+<ul>
+<li><strong>markerDescription</strong> [str] (Optional): The description of the marker.</li>
+</ul>
+<h3 id="twitchgetstream-twitchgetstream">TWITCHGETSTREAM (twitchGetStream)</h3>
+<p>This command gets the info of your Twitch's stream.</p>
+<h4 id="usage_2">Usage</h4>
+<p><code>TWITCHGETSTREAM</code></p>
+<h4 id="arguments_2">Arguments</h4>
+<p>-</p>
+<h3 id="twitchsetgame-twitchsetgame">TWITCHSETGAME (twitchSetGame)</h3>
+<p>This command sets the game of your Twitch's stream.</p>
+<h4 id="usage_3">Usage</h4>
+<p><code>TWITCHSETGAME {game}</code></p>
+<h4 id="arguments_3">Arguments</h4>
+<ul>
+<li><strong>game</strong> [str]: The name of the game.</li>
+</ul>
+<h3 id="twitchsettitle-twitchsettitle">TWITCHSETTITLE (twitchSetTitle)</h3>
+<p>This command sets the game of your Twitch's stream.</p>
+<h4 id="usage_4">Usage</h4>
+<p><code>TWITCHSETTITLE {title}</code></p>
+<h4 id="arguments_4">Arguments</h4>
+<ul>
+<li><strong>title</strong> [str]: The title you want to put on your Twitch's stream.</li>
+</ul>
+<h3 id="twitchvip-twitchvip">TWITCHVIP (twitchVIP)</h3>
+<p>This command makes a user VIP on your Twitch's chat.</p>
+<h4 id="usage_5">Usage</h4>
+<p><code>TWITCHVIP {user}</code></p>
+<h4 id="arguments_5">Arguments</h4>
+<ul>
+<li><strong>user</strong> [str]: The user you want to make VIP.</li>
+</ul>
+<h3 id="twitchunvip-twitchunvip">TWITCHUNVIP (twitchUnVIP)</h3>
+<p>This command takes away a user's VIP on your Twitch's chat.</p>
+<h4 id="usage_6">Usage</h4>
+<p><code>TWITCHUNVIP {user}</code></p>
+<h4 id="arguments_6">Arguments</h4>
+<ul>
+<li><strong>user</strong> [str]: The user from who you want to take away its VIP.</li>
+</ul>
+<h3 id="twitchban-twitchban">TWITCHBAN (twitchBan)</h3>
+<p>This command bans a user from your Twitch's chat.</p>
+<h4 id="usage_7">Usage</h4>
+<p><code>TWITCHBAN {user}</code></p>
+<h4 id="arguments_7">Arguments</h4>
+<ul>
+<li><strong>user</strong> [str]: The user you want to ban.</li>
+</ul>
+<h3 id="twitchunban-twitchunban">TWITCHUNBAN (twitchUnban)</h3>
+<p>This command unbans a user from your Twitch's chat.</p>
+<h4 id="usage_8">Usage</h4>
+<p><code>TWITCHUNBAN {user}</code></p>
+<h4 id="arguments_8">Arguments</h4>
+<ul>
+<li><strong>user</strong> [str]: The user you want to unban.</li>
+</ul>
               
             </div>
           </div>
@@ -300,10 +699,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../obs/" class="btn btn-neutral float-right" title="LTEX for OBS">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../obs/" class="btn btn-neutral float-right" title="LootsToolsEX for OBS">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../" class="btn btn-neutral" title="Introduction to EXtensions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../developers/" class="btn btn-neutral" title="Create EXtensions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -329,7 +728,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../developers/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../obs/" style="color: #fcfcfc">Next &raquo;</a></span>
