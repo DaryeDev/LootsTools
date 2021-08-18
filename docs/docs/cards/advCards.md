@@ -54,12 +54,12 @@ class advCard:
     async def run(self, **args):
         import time
         
-        screen = rotatescreen.get_primary_display() # Identificamos la pantalla principal
-        start_pos = screen.current_orientation # Pillamos la orientación de la pantalla principal
+        screen = rotatescreen.get_primary_display() # It identifies the main display
+        start_pos = screen.current_orientation # It gets it's orientation
 
-        for i in range(1, 5): # Lavadora: Giramos 5 veces, aunque la primera vez lo gira a 0
+        for i in range(1, 5): # Washing Machine, oh yeah: It spins 0º, then 90º, then 180º, and finally 360º.
             pos = abs((start_pos - i * 90) % 360)
-            screen.rotate_to(pos) # Rotamos a la posición calculada en la anterior linea
+            screen.rotate_to(pos)
             time.sleep(1.5)
 ```
 
@@ -99,3 +99,24 @@ Install the following dependencies in the ```dependencies``` folder:
 - [playsound](dependencies/playsound.zip){target=_blank}
 
 Also, download ```kazotsky-kick-3.mp3``` on the Card's Name folder, on the same one than ```run.py```: [kazotsky-kick-3.mp3](dependencies/kazotsky-kick-3.mp3)
+
+## How To
+
+
+An **Advanced Card**'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.
+
+It needs to have an special header in order for ***Loot's Tools*** to detect that it's an **Advanced Card**.
+
+```python
+class advCard:
+    async def run(self, **args):
+```
+
+### Variables
+Using an **Advanced Card** also gives us access to information about the redeemed Card, like tags, but with variables:
+
+- ```commandPath```: The path of the Card, where ```run.py``` is.
+- ```streamer```: The streamer's name.
+- ```user```: The name of the user that redeemed the Card.
+- ```cardName```: The name of the Card redeemed.
+- ```data```: The rest of the redeem data: User Inputs, Rarity, etc
