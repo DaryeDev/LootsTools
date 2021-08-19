@@ -20,6 +20,8 @@ nav:
         - Advanced Cards: cards/advCards.md
     - Loot's Tools Plus: 
         - About Loot's Tools Plus: plus/index.md
+    - Loots Trading: 
+        - About Loots Trading: trading/index.md
     - EXtensions: 
         - Introduction to EXtensions: extensions/index.md
         - Create EXtensions: extensions/developers.md
