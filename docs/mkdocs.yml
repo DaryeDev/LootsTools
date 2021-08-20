@@ -18,17 +18,18 @@ nav:
         - Introduction to Cards: cards/index.md
         - Cards: cards/normalCards.md
         - Advanced Cards: cards/advCards.md
-    - Loot's Tools Plus: 
-        - About Loot's Tools Plus: plus/index.md
-    - Loots Trading: 
-        - About Loots Trading: trading/index.md
     - EXtensions: 
         - Introduction to EXtensions: extensions/index.md
         - Create EXtensions: extensions/developers.md
         - LootsToolsEX for Twitch: extensions/twitch/index.md
         - LootsToolsEX for OBS: extensions/obs/index.md
         - LootsToolsEX for Minecraft: extensions/minecraft/index.md
-    
+    - Loot's Tools Plus: 
+        - About Loot's Tools Plus: plus/index.md
+    - Additional Features: 
+        - About Additional Features: additionalFeatures/index.md
+        - LootsTrading: additionalFeatures/lootsTrading/index.md
+        - LaTEX: additionalFeatures/latex/index.md
     - <ion-icon name="chatbubbles-outline"></ion-icon> Contact me:
         - <ion-icon name="logo-github"></ion-icon> Github: "https://github.com/DaryeDev"
         - <ion-icon name="logo-twitch"></ion-icon> Twitch: "https://twitch.tv/Darye"
