@@ -4,6 +4,8 @@ So you're new around here, huh? I'm glad you stopped by!
 
 Originality on streams is very important for me, thats why I made Loot's Tools, but let's not distract ourselves, let's see how you can start using ***Loot's Tools***!
 
+---
+
 ## Download Loot's Tools
 
 You can download the tool [clicking here](https://github.com/DaryeDev/LootsTools/releases/latest){target=_blank}.

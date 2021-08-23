@@ -10,6 +10,14 @@ It makes possible things like **changing the** **Stream's Title** and **Game**, 
 
 ---
 
+## Installation
+
+You can install *LootsToolsEX for Twitch* with [LaTEX](../../additionalFeatures/latex) by clicking here:
+
+[[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX)]
+
+---
+
 ## Setup
 
 After installing the *EXtension*, you need to provide some values in order for this *EXtension* to work:

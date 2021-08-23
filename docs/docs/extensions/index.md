@@ -6,6 +6,8 @@
 
 They can provide more Commands for [Normal Cards](../cards/normalCards.md), useful functions for [Advanced Cards](../cards/advCards.md) or even completely new Interpreters (for Cards).
 
+---
+
 ## Instalation
 
 EXtensions come packed on a ZIP file, with the EXtension in itself and its Dependencies.

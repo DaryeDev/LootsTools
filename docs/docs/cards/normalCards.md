@@ -4,6 +4,8 @@ This type of Card reads the commands in the file "run.txt" to interpret and, the
 
 You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt```
 
+---
+
 ## Examples
 
 Normal cards are pretty easy to make, let's see a couple of examples:
@@ -11,6 +13,8 @@ Normal cards are pretty easy to make, let's see a couple of examples:
 ### Alt+F4
 
 This infamous prank, on a Card form, would be as simple as IRL: only pressing two keys and watch the rage emerge.
+
+( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Alt+F4](lootstools://copyCard/5fb7e18069cff0003945a512)] )
 
 This is as easy as one command:
 
@@ -21,6 +25,8 @@ The ````SEND```` command sends a combination of keys, being the best for easy mi
 ### Gift Chest
 
 Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the spectator's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)
+
+( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Gift Chest](lootstools://copyCard/5e692668982ade003456a0c2)] )
 
     CHEST {user} 1
 
@@ -34,9 +40,11 @@ Chat always likes to troll a bit, and nothing is worse than literally letting th
 
 This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending stream, changing source settings, changing texts...
 
+( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Goodbye Stream!](lootstools://copyCard/5fa9381dc1826900346e680c)] )
+
 To cut off the stream with a Card, this is the command it has to execute:
 
-    OBSSTREAMING end
+    OBSSTREAMING stop
 
 (You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)
 

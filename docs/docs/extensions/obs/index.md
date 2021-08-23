@@ -12,6 +12,14 @@ It makes possible things like **changing scenes**, **changing** the **text** of 
 
 ---
 
+## Installation
+
+You can install *LootsToolsEX for OBS* with [LaTEX](../../additionalFeatures/latex) by clicking here:
+
+[[Download 'Loot's Tools EX for OBS' with LaTEX]()] (Currently uploading it...)
+
+---
+
 ## Setup
 
 You need to have installed ```OBS Websocket```on your OBS. You can download it [here](https://github.com/Palakis/obs-websocket/releases/latest)
