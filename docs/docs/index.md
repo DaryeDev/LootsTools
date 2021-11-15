@@ -4,7 +4,7 @@
 
 Let it be controlled by the audience Minecraft Streams (Examples [here](https://www.youtube.com/watch?v=BqhNUN1Ft6w){target=_blank}, [here](https://www.youtube.com/watch?v=LNAmppbpLXA){target=_blank}, or [here](https://www.youtube.com/watch?v=LBEQGj77ftQ){target=_blank}), effects on camera (Examples pending), or anything that interacts with your game, stream, **IoT gadgets** around you\*, **gifting Packs** and much more; everything can now be controlled with Streamloots Cards and **Loot's Tools**!
 
-(Some functions need ***Loot's Tools Plus*** to be unlocked, learn more about it [here](plus).)
+(Some features need ***Loot's Tools Plus*** to be unlocked, learn more about it [here](plus).)
 
 [Getting Started](/LootsTools/gettingStarted){: style="font-size:22px"}
 
