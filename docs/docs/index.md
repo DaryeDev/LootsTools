@@ -8,6 +8,8 @@ Let it be controlled by the audience Minecraft Streams (Examples [here](https://
 
 [Getting Started](/LootsTools/gettingStarted){: style="font-size:22px"}
 
+[Loot's Tools UI](https://lootstools.darye.dev){: style="font-size:22px"}
+
 [OBS Forums' Page](https://obsproject.com/forum/resources/loots-tools.1341/){target=_blank : style="font-size:22px;text-align: center;"}
 
 [Discord Server](https://discord.io/Darye){target=_blank : style="font-size:22px"}

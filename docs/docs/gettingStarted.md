@@ -10,29 +10,51 @@ Originality on streams is very important for me, thats why I made Loot's Tools, 
 
 You can download the tool [clicking here](https://github.com/DaryeDev/LootsTools/releases/latest){target=_blank}.
 
-Loot's Tools is very messy and needs its own space, so unzip it on his own folder
+Loot's Tools needs his own space, so create a new folder on your computer and *drop 'em in*!
 
 ![Create a folder for Loot's Tools](img/CreateFolder.gif)
 
 ---
 
-## Login with Streamloots
+## Set it up!
 
-You need to login with Streamloots, so open ```LootsTools.exe``` and wait for the login screen to open.
+Open ```LootsTools.exe``` for first time to install and set up what it needs to work properly. 
 
-Then, log in Streamloots with your account and Loot's Tools will manage the rest.
-
-![Login with Streamloots](img/LoginStreamloots.gif)
+You'll be prompted to restart, so restart your computer and lets continue with the setup!
 
 ---
 
-## Use a Card!
+## Login with Streamloots
 
-Once you redeem a Card, a folder for it will be created.
+Once you restart your computer, you'll need to login with Streamloots, so you'll need to install a Browser extension to login:
 
-![Use a Card](img/UseCard.gif)
+- [Download *Login to Loot's Tools* for Chrome](https://addons.mozilla.org/en-US/firefox/addon/login-to-loot-s-tools/){target=_blank}
 
-And that's all I can teach you for now! Continue on [Cards](/LootsTools/cards) to learn more about the process of making them.
+- [Download *Login to Loot's Tools* for Firefox](https://addons.mozilla.org/en-US/firefox/addon/login-to-loot-s-tools/){target=_blank}
+
+To log in, once you install the extension, go to [Streamloots](https://www.streamloots.com){target=_blank} and, once you log in on there, click on the extension's icon. Loot's Tools will open, but now you'll logged in.
+
+---
+
+## A fresh new face: Loot's Tools UI
+
+Once you have installed ***Loot's Tools***, you can access [*lootstools.darye.dev*](https://lootstools.darye.dev){target=_blank} (or open ```LootsTools.exe```) and be greeted with ***Loot's Tools UI***.
+
+<a href="https://lootstools.darye.dev">
+![Loot's Tools UI's Home Page](img/lootsToolsUI_home.png){: style="margin: auto;}
+</a>
+
+Continue learing about it clicking here: [Loot's Tools UI](lootsToolsUI.md)
+
+---
+
+## Optional: Install Loot's Tools UI as a Desktop App
+
+When going to [*lootstools.darye.dev*](https://lootstools.darye.dev){target=_blank}, on **Chrome** appears an "Install" icon on the right side of the address bar: ![Install Button](img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
+
+Clicking this, you can install the UI as a Desktop App, looking better and independent from the browser!
+
+---
 
 <center>Share what you make or give suggestions on the [Discord Server](https://discord.io/Darye){target=_blank}!
 <br>
