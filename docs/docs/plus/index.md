@@ -2,10 +2,11 @@
 
 ***Loot's Tools Plus*** is an optional upgrade over ***Loot's Tools*** that's designed for Power users or users that want the best of the best.
 
-With ***Loot's Tools Plus*** you unlock two functions:
+With ***Loot's Tools Plus*** you unlock functions, such as:
 
 - [Use of EXtensions](../extensions)
 - [Advanced Cards](../cards/advCards.md)
+- Use scripts on Purchase or Gift ( Coming soon! )
 
 ---
 

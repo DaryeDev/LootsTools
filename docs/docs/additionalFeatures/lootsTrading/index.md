@@ -1,18 +1,6 @@
 # LootsTrading
 
-**LootsTrading** is an [Addicional Feature](..) which enables the **Sharing** and **Copying** of *Cards* and *Collections*, **including** the *Cards* commands (*Normal* and *Advanced*), with the respective Dependencies and EXtensions (with [LaTEX](../../additionalFeatures/latex)).
-
----
-
-## Installation
-
-As for all the [Addicional Features](..), on the first startup you'll be prompted whether you want to install this *Additional Feature*.
-
-It will only take a few seconds, and it'll be done!
-
-However, if you want to install them later, you can do it running, on your ```Loot's Tools Folder```, the following command:
-
-```.\LootsTools.exe installAdditionalFeatures```
+**LootsTrading** is an [Additional Feature](..) which enables the **Sharing** and **Copying** of *Cards* and *Collections*, **including** the *Cards* commands (*Normal* and *Advanced*), with the respective Dependencies and EXtensions (with [LaTEX](../../additionalFeatures/latex)).
 
 ---
 
