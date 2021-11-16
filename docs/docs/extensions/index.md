@@ -10,12 +10,20 @@ They can provide more Commands for [Normal Cards](../cards/normalCards.md), usef
 
 ## Instalation
 
+### Manual Method
+
 EXtensions come packed on a ZIP file, with the EXtension in itself and its Dependencies.
 
 ![EXtensionsPakContents](img/EXtensionsPakContents.png)<br>
 <sup>Example of a *EXtension Package* content, in this case, of LootsToolsEX for OBS.</sup>
 
 To install them you only need to unzip the *Package* into ```<Loot's Tools' Root Folder>```.
+
+---
+
+### LaTEX Method
+
+fee
 
 ---
 

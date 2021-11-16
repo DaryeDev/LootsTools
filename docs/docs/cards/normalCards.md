@@ -14,7 +14,7 @@ Normal cards are pretty easy to make, let's see a couple of examples:
 
 This infamous prank, on a Card form, would be as simple as IRL: only pressing two keys and watch the rage emerge.
 
-( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Alt+F4](lootstools://copyCard/5fb7e18069cff0003945a512)] )
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here: [[Alt+F4](lootstools://copyCard/5fb7e18069cff0003945a512)]
 
 This is as easy as one command:
 
@@ -24,9 +24,9 @@ The ````SEND```` command sends a combination of keys, being the best for easy mi
 
 ### Gift Chest
 
-Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the spectator's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)
+Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the viewer's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)
 
-( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Gift Chest](lootstools://copyCard/5e692668982ade003456a0c2)] )
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Gift Chest](lootstools://copyCard/5e692668982ade003456a0c2)]
 
     CHEST {user} 1
 
@@ -40,7 +40,7 @@ Chat always likes to troll a bit, and nothing is worse than literally letting th
 
 This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending stream, changing source settings, changing texts...
 
-( If you have **[LootsTrading]("../additionalFeatures/lootsTrading")** enabled, you can copy the card by clicking here, without writing anything or downloading nothing: [[Goodbye Stream!](lootstools://copyCard/5fa9381dc1826900346e680c)] )
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Goodbye Stream!](lootstools://copyCard/5fa9381dc1826900346e680c)] )
 
 To cut off the stream with a Card, this is the command it has to execute:
 
@@ -52,7 +52,7 @@ To cut off the stream with a Card, this is the command it has to execute:
 
 ## Commands
 
-By default, ***Loot's Tools*** offers a selection of Commands:
+By default, ***Loot's Tools*** offers a selection of Commands out of the box:
 
 ### CHEST
 
@@ -176,7 +176,7 @@ In this Card, an additional *Tag* would be ````{message}````.
 
 ## EXtensions
 
-*EXtensions* are a feature unlocked with [***Loot's Tools Plus***](../../plus) which allow for Normal Cards to have even more Commands available.
+*EXtensions* are a feature unlocked with [***Loot's Tools Plus***](../../plus) which allows Normal Cards to have even more Commands available.
 
 The *EXtensions* currently available are the following:
 

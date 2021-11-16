@@ -12,7 +12,7 @@ You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name
 
 Your Python Script might need some dependencies, install them over ```<Loot's Tools Folder>/dependencies/```.
 
-You can do it through pip like this: ```pip install --target="<Loot's Tools Folder>/dependencies/" <packageName>```
+You can do it through *pip* like this: ```pip install --target="<Loot's Tools Folder>/dependencies/" <packageName>```
 
 ---
 
@@ -24,9 +24,7 @@ You can do it through pip like this: ```pip install --target="<Loot's Tools Fold
 
 This *Advanced Card* searches a random query from a list full of weird stuff; enough for creeping out your FBI agent and for your chat to have a good laugh.
 
-If you have [LootsTrading]("../additionalFeatures/lootsTrading") enabled, you can copy the card by click here, without writing anything or downloading nothing:
-
-[[Shady Search](lootstools://copyCard/5fb23a1bb8df520035382caf)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Shady Search](lootstools://copyCard/5fb23a1bb8df520035382caf)]
 
 #### Code
 
@@ -49,13 +47,13 @@ class advCard:
 
 No extra dependencies.
 
+---
+
 ### Do a Barrel Roll! (Windows only)
 
 This *Advanced Card*, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.
 
-If you have [LootsTrading]("../additionalFeatures/lootsTrading") enabled, you can copy the card by click here, without writing anything or downloading nothing:
-
-[[Do a Barrel Roll!](lootstools://copyCard/60a4050e49450500351a72e2)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Do a Barrel Roll!](lootstools://copyCard/60a4050e49450500351a72e2)]
 
 #### Code
 
@@ -81,13 +79,13 @@ Install the following dependencies in the ```dependencies``` folder:
 
 - [rotatescreen](dependencies/rotatescreen.zip){target=_blank}
 
+---
+
 ### Vodka (Windows only)
 
 This *Advanced Card* changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.
 
-If you have [LootsTrading]("../additionalFeatures/lootsTrading") enabled, you can copy the card by click here, without writing anything or downloading nothing:
-
-[[Vodka](lootstools://copyCard/60a4d9452eae1a0035f2d08d)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Vodka](lootstools://copyCard/60a4d9452eae1a0035f2d08d)]
 
 #### Code
 

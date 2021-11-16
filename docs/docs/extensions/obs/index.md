@@ -8,8 +8,6 @@
 
 It makes possible things like **changing scenes**, **changing** the **text** of a Text Source, **changing Source Settings** , **muting Sources** and **toggle Recording** and **Streaming**.
 
-‎
-
 ---
 
 ## Installation
