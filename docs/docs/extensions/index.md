@@ -23,7 +23,9 @@ To install them you only need to unzip the *Package* into ```<Loot's Tools' Root
 
 ### LaTEX Method
 
-fee
+EXtensions can be easily shared through [LaTEX](../additionalFeatures/latex/index.md), and be shared with a link (```ltex://download/{ltexID}```)
+
+Click this link to install the EXtension and restart Loot's Tools, if it's open.
 
 ---
 
