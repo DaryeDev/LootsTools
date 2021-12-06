@@ -2,7 +2,7 @@
 
 This type of Card reads the commands in the file "run.txt" to interpret and, then, execute them.
 
-You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt```
+You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
 
 ---
 

@@ -4,6 +4,8 @@
 
 **LaTEX** is an [Addicional Feature](../) which makes easy the **Creation**, **Sharing** and **Downloading** of *EXtensions* on ***Loot's Tools***
 
+(As for the moment (v2.0.1), LaTEX is disabled.)
+
 ---
 
 ## Installation

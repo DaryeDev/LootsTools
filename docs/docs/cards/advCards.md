@@ -4,7 +4,7 @@
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
-You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py```
+You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
 
 ---
 

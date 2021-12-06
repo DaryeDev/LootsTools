@@ -42,7 +42,7 @@ The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections
 
 The Name and Icon of the Card is shown on a grid, and Enhanced Cards are marked with a star on the top-left corner.
 
-Clicking on a Card offers the options to test the Card and other to open the Card's folder to edit its files.
+Clicking on a Card offers the options to test the Card and other to open the Card's folder to edit its files, if the Card is enhanced, or to Enhance it, if not.
 
 ![Loot's Tools UI's Card Context Menu](img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
 
