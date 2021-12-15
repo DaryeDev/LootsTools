@@ -70,9 +70,13 @@ The **Log Page** shows the output of the **Loot's Tools Console**, with an auto 
 
 ### LootsTrading
 
-![Loot's Tools UI's Log Page](img/lootsToolsUI_log.png){: style="margin: auto;}
+![Loot's Tools UI's Cards Page](img/lootsToolsUI_cards.png){: style="margin: auto;}
 
-The **Log Page** shows the output of the **Loot's Tools Console**, with an auto scroll option.
+The **LootsTrading Page** shows a grid with your Cards, and if you click on them, you can Share them and get an LootsTrading Link for Sharing your Card and it's commands online.
+
+Also, on this page, there's a button to Share a Collection, that, as the button's name suggests, helps you Share a Collection.
+
+Learn more about **LootsTrading** on here: [LootsTrading](additionalFeatures/lootsTrading/index.md)
 
 ---
 

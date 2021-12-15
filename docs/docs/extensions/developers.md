@@ -4,6 +4,6 @@
 
 The easiest way to create EXtensions is by using the Create function of [LaTEX](../../additionalFeatures/latex/), and then modifying the template.
 
-You can Create an EXtension [clicking here](ltex://create).
+You can Create an EXtension [clicking here](https://lootstrading.darye.dev/latex/new).
 
 (This requires [LaTEX](../../additionalFeatures/latex) enabled. If you don't have it enabled, install the Additional Features [here](../../additionalFeatures#Installation/).)
