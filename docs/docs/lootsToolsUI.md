@@ -20,6 +20,8 @@ The UI is divided on pages:
 
 - [EXtensions](#extensions)
 
+- [LootsTrading](#lootstrading)
+
 - [Log](#log)
 
 - [User](#user)
@@ -59,6 +61,14 @@ The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's To
 ---
 
 ### Log
+
+![Loot's Tools UI's Log Page](img/lootsToolsUI_log.png){: style="margin: auto;}
+
+The **Log Page** shows the output of the **Loot's Tools Console**, with an auto scroll option.
+
+---
+
+### LootsTrading
 
 ![Loot's Tools UI's Log Page](img/lootsToolsUI_log.png){: style="margin: auto;}
 

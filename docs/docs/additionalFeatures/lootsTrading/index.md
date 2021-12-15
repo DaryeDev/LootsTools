@@ -2,8 +2,6 @@
 
 **LootsTrading** is an [Additional Feature](..) which enables the **Sharing** and **Copying** of *Cards* and *Collections*, **including** the *Cards* commands (*Normal* and *Advanced*), with the respective Dependencies and EXtensions (with [LaTEX](../../additionalFeatures/latex)).
 
-(As for the moment (v2.0.1), LootsTrading is disabled.)
-
 ---
 
 ## Usage
