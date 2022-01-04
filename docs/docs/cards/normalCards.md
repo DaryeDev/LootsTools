@@ -91,6 +91,19 @@ This Command runs a program.
 
 - **path** [str]: The path to the program to run.
 
+### RUNANDCLOSE
+This Command runs a program, and then closes it in x seconds.
+
+#### Usage
+
+````RUN {path} {seconds}````
+
+#### Arguments
+
+- **path** [str]: The path to the program to run.
+
+- **seconds** [int]: The number of seconds to wait until the program closes.
+
 ### SEND
 
 This Command simulates being the keyboard and sends a key combination.

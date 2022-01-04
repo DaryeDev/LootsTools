@@ -19,7 +19,7 @@
   <script>
     // Current page data
     var mkdocs_page_name = "Cards";
-    var mkdocs_page_input_path = "cards/normalCards.md";
+    var mkdocs_page_input_path = "cards\\normalCards.md";
     var mkdocs_page_url = "/LootsTools/cards/normalCards/";
   </script>
   
@@ -272,8 +272,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#send">
-      SEND
+    <a href="#runandclose">
+      RUNANDCLOSE
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -302,8 +302,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#wait">
-      WAIT
+    <a href="#send">
+      SEND
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -332,8 +332,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#rnd">
-      RND
+    <a href="#wait">
+      WAIT
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -362,8 +362,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#print">
-      PRINT
+    <a href="#rnd">
+      RND
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -381,6 +381,36 @@
       
         <li class="toctree-l5">
           <a class="toctree-l6" href="#arguments_6">Arguments</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+          
+
+  <li class="toctree-l4">
+    <a href="#print">
+      PRINT
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l4">
+    <ul class="subnav-l4 toc-hidden">
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#usage_7">Usage</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#arguments_7">Arguments</a>
         </li>
     
     </ul>
@@ -753,36 +783,49 @@
 <ul>
 <li><strong>path</strong> [str]: The path to the program to run.</li>
 </ul>
+<h3 id="runandclose">RUNANDCLOSE</h3>
+<p>This Command runs a program, and then closes it in x seconds.</p>
+<h4 id="usage_3">Usage</h4>
+<p><code>RUN {path} {seconds}</code></p>
+<h4 id="arguments_3">Arguments</h4>
+<ul>
+<li>
+<p><strong>path</strong> [str]: The path to the program to run.</p>
+</li>
+<li>
+<p><strong>seconds</strong> [int]: The number of seconds to wait until the program closes.</p>
+</li>
+</ul>
 <h3 id="send">SEND</h3>
 <p>This Command simulates being the keyboard and sends a key combination.</p>
-<h4 id="usage_3">Usage</h4>
+<h4 id="usage_4">Usage</h4>
 <p><code>RUN {keyCombination}</code></p>
-<h4 id="arguments_3">Arguments</h4>
+<h4 id="arguments_4">Arguments</h4>
 <ul>
 <li><strong>keyCombination</strong> [str]: The key combination to send.</li>
 </ul>
 <h3 id="wait">WAIT</h3>
 <p>This Command waits x seconds to resume execution of the Card's Commands.</p>
-<h4 id="usage_4">Usage</h4>
+<h4 id="usage_5">Usage</h4>
 <p><code>WAIT {seconds}</code></p>
-<h4 id="arguments_4">Arguments</h4>
+<h4 id="arguments_5">Arguments</h4>
 <ul>
 <li><strong>seconds</strong> [int]: The number of seconds to wait.</li>
 </ul>
 <h3 id="rnd">RND</h3>
 <p>This Command chooses a random item from a list and saves it to a <em>Tag</em>.</p>
-<h4 id="usage_5">Usage</h4>
+<h4 id="usage_6">Usage</h4>
 <p><code>RND({tagName}) {itemList}</code></p>
-<h4 id="arguments_5">Arguments</h4>
+<h4 id="arguments_6">Arguments</h4>
 <ul>
 <li><strong>tagName</strong> [str]: The Tag name to save the value into.</li>
 <li><strong>itemList</strong> [list]: The list of items to choose from, they have to be separated by ", " (A colon and a space). Example: <code>item1, item2, item3</code></li>
 </ul>
 <h3 id="print">PRINT</h3>
 <p>This Command prints on the <strong><em>Loot's Tools</em></strong> Console Log.</p>
-<h4 id="usage_6">Usage</h4>
+<h4 id="usage_7">Usage</h4>
 <p><code>PRINT {text}</code></p>
-<h4 id="arguments_6">Arguments</h4>
+<h4 id="arguments_7">Arguments</h4>
 <ul>
 <li><strong>text</strong> [str]: The text to print.</li>
 </ul>
