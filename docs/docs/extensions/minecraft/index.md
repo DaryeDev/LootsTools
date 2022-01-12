@@ -18,13 +18,13 @@ You can see some example clips of *LootsToolsEX for Minecraft* in-game [here](ht
 
 You can install *LootsToolsEX for Minecraft* with [LaTEX](../../additionalFeatures/latex) by clicking here:
 
-[[Download 'Loot's Tools EX for Minecraft' with LaTEX]()] (Currently uploading it...)
+[[Download 'Loot's Tools EX for Minecraft' with LaTEX](https://lootstrading.darye.dev/latex/minecraftEX)]
 
 ---
 
 ## Setup
 
-It's needed for this *EXtension* to work a *Paper*, *Bukkit* or *Spigot* Minecraft server, and this plugin ([LootsToolsSpigot.jar](LootsToolsSpigot.jar)) installed on it.
+It's needed for this *EXtension* to work a *Paper*, *Bukkit* or *Spigot* Minecraft server, and this plugin ([Loot's Tools for Minecraft (1.17)](https://www.spigotmc.org/resources/loots-tools-for-minecraft.99127/)) installed on it.
 
 It's **very important** to start **first** Loot's Tools and **then** the Minecraft Server.
 

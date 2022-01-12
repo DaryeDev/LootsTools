@@ -96,7 +96,7 @@ This Command runs a program, and then closes it in x seconds.
 
 #### Usage
 
-````RUN {path} {seconds}````
+````RUNANDCLOSE {path} {seconds}````
 
 #### Arguments
 
@@ -110,7 +110,7 @@ This Command simulates being the keyboard and sends a key combination.
 
 #### Usage
 
-````RUN {keyCombination}````
+````SEND {keyCombination}````
 
 #### Arguments
 

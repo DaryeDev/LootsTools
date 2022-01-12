@@ -14,7 +14,7 @@ It makes possible things like **changing scenes**, **changing** the **text** of 
 
 You can install *LootsToolsEX for OBS* with [LaTEX](../../additionalFeatures/latex) by clicking here:
 
-[[Download 'Loot's Tools EX for OBS' with LaTEX]()] (Currently uploading it...)
+[[Download 'Loot's Tools EX for OBS' with LaTEX](https://lootstrading.darye.dev/latex/obsEX)]
 
 ---
 

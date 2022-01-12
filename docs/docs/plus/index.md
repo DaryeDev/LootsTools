@@ -6,7 +6,7 @@ With ***Loot's Tools Plus*** you unlock functions, such as:
 
 - [Use of EXtensions](../extensions)
 - [Advanced Cards](../cards/advCards.md)
-- Use scripts on Purchase or Gift ( Coming soon! )
+- [Use scripts on Purchase or Gift](../cardEditor)
 
 ---
 
