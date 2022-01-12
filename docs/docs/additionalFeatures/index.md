@@ -1,6 +1,6 @@
 # About Additional Features
 
-**Loot's Tools** make available more features than Enhancing Cards, which are called **Additional Features**, such as **LootsTrading**, for sharing and copying Cards and Collections, **LaTEX**, to share and copy EXtensions, and **LootsLabels**, for getting your Streamloots page's stats.
+**Loot's Tools** makes available more features than Enhancing Cards, such as **LootsTrading**, for sharing and copying Cards and Collections, **LaTEX**, to share and download EXtensions, and **LootsLabels**, to get your Streamloots page's stats updated on real time.
 
 ---
 

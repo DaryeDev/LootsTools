@@ -1,6 +1,6 @@
 # LootsTrading
 
-**LootsTrading** is an [Additional Feature](..) which enables the **Sharing** and **Copying** of *Cards* and *Collections*, **including** the *Cards* commands (*Normal* and *Advanced*), with the respective Dependencies and EXtensions (with [LaTEX](../../additionalFeatures/latex)).
+**LootsTrading** is an [Additional Feature](../) which enables the **Sharing** and **Copying** of *Cards* and *Collections*, **including** the *Cards* commands (*Normal* and *Advanced*), with the respective Dependencies and EXtensions (with [LaTEX](../../additionalFeatures/latex)).
 
 ---
 
@@ -10,9 +10,15 @@
 
 ---
 
-### Sharing Cards
+### Sharing Cards and Collections (With Loot's Tools UI)
 
-In order to share a *Card*, you need to [click here](lootstools://shareCard) or open this on your Browser: ```lootstools://shareCard```
+[Click here to know how to share Cards and Collections with Loot's Tools UI.](../../lootsToolsUI.md#lootstrading)
+
+---
+
+### Sharing Cards (Manual Way)
+
+In order to share a *Card*, you need to [click here](https://lootstrading.darye.dev/card/new) or open this on your Browser: [```lootstrading.darye.dev/card/new```](https://lootstrading.darye.dev/card/new)
 
 Then, it'll ask you to use the *Card* you want to Share, and the Commands, files and Configuration of the *Card* will be uploaded.
 
@@ -20,9 +26,9 @@ It'll finish giving you a **LootsTrading Card URL**, and with that you can Share
 
 ---
 
-### Sharing Collections
+### Sharing Collections (Manual Way)
 
-To share a *Collection* you'll need to [click here](lootstools://shareCollection) or open this on your Browser: ```lootstools://shareCollection```
+To share a *Collection* you'll need to [click here](https://lootstrading.darye.dev/collection/new) or open this on your Browser: [```lootstrading.darye.dev/collection/new```](https://lootstrading.darye.dev/collection/new)
 
 Like with [Sharing Cards](#sharing-cards), it'll then ask you to use a *Card*, but this time to detect the *Collection*. 
 
@@ -32,9 +38,11 @@ When it's finished, it'll give you a **LootsTrading Collection URL** to Share yo
 
 ### Copying Cards
 
-To copy a *Card*, you'll need a **LootsTrading Card URL**. Don't worry if you don't have one, I'll give you one of mines: 
+To copy a *Card*, you'll need a **LootsTrading Card URL**. 
 
-[[Alt+F4](lootstools://copyCard/5fb7e18069cff0003945a512)]
+Don't worry if you don't have one, I'll give you one of mines: 
+
+[[Alt+F4](https://lootstrading.darye.dev/card/5fb7e18069cff0003945a512)]
 
 Once you have a **LootsTrading Card URL**, open it and use a *Card* of the *Collection* you want this new *Card* to be in.
 
@@ -50,7 +58,7 @@ Copying *Collections* is, like the rest of the methods, very easy.
 
 For this one, you only need a **LootsTrading Collection URL**, here, have one of mine: 
 
-[[Minecraft Collection](lootstools://copyCollection/5fa6b8cfc365890037cce144)]
+[[Minecraft Collection](lootstrading.darye.dev/collection/5fa6b8cfc365890037cce144)]
 
 Open it, let **LootsTrading** do its Magic, and that's it! 
 

@@ -6,18 +6,6 @@
 
 ---
 
-## Installation
-
-As for all the [Addicional Features](../), on the first startup you'll be prompted whether you want to install this *Additional Feature*.
-
-It will only take a few seconds, and it'll be done!
-
-However, if you want to install them later, you can do it running, on your ```Loot's Tools Folder```, the following command:
-
-```.\LootsTools.exe installAdditionalFeatures```
-
----
-
 ## Usage
 
 
@@ -47,6 +35,8 @@ Next, write the ID of the *EXtension* you want to share, and you'll recieve a **
 
 ## Downloading EXtensions
 
-You can download and install *EXtensions* through **LaTEX** using a **LaTEX URL**. To try it out, try with the URL of [Loot's Tools EX for Twitch](../../extensions/twitch): 
+You can download and install *EXtensions* through **LaTEX** using a **LaTEX URL**. 
 
-[[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX)] 
+To try it out, try with the URL of [Loot's Tools EX for Twitch](../../extensions/twitch): 
+
+[[Download 'Loot's Tools EX for Twitch' with LaTEX](https://lootstrading.darye.dev/latex/twitchEX)] 

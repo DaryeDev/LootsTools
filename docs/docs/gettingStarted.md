@@ -28,7 +28,7 @@ You'll be prompted to restart, so restart your computer and lets continue with t
 
 Once you restart your computer, you'll need to login with Streamloots, so you'll need to install a Browser extension to login:
 
-- [Download *Login to Loot's Tools* for Chrome](https://addons.mozilla.org/en-US/firefox/addon/login-to-loot-s-tools/){target=_blank}
+- [Download *Login to Loot's Tools* for Chrome](https://chrome.google.com/webstore/detail/login-to-loots-tools/nkoepodlaleolfmllaibllelcefbphfp){target=_blank}
 
 - [Download *Login to Loot's Tools* for Firefox](https://addons.mozilla.org/en-US/firefox/addon/login-to-loot-s-tools/){target=_blank}
 

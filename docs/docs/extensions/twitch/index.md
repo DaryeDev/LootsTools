@@ -14,7 +14,7 @@ It makes possible things like **changing the** **Stream's Title** and **Game**, 
 
 You can install *LootsToolsEX for Twitch* with [LaTEX](../../additionalFeatures/latex) by clicking here:
 
-[[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX)]
+[[Download 'Loot's Tools EX for Twitch' with LaTEX](https://lootstrading.darye.dev/latex/twitchEX)]
 
 ---
 
@@ -25,7 +25,7 @@ After installing the *EXtension*, you need to provide some values in order for t
 - An OAuth Twitch Chat Token ([You can get it here](https://twitchapps.com/tmi/))
 - A ClientID and a Client Secret of the same account ([You can learn how to get it here](http://faq.demostoreprestashop.com/faq.php?fid=144&pid=41))
 
-Then, go to the ```/extensions/``` folder and edit on ```obsEX.py```, the values ```oauth_token```, ```client_id``` and ```client_secret``` with yours.
+Then, go to the ```/extensions/``` folder, then on ```/twitchEX/```, and edit on ```twitchEX.py```, the values ```oauth_token```, ```client_id``` and ```client_secret``` with yours.
 
 ---
 

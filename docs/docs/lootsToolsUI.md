@@ -20,6 +20,8 @@ The UI is divided on pages:
 
 - [EXtensions](#extensions)
 
+- [LootsTrading](#lootstrading)
+
 - [Log](#log)
 
 - [User](#user)
@@ -42,7 +44,7 @@ The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections
 
 The Name and Icon of the Card is shown on a grid, and Enhanced Cards are marked with a star on the top-left corner.
 
-Clicking on a Card offers the options to test the Card and other to open the Card's folder to edit its files.
+Clicking on a Card offers the options to test the Card and other to open the Card's folder to edit its files, if the Card is enhanced, or to Enhance it, if not.
 
 ![Loot's Tools UI's Card Context Menu](img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
 
@@ -63,6 +65,18 @@ The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's To
 ![Loot's Tools UI's Log Page](img/lootsToolsUI_log.png){: style="margin: auto;}
 
 The **Log Page** shows the output of the **Loot's Tools Console**, with an auto scroll option.
+
+---
+
+### LootsTrading
+
+![Loot's Tools UI's LootsTrading Page](img/lootsToolsUI_lootsTrading.png){: style="margin: auto;}
+
+The **LootsTrading Page** shows a grid with your Cards, and if you click on them, you can Share them and get an LootsTrading Link for Sharing your Card and it's commands online.
+
+Also, on this page, there's a button to Share a Collection, that, as the button's name suggests, helps you Share a Collection.
+
+Learn more about **LootsTrading** on here: [LootsTrading](additionalFeatures/lootsTrading/index.md)
 
 ---
 

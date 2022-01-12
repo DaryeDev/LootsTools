@@ -524,17 +524,17 @@
                 <h1 id="advanced-cards">Advanced Cards</h1>
 <p><sup style="font-size: 90%">(This is a feature unlocked with <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>. A <strong><em>Plus</em></strong> Account is required.)</sup></p>
 <p>This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.</p>
-<p>You can find the "run.py" file on <code>&lt;Loot's Tools Folder&gt;/commands/&lt;Card's name Folder&gt;/run.py</code></p>
+<p>You can find the "run.py" file on <code>&lt;Loot's Tools Folder&gt;/commands/&lt;Card's name Folder&gt;/run.py</code> or clicking "Open folder" on an Enhanced Card on <strong><a href="../../lootsToolsUI#cards">the Cards page on Loot's Tools UI</a></strong></p>
 <hr />
 <h2 id="install-dependencies">Install dependencies</h2>
 <p>Your Python Script might need some dependencies, install them over <code>&lt;Loot's Tools Folder&gt;/dependencies/</code>.</p>
 <p>You can do it through <em>pip</em> like this: <code>pip install --target="&lt;Loot's Tools Folder&gt;/dependencies/" &lt;packageName&gt;</code></p>
 <hr />
 <h2 id="examples">Examples</h2>
-<p><em>Advanced cards</em>, despite it's name, don't need to be very complex. Let's see some example <em>Advanced Cards</em>:</p>
+<p><em>Advanced Cards</em>, despite it's name, doesn't need to be very complex. Let's see some example <em>Advanced Cards</em>:</p>
 <h3 id="shady-search">Shady Search</h3>
 <p>This <em>Advanced Card</em> searches a random query from a list full of weird stuff; enough for creeping out your FBI agent and for your chat to have a good laugh.</p>
-<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="lootstools://copyCard/5fb23a1bb8df520035382caf">Shady Search</a>]</p>
+<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="https://lootstrading.darye.dev/card/5fb23a1bb8df520035382caf">Shady Search</a>]</p>
 <h4 id="code">Code</h4>
 <pre><code class="language-python">import webbrowser
 import random
@@ -542,6 +542,7 @@ class advCard:
     async def run(self, **args):
         # Weird queries
         turbio = (&quot;panales para adultos&quot;, &quot;manzanas de plástico&quot;, &quot;cerdos venenosos&quot;, &quot;como hacer que me crezca el pelo&quot;, &quot;vacunas caseras contra el covid&quot;, &quot;casco para el brazo&quot;, &quot;descargar ram sin virus&quot;, &quot;descargar counter strike 1.6 sin virus&quot;, &quot;naranjito&quot;, &quot;dacaco046&quot;, &quot;bolas&quot;, &quot;los mocos producen cancer&quot;, &quot;caracoles sin concha&quot;, &quot;osos inmaduros&quot; &quot;bicho bola con sombrero&quot;, &quot;americano en traje de baño&quot;, &quot;boris johnson en traje de baño&quot;)
+
         # We get a random query
         item = turbio[random.randint(0, len(turbio))]
 
@@ -554,7 +555,7 @@ class advCard:
 <hr />
 <h3 id="do-a-barrel-roll-windows-only">Do a Barrel Roll! (Windows only)</h3>
 <p>This <em>Advanced Card</em>, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.</p>
-<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="lootstools://copyCard/60a4050e49450500351a72e2">Do a Barrel Roll!</a>]</p>
+<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="https://lootstrading.darye.dev/card/60a4050e49450500351a72e2">Do a Barrel Roll!</a>]</p>
 <h4 id="code_1">Code</h4>
 <pre><code class="language-python">import rotatescreen
 
@@ -578,7 +579,7 @@ class advCard:
 <hr />
 <h3 id="vodka-windows-only">Vodka (Windows only)</h3>
 <p>This <em>Advanced Card</em> changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.</p>
-<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="lootstools://copyCard/60a4d9452eae1a0035f2d08d">Vodka</a>]</p>
+<p>You can copy this card with <a href="" title="../additionalFeatures/lootsTrading">LootsTrading</a>, including all its dependencies clicking here: [<a href="https://lootstrading.darye.dev/card/60a4d9452eae1a0035f2d08d">Vodka</a>]</p>
 <h4 id="code_2">Code</h4>
 <pre><code class="language-python">import time
 import os

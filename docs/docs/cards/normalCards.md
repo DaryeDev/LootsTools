@@ -2,7 +2,7 @@
 
 This type of Card reads the commands in the file "run.txt" to interpret and, then, execute them.
 
-You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt```
+You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
 
 ---
 
@@ -14,7 +14,7 @@ Normal cards are pretty easy to make, let's see a couple of examples:
 
 This infamous prank, on a Card form, would be as simple as IRL: only pressing two keys and watch the rage emerge.
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here: [[Alt+F4](lootstools://copyCard/5fb7e18069cff0003945a512)]
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here: [[Alt+F4](https://lootstrading.darye.dev/card/5fb7e18069cff0003945a512)]
 
 This is as easy as one command:
 
@@ -26,13 +26,13 @@ The ````SEND```` command sends a combination of keys, being the best for easy mi
 
 Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the viewer's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Gift Chest](lootstools://copyCard/5e692668982ade003456a0c2)]
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Gift Chest](https://lootstrading.darye.dev/card/5e692668982ade003456a0c2)]
 
     CHEST {user} 1
 
 Not only can we adjust the number of chests given to the user by changing 1 to the desired quantity, but also the Collection, by adding it by the end: ````CHEST {user} 1 Tazos Darye!````, being ````Tazos Darye!```` the name of the Collection you want to gift a Chest of. If none is determined, the default Collection will be selected.
 
-Lastly, we see ````{user}````, Loot's Tools will replace this kind of Tag with the respective info, in this case, the user that redeemed the card. More information later on Tags.
+Lastly, we see ````{user}````, Loot's Tools will replace this kind of Tag with the respective info, in this case, the user that redeemed the card. More information later on [Tags](#tags).
 
 ### Goodbye Stream!
 
@@ -40,7 +40,7 @@ Chat always likes to troll a bit, and nothing is worse than literally letting th
 
 This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending stream, changing source settings, changing texts...
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Goodbye Stream!](lootstools://copyCard/5fa9381dc1826900346e680c)] )
+You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Goodbye Stream!](https://lootstrading.darye.dev/card/5fa9381dc1826900346e680c)] )
 
 To cut off the stream with a Card, this is the command it has to execute:
 
@@ -90,6 +90,19 @@ This Command runs a program.
 #### Arguments
 
 - **path** [str]: The path to the program to run.
+
+### RUNANDCLOSE
+This Command runs a program, and then closes it in x seconds.
+
+#### Usage
+
+````RUN {path} {seconds}````
+
+#### Arguments
+
+- **path** [str]: The path to the program to run.
+
+- **seconds** [int]: The number of seconds to wait until the program closes.
 
 ### SEND
 

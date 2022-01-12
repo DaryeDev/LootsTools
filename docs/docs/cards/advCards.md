@@ -4,7 +4,7 @@
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
-You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py```
+You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
 
 ---
 
@@ -18,13 +18,13 @@ You can do it through *pip* like this: ```pip install --target="<Loot's Tools Fo
 
 ## Examples
 
-*Advanced cards*, despite it's name, don't need to be very complex. Let's see some example *Advanced Cards*:
+*Advanced Cards*, despite it's name, doesn't need to be very complex. Let's see some example *Advanced Cards*:
 
 ### Shady Search
 
 This *Advanced Card* searches a random query from a list full of weird stuff; enough for creeping out your FBI agent and for your chat to have a good laugh.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Shady Search](lootstools://copyCard/5fb23a1bb8df520035382caf)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Shady Search](https://lootstrading.darye.dev/card/5fb23a1bb8df520035382caf)]
 
 #### Code
 
@@ -35,6 +35,7 @@ class advCard:
     async def run(self, **args):
         # Weird queries
         turbio = ("panales para adultos", "manzanas de plástico", "cerdos venenosos", "como hacer que me crezca el pelo", "vacunas caseras contra el covid", "casco para el brazo", "descargar ram sin virus", "descargar counter strike 1.6 sin virus", "naranjito", "dacaco046", "bolas", "los mocos producen cancer", "caracoles sin concha", "osos inmaduros" "bicho bola con sombrero", "americano en traje de baño", "boris johnson en traje de baño")
+        
         # We get a random query
         item = turbio[random.randint(0, len(turbio))]
 
@@ -53,7 +54,7 @@ No extra dependencies.
 
 This *Advanced Card*, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Do a Barrel Roll!](lootstools://copyCard/60a4050e49450500351a72e2)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Do a Barrel Roll!](https://lootstrading.darye.dev/card/60a4050e49450500351a72e2)]
 
 #### Code
 
@@ -85,7 +86,7 @@ Install the following dependencies in the ```dependencies``` folder:
 
 This *Advanced Card* changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Vodka](lootstools://copyCard/60a4d9452eae1a0035f2d08d)]
+You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Vodka](https://lootstrading.darye.dev/card/60a4d9452eae1a0035f2d08d)]
 
 #### Code
 
