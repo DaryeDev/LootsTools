@@ -2,155 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://daryedev.github.io/LootsTools/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/gettingStarted/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/lootsToolsUI/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/additionalFeatures/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/additionalFeatures/latex/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/additionalFeatures/lootsLabels/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/additionalFeatures/lootsTrading/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/cards/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/cards/advCards/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/cards/enhanceCards/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/cards/normalCards/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/extensions/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/extensions/developers/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/extensions/minecraft/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/extensions/obs/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/extensions/twitch/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://daryedev.github.io/LootsTools/plus/</loc>
-<<<<<<< HEAD
          <lastmod>2022-01-12</lastmod>
-=======
-         <lastmod>2022-01-01</lastmod>
->>>>>>> 921ef06a7d6a5e42db587e06a9848fc2d5b29e34
          <changefreq>daily</changefreq>
     </url>
 </urlset>
