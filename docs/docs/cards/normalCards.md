@@ -1,8 +1,9 @@
 # Cards
 
-This type of Card reads the commands in the file "run.txt" to interpret and, then, execute them.
+This type of Card execute Commands on redeem. 
 
-You can find the "run.txt" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.txt``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
+This commands can easily be edited on **[Loot's Tools' Card Editor](../../cardEditor)** . 
+<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button (<ion-icon name="create-outline"></ion-icon>) to open the Editor, to then select your Card on the selector.
 
 ---
 
@@ -18,9 +19,9 @@ You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTradi
 
 This is as easy as one command:
 
-    SEND alt+f4
+![Alt+F4 Commands](img/AltF4.png)
 
-The ````SEND```` command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... >:)
+The `Send Keystroke` command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... >:)
 
 ### Gift Chest
 
@@ -28,11 +29,9 @@ Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is ve
 
 You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Gift Chest](https://lootstrading.darye.dev/card/5e692668982ade003456a0c2)]
 
-    CHEST {user} 1
+![Gift Chest Commands](img/GiftChest.png)
 
-Not only can we adjust the number of chests given to the user by changing 1 to the desired quantity, but also the Collection, by adding it by the end: ````CHEST {user} 1 Tazos Darye!````, being ````Tazos Darye!```` the name of the Collection you want to gift a Chest of. If none is determined, the default Collection will be selected.
-
-Lastly, we see ````{user}````, Loot's Tools will replace this kind of Tag with the respective info, in this case, the user that redeemed the card. More information later on [Tags](#tags).
+We can modify the number of Packs, the collection the Pack is of and the user to give the Packs to (`{user}` represents the user that redeemed the Card. Learn more on Tags [here](#tags).).
 
 ### Goodbye Stream!
 
@@ -44,7 +43,7 @@ You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTradi
 
 To cut off the stream with a Card, this is the command it has to execute:
 
-    OBSSTREAMING stop
+![Goodbye Stream Commands](img/GoodbyeStream.png)
 
 (You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)
 
@@ -54,13 +53,13 @@ To cut off the stream with a Card, this is the command it has to execute:
 
 By default, ***Loot's Tools*** offers a selection of Commands out of the box:
 
-### CHEST
+### Gift Chest 
 
 This Command allows the Streamer to gift a certain amount of Packs of a given collection to a user.
 
 #### Usage
 
-````CHEST {user} {quantity} {collectionName}````
+![Gift Chest Commands](img/GiftChest.png)
 
 #### Arguments
 
@@ -68,7 +67,7 @@ This Command allows the Streamer to gift a certain amount of Packs of a given co
 - **quantity** [int]: The amount of Packs to gift.
 - **collectionName** [str] (Optional): The Collection you want the Pack to be of. If not given, it defaults to the main Collection.
 
-### WRITE
+### Write
 
 This Command simulates being the keyboard and writes the given string.
 

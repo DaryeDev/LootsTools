@@ -15,6 +15,7 @@ nav:
     - Introduction to Loot's Tools: index.md
     - Getting Started: gettingStarted.md
     - Loot's Tools UI: lootsToolsUI.md
+    - Loot's Tools Card Editor: cardEditor.md
     - Cards:
         - Introduction to Cards: cards/index.md
         - Enhancing Cards: cards/enhanceCards.md
