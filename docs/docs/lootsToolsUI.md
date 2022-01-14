@@ -44,11 +44,11 @@ The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections
 
 The Name and Icon of the Card is shown on a grid, and Enhanced Cards are marked with a star on the top-left corner.
 
-Clicking on a Card offers the options to test the Card and other to open the Card's folder to edit its files, if the Card is enhanced, or to Enhance it, if not.
+Clicking on a Card offers the options to test the Card and or edit the Card's Commands, if the Card is enhanced, or to Enhance it, if not.
 
 ![Loot's Tools UI's Card Context Menu](img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
 
-Also, this page has two buttons, the **Enhance** Button (<ion-icon name="add-circle-outline"></ion-icon>), that makes a Card Enhanced, and the **Reload** Button (<ion-icon name="refresh-circle-outline"></ion-icon>), that reloads the Cards (Names, pictures and states).
+Also, this page has three buttons, the **Editor** Button, ( <ion-icon name="create-outline"></ion-icon> ), that opens the Editor; the **Enhance** Button (<ion-icon name="add-circle-outline"></ion-icon>), that makes a Card Enhanced; and the **Reload** Button (<ion-icon name="refresh-circle-outline"></ion-icon>), that reloads the Cards (Names, pictures and states).
 
 ---
 

@@ -2,8 +2,8 @@
 
 This type of Card execute Commands on redeem. 
 
-This commands can easily be edited on **[Loot's Tools' Card Editor](../../cardEditor)** . 
-<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button (<ion-icon name="create-outline"></ion-icon>) to open the Editor, to then select your Card on the selector.
+This commands can easily be edited on **Loot's Tools' Card Editor** . 
+<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button ( <ion-icon name="create-outline"></ion-icon> ) to open the Editor, to then select your Card on the selector.
 
 ---
 
@@ -59,7 +59,7 @@ This Command allows the Streamer to gift a certain amount of Packs of a given co
 
 #### Usage
 
-![Gift Chest Commands](img/GiftChest.png)
+![Gift Chest Command](img/GiftChest.png)
 
 #### Arguments
 
@@ -73,29 +73,29 @@ This Command simulates being the keyboard and writes the given string.
 
 #### Usage
 
-````WRITE {text}````
+![Write Command](img/WriteCommand.png)
 
 #### Arguments
 
 - **text** [str]: The string to be written.
 
-### RUN
+### Run Program
 This Command runs a program.
 
 #### Usage
 
-````RUN {path}````
+![Run Command](img/RunCommand.png)
 
 #### Arguments
 
 - **path** [str]: The path to the program to run.
 
-### RUNANDCLOSE
+### Run and Close Program
 This Command runs a program, and then closes it in x seconds.
 
 #### Usage
 
-````RUNANDCLOSE {path} {seconds}````
+![Run and Close Command](img/RunCloseCommand.png)
 
 #### Arguments
 
@@ -103,50 +103,37 @@ This Command runs a program, and then closes it in x seconds.
 
 - **seconds** [int]: The number of seconds to wait until the program closes.
 
-### SEND
+### Send Keystrokes
 
 This Command simulates being the keyboard and sends a key combination.
 
 #### Usage
 
-````SEND {keyCombination}````
+![Send Keystrokes Command](img/KeystrokeCommand.png)
 
 #### Arguments
 
 - **keyCombination** [str]: The key combination to send.
 
-### WAIT
+### Wait
 
 This Command waits x seconds to resume execution of the Card's Commands.
 
 #### Usage
 
-````WAIT {seconds}````
+![Wait Command](img/WaitCommand.png)
 
 #### Arguments
 
 - **seconds** [int]: The number of seconds to wait.
 
-### RND
-
-This Command chooses a random item from a list and saves it to a *Tag*.
-
-#### Usage
-
-````RND({tagName}) {itemList}````
-
-#### Arguments
-
-- **tagName** [str]: The Tag name to save the value into.
-- **itemList** [list]: The list of items to choose from, they have to be separated by ", " (A colon and a space). Example: ````item1, item2, item3````
-
-### PRINT
+### Print
 
 This Command prints on the ***Loot's Tools*** Console Log.
 
 #### Usage
 
-````PRINT {text}````
+![Print Command](img/PrintCommand.png)
 
 #### Arguments
 

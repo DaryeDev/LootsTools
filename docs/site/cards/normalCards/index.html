@@ -182,8 +182,8 @@
           
 
   <li class="toctree-l4 current with-children">
-    <a href="#chest">
-      CHEST
+    <a href="#gift-chest_1">
+      Gift Chest
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -213,7 +213,7 @@
 
   <li class="toctree-l4">
     <a href="#write">
-      WRITE
+      Write
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -242,8 +242,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#run">
-      RUN
+    <a href="#run-program">
+      Run Program
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -272,8 +272,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#runandclose">
-      RUNANDCLOSE
+    <a href="#run-and-close-program">
+      Run and Close Program
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -302,8 +302,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#send">
-      SEND
+    <a href="#send-keystrokes">
+      Send Keystrokes
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -333,7 +333,7 @@
 
   <li class="toctree-l4">
     <a href="#wait">
-      WAIT
+      Wait
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -362,8 +362,8 @@
           
 
   <li class="toctree-l4">
-    <a href="#rnd">
-      RND
+    <a href="#print">
+      Print
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -381,36 +381,6 @@
       
         <li class="toctree-l5">
           <a class="toctree-l6" href="#arguments_6">Arguments</a>
-        </li>
-    
-    </ul>
-  </li>
-
-      
-    
-      
-          
-
-  <li class="toctree-l4">
-    <a href="#print">
-      PRINT
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-  <li class="toctree-l4">
-    <ul class="subnav-l4 toc-hidden">
-    
-      
-        <li class="toctree-l5">
-          <a class="toctree-l6" href="#usage_7">Usage</a>
-        </li>
-    
-      
-        <li class="toctree-l5">
-          <a class="toctree-l6" href="#arguments_7">Arguments</a>
         </li>
     
     </ul>
@@ -727,8 +697,9 @@
             <div class="section">
               
                 <h1 id="cards">Cards</h1>
-<p>This type of Card reads the commands in the file "run.txt" to interpret and, then, execute them.</p>
-<p>You can find the "run.txt" file on <code>&lt;Loot's Tools Folder&gt;/commands/&lt;Card's name Folder&gt;/run.txt</code> or clicking "Open folder" on an Enhanced Card on <strong><a href="../../lootsToolsUI#cards">the Cards page on Loot's Tools UI</a></strong></p>
+<p>This type of Card execute Commands on redeem. </p>
+<p>This commands can easily be edited on <strong>Loot's Tools' Card Editor</strong> . 
+<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button ( <ion-icon name="create-outline"></ion-icon> ) to open the Editor, to then select your Card on the selector.</p>
 <hr />
 <h2 id="examples">Examples</h2>
 <p>Normal cards are pretty easy to make, let's see a couple of examples:</p>
@@ -736,57 +707,53 @@
 <p>This infamous prank, on a Card form, would be as simple as IRL: only pressing two keys and watch the rage emerge.</p>
 <p>You can copy this card with <strong><a href="../../additionalFeatures/lootsTrading">LootsTrading</a></strong> clicking here: [<a href="https://lootstrading.darye.dev/card/5fb7e18069cff0003945a512">Alt+F4</a>]</p>
 <p>This is as easy as one command:</p>
-<pre><code>SEND alt+f4
-</code></pre>
-<p>The <code>SEND</code> command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... &gt;:)</p>
+<p><img alt="Alt+F4 Commands" src="../img/AltF4.png" /></p>
+<p>The <code>Send Keystroke</code> command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... &gt;:)</p>
 <h3 id="gift-chest">Gift Chest</h3>
 <p>Having a "<em>You won a Chest</em>" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the viewer's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)</p>
 <p>You can copy this card with <strong><a href="../../additionalFeatures/lootsTrading">LootsTrading</a></strong> clicking here:  [<a href="https://lootstrading.darye.dev/card/5e692668982ade003456a0c2">Gift Chest</a>]</p>
-<pre><code>CHEST {user} 1
-</code></pre>
-<p>Not only can we adjust the number of chests given to the user by changing 1 to the desired quantity, but also the Collection, by adding it by the end: <code>CHEST {user} 1 Tazos Darye!</code>, being <code>Tazos Darye!</code> the name of the Collection you want to gift a Chest of. If none is determined, the default Collection will be selected.</p>
-<p>Lastly, we see <code>{user}</code>, Loot's Tools will replace this kind of Tag with the respective info, in this case, the user that redeemed the card. More information later on <a href="#tags">Tags</a>.</p>
+<p><img alt="Gift Chest Commands" src="../img/GiftChest.png" /></p>
+<p>We can modify the number of Packs, the collection the Pack is of and the user to give the Packs to (<code>{user}</code> represents the user that redeemed the Card. Learn more on Tags <a href="#tags">here</a>.).</p>
 <h3 id="goodbye-stream">Goodbye Stream!</h3>
 <p>Chat always likes to troll a bit, and nothing is worse than literally letting them close the stream your people are watching.</p>
 <p>This can be achieved by <em>EXtensions</em>, a feature of <a href="../../plus"><strong><em>Loot's Tools Plus</em></strong></a>, and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending stream, changing source settings, changing texts...</p>
 <p>You can copy this card with <strong><a href="../../additionalFeatures/lootsTrading">LootsTrading</a></strong> clicking here:  [<a href="https://lootstrading.darye.dev/card/5fa9381dc1826900346e680c">Goodbye Stream!</a>] )</p>
 <p>To cut off the stream with a Card, this is the command it has to execute:</p>
-<pre><code>OBSSTREAMING stop
-</code></pre>
+<p><img alt="Goodbye Stream Commands" src="../img/GoodbyeStream.png" /></p>
 <p>(You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)</p>
 <hr />
 <h2 id="commands">Commands</h2>
 <p>By default, <strong><em>Loot's Tools</em></strong> offers a selection of Commands out of the box:</p>
-<h3 id="chest">CHEST</h3>
+<h3 id="gift-chest_1">Gift Chest</h3>
 <p>This Command allows the Streamer to gift a certain amount of Packs of a given collection to a user.</p>
 <h4 id="usage">Usage</h4>
-<p><code>CHEST {user} {quantity} {collectionName}</code></p>
+<p><img alt="Gift Chest Command" src="../img/GiftChest.png" /></p>
 <h4 id="arguments">Arguments</h4>
 <ul>
 <li><strong>user</strong> [str]: The user to gift the Pack to.</li>
 <li><strong>quantity</strong> [int]: The amount of Packs to gift.</li>
 <li><strong>collectionName</strong> [str] (Optional): The Collection you want the Pack to be of. If not given, it defaults to the main Collection.</li>
 </ul>
-<h3 id="write">WRITE</h3>
+<h3 id="write">Write</h3>
 <p>This Command simulates being the keyboard and writes the given string.</p>
 <h4 id="usage_1">Usage</h4>
-<p><code>WRITE {text}</code></p>
+<p><img alt="Write Command" src="../img/WriteCommand.png" /></p>
 <h4 id="arguments_1">Arguments</h4>
 <ul>
 <li><strong>text</strong> [str]: The string to be written.</li>
 </ul>
-<h3 id="run">RUN</h3>
+<h3 id="run-program">Run Program</h3>
 <p>This Command runs a program.</p>
 <h4 id="usage_2">Usage</h4>
-<p><code>RUN {path}</code></p>
+<p><img alt="Run Command" src="../img/RunCommand.png" /></p>
 <h4 id="arguments_2">Arguments</h4>
 <ul>
 <li><strong>path</strong> [str]: The path to the program to run.</li>
 </ul>
-<h3 id="runandclose">RUNANDCLOSE</h3>
+<h3 id="run-and-close-program">Run and Close Program</h3>
 <p>This Command runs a program, and then closes it in x seconds.</p>
 <h4 id="usage_3">Usage</h4>
-<p><code>RUNANDCLOSE {path} {seconds}</code></p>
+<p><img alt="Run and Close Command" src="../img/RunCloseCommand.png" /></p>
 <h4 id="arguments_3">Arguments</h4>
 <ul>
 <li>
@@ -796,36 +763,27 @@
 <p><strong>seconds</strong> [int]: The number of seconds to wait until the program closes.</p>
 </li>
 </ul>
-<h3 id="send">SEND</h3>
+<h3 id="send-keystrokes">Send Keystrokes</h3>
 <p>This Command simulates being the keyboard and sends a key combination.</p>
 <h4 id="usage_4">Usage</h4>
-<p><code>SEND {keyCombination}</code></p>
+<p><img alt="Send Keystrokes Command" src="../img/KeystrokeCommand.png" /></p>
 <h4 id="arguments_4">Arguments</h4>
 <ul>
 <li><strong>keyCombination</strong> [str]: The key combination to send.</li>
 </ul>
-<h3 id="wait">WAIT</h3>
+<h3 id="wait">Wait</h3>
 <p>This Command waits x seconds to resume execution of the Card's Commands.</p>
 <h4 id="usage_5">Usage</h4>
-<p><code>WAIT {seconds}</code></p>
+<p><img alt="Wait Command" src="../img/WaitCommand.png" /></p>
 <h4 id="arguments_5">Arguments</h4>
 <ul>
 <li><strong>seconds</strong> [int]: The number of seconds to wait.</li>
 </ul>
-<h3 id="rnd">RND</h3>
-<p>This Command chooses a random item from a list and saves it to a <em>Tag</em>.</p>
-<h4 id="usage_6">Usage</h4>
-<p><code>RND({tagName}) {itemList}</code></p>
-<h4 id="arguments_6">Arguments</h4>
-<ul>
-<li><strong>tagName</strong> [str]: The Tag name to save the value into.</li>
-<li><strong>itemList</strong> [list]: The list of items to choose from, they have to be separated by ", " (A colon and a space). Example: <code>item1, item2, item3</code></li>
-</ul>
-<h3 id="print">PRINT</h3>
+<h3 id="print">Print</h3>
 <p>This Command prints on the <strong><em>Loot's Tools</em></strong> Console Log.</p>
-<h4 id="usage_7">Usage</h4>
-<p><code>PRINT {text}</code></p>
-<h4 id="arguments_7">Arguments</h4>
+<h4 id="usage_6">Usage</h4>
+<p><img alt="Print Command" src="../img/PrintCommand.png" /></p>
+<h4 id="arguments_6">Arguments</h4>
 <ul>
 <li><strong>text</strong> [str]: The text to print.</li>
 </ul>

@@ -4,7 +4,7 @@
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
-You can find the "run.py" file on ```<Loot's Tools Folder>/commands/<Card's name Folder>/run.py``` or clicking "Open folder" on an Enhanced Card on **[the Cards page on Loot's Tools UI](../../lootsToolsUI#cards)**
+Put the "run.py" file on the Card's folder, that you can open clicking "Open folder" on the Editor's Card's page on the **Loot's Tools' Card Editor**.
 
 ---
 
@@ -18,7 +18,9 @@ You can do it through *pip* like this: ```pip install --target="<Loot's Tools Fo
 
 ## Examples
 
-*Advanced Cards*, despite it's name, doesn't need to be very complex. Let's see some example *Advanced Cards*:
+*Advanced Cards*, despite it's name, doesn't need to be very complex.
+
+Let's see some example *Advanced Cards*:
 
 ### Shady Search
 
@@ -68,7 +70,7 @@ class advCard:
         screen = rotatescreen.get_primary_display() # It identifies the main display
         start_pos = screen.current_orientation # It gets it's orientation
 
-        for i in range(1, 5): # Washing Machine, oh yeah: It spins 0º, then 90º, then 180º, and finally 360º.
+        for i in range(1, 5): # I feel so clean, like a Washing Machine, oh yeah: It spins 0º, then 90º, then 180º, and then revents to normal.
             pos = abs((start_pos - i * 90) % 360)
             screen.rotate_to(pos)
             time.sleep(1.5)
