@@ -16,13 +16,13 @@ Uses for this could be sending **Twitch Clips**, **Card Alerts** or **Packs Purc
 
 ## Installation
 
-[Download 'LootsToolsEX for Discord' with LaTEX](ltex://download/discordEX){ .md-button .md-button--primary }
+[Download 'Loot's Tools EX for Discord' with LaTEX](ltex://download/discordEX){ .md-button .md-button--primary }
 
 ---
 
 ## Commands
 
-### DISCORDSEND (discordSend)
+### Send a Discord Message (discordSend)
 
 This command sends a message to your Chat on Twitch.
 

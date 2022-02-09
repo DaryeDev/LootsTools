@@ -18,7 +18,7 @@ Loot's Tools needs his own space, so create a new folder on your computer and *d
 
 ## Set it up!
 
-Open ```LootsTools.exe``` for first time to install and set up what it needs to work properly. 
+Open ```LootsTools.exe``` for first time to install and set up what it needs to work properly.
 
 You'll be prompted to restart, so restart your computer and lets continue with the setup!
 
