@@ -14,17 +14,13 @@ You can see some example clips of *LootsToolsEX for Minecraft* in-game [here](ht
 
 ## Installation
 
-
-
-You can install *LootsToolsEX for Minecraft* with [LaTEX](../../additionalFeatures/latex) by clicking here:
-
-[[Download 'Loot's Tools EX for Minecraft' with LaTEX](https://lootstrading.darye.dev/latex/minecraftEX)]
+[Download 'Loot's Tools EX for Minecraft' with LaTEX](ltex://download/minecraftEX){ .md-button .md-button--primary }
 
 ---
 
 ## Setup
 
-It's needed for this *EXtension* to work a *Paper*, *Bukkit* or *Spigot* Minecraft server, and this plugin ([Loot's Tools for Minecraft (1.17)](https://www.spigotmc.org/resources/loots-tools-for-minecraft.99127/)) installed on it.
+It's needed for this *EXtension* to work a *Paper*, *Bukkit* or *Spigot* Minecraft server, and this plugin ([Loot's Tools for Minecraft (1.13 - 1.18)](https://www.spigotmc.org/resources/loots-tools-for-minecraft.99127/)) installed on it.
 
 It's **very important** to start **first** Loot's Tools and **then** the Minecraft Server.
 
@@ -34,29 +30,29 @@ It's **very important** to start **first** Loot's Tools and **then** the Minecra
 
 (Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
 
-### MINECRAFTCMD (minecraftCMD)
+### Execute a Command on Minecraft (minecraftCMD)
 
 This command sends a command to Minecraft to execute.
 
 #### Usage
 
-```MINECRAFTCMD {command}```
+![Usage](img/minecraftCMDUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **command** [str]: The command you want to execute on Minecraft.
 
-### MINECRAFTPET (minecraftPet)
+### Spawn a pet on Minecraft (minecraftPet)
 
 This command summons a Pet for the player specified on Minecraft.
 
 #### Usage
 
-```MINECRAFTPET {petAttributes}```
+![Usage](img/minecraftPetUsage.png){style=max-width:60%;}
 
 #### Arguments
 
-- **petAttributes** [json]: The pet's atributes. Example: ```{"Type":"DOG","Owner":"ALL","Name":"woof"```.
+- **petAttributes** [json]: The pet's atributes. Example: ```{"Type":"DOG","Owner":"ALL","Name":"woof"}```.
 
 ##### Pet Attributes
 
@@ -68,4 +64,4 @@ This command summons a Pet for the player specified on Minecraft.
 
 ## Additional Notes
 
-If on the commands of [```MINECRAFTCMD```](#minecraftcmd-minecraftcmd) you put ```%PLAYER%```, that command is done for every player online, replacing the tag for their names.
+If on the command of [```Execute a Command on Minecraft```](#minecraftcmd-minecraftcmd) you put ```%PLAYER%```, that command is executed for every player online, replacing the tag for their names.

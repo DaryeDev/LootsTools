@@ -10,6 +10,14 @@ They can provide more Commands for [Normal Cards](../cards/normalCards.md), usef
 
 ## Instalation
 
+### LaTEX Method
+
+EXtensions can be easily shared through [LaTEX](../additionalFeatures/latex/index.md), and be shared with a link (```https://lootstrading.darye.dev/latex/{ltexID}```)
+
+Click this link to install the EXtension and restart Loot's Tools, if it's open.
+
+---
+
 ### Manual Method
 
 EXtensions come packed on a ZIP file, with the EXtension in itself and its Dependencies.
@@ -18,14 +26,6 @@ EXtensions come packed on a ZIP file, with the EXtension in itself and its Depen
 <sup>Example of a *EXtension Package* content, in this case, of LootsToolsEX for OBS.</sup>
 
 To install them you only need to unzip the *Package* into ```<Loot's Tools' Root Folder>```.
-
----
-
-### LaTEX Method
-
-EXtensions can be easily shared through [LaTEX](../additionalFeatures/latex/index.md), and be shared with a link (```https://lootstrading.darye.dev/latex/{ltexID}```)
-
-Click this link to install the EXtension and restart Loot's Tools, if it's open.
 
 ---
 

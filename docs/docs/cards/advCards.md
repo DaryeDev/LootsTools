@@ -26,11 +26,11 @@ Let's see some example *Advanced Cards*:
 
 This *Advanced Card* searches a random query from a list full of weird stuff; enough for creeping out your FBI agent and for your chat to have a good laugh.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Shady Search](https://lootstrading.darye.dev/card/5fb23a1bb8df520035382caf)]
+[Copy Card "Shady Search" on your Collection with LootsTrading](lootstools://copyCard/5fb23a1bb8df520035382caf){ .md-button .md-button--primary }
 
 #### Code
 
-```python
+``` py title="run.py"
 import webbrowser
 import random
 class advCard:
@@ -56,11 +56,11 @@ No extra dependencies.
 
 This *Advanced Card*, clearly inspired by StarFox, makes your screen turn around 360º, doing a Barrel Roll.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Do a Barrel Roll!](https://lootstrading.darye.dev/card/60a4050e49450500351a72e2)]
+[Copy Card "Do a Barrel Roll!" on your Collection with LootsTrading](lootstools://copyCard/60a4050e49450500351a72e2){ .md-button .md-button--primary }
 
 #### Code
 
-```python
+``` py title="run.py"
 import rotatescreen
 
 class advCard:
@@ -88,11 +88,11 @@ Install the following dependencies in the ```dependencies``` folder:
 
 This *Advanced Card* changes your keyboard to Russian for 5 seconds and plays Russian-like music to go with the prank.
 
-You can copy this card with [LootsTrading]("../additionalFeatures/lootsTrading"), including all its dependencies clicking here: [[Vodka](https://lootstrading.darye.dev/card/60a4d9452eae1a0035f2d08d)]
+[Copy Card "Vodka" on your Collection with LootsTrading](lootstools://copyCard/60a4d9452eae1a0035f2d08d){ .md-button .md-button--primary }
 
 #### Code
 
-```python
+``` py title="run.py"
 import time
 import os
 import py_win_keyboard_layout
@@ -121,17 +121,17 @@ Also, download ```kazotsky-kick-3.mp3``` on the Card's Name folder, on the same 
 
 ## How To
 
-
 An *Advanced Card*'s Script is written in Python, so I recommend you to have, at least, basic knowledge of it.
 
 It needs to have an special header in order for ***Loot's Tools*** to detect that it's an *Advanced Card*.
 
-```python
+``` py title="run.py"
 class advCard:
     async def run(self, **args):
 ```
 
 ### Variables
+
 Using an *Advanced Card* also gives us access to information about the redeemed Card, like *Tags*, but with variables:
 
 - ```commandPath```: The path of the Card, where ```run.py``` is.

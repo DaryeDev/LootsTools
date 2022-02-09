@@ -6,7 +6,7 @@ With ***Loot's Tools Plus*** you unlock functions, such as:
 
 - [Use of EXtensions](../extensions)
 - [Advanced Cards](../cards/advCards.md)
-- Use scripts on Purchase or Gift (Edit them on the Card Editor)
+- Execute Commands or Python Scripts on events like Purchase or Gift of Packs on Streamloots or other Events (Edit them on the Card Editor)
 
 ---
 

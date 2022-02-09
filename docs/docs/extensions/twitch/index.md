@@ -8,13 +8,13 @@
 
 It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards.md)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
 
+&nbsp;
+
 ---
 
 ## Installation
 
-You can install *LootsToolsEX for Twitch* with [LaTEX](../../additionalFeatures/latex) by clicking here:
-
-[[Download 'Loot's Tools EX for Twitch' with LaTEX](https://lootstrading.darye.dev/latex/twitchEX)]
+[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX){ .md-button .md-button--primary }
 
 ---
 
@@ -33,114 +33,101 @@ Then, go to the ```/extensions/``` folder, then on ```/twitchEX/```, and edit on
 
 (Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
 
-### TWITCHSEND (twitchSend)
+### Send a Chat Message (twitchSend)
 
 This command sends a message to your Chat on Twitch.
 
 #### Usage
 
-```TWITCHSEND {message}```
+![Usage](img/twitchSendUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **message** [str]: The message you want to send.
 
-### TWITCHMARKER (twitchMarker)
+### Add a Marker on the Stream's VOD (twitchMarker)
 
 This command marks a moment in the VOD.
 
 #### Usage
 
-```TWITCHMARKER {markerDescription}```
+![Usage](img/twitchMarkerUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **markerDescription** [str] (Optional): The description of the marker.
 
-
-### TWITCHGETSTREAM (twitchGetStream)
-
-This command gets the info of your Twitch's stream.
-
-#### Usage
-
-```TWITCHGETSTREAM```
-
-#### Arguments
-
--
-
-### TWITCHSETGAME (twitchSetGame)
+### Set the Stream's Game (twitchSetGame)
 
 This command sets the game of your Twitch's stream.
 
 #### Usage
 
-```TWITCHSETGAME {game}```
+![Usage](img/twitchSetGameUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **game** [str]: The name of the game.
 
 
-### TWITCHSETTITLE (twitchSetTitle)
+### Set the Stream's Title (twitchSetTitle)
 
 This command sets the game of your Twitch's stream.
 
 #### Usage
 
-```TWITCHSETTITLE {title}```
+![Usage](img/twitchSetTitleUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **title** [str]: The title you want to put on your Twitch's stream.
 
 
-### TWITCHVIP (twitchVIP)
+### VIP Someone (twitchVIP)
 
 This command makes a user VIP on your Twitch's chat.
 
 #### Usage
 
-```TWITCHVIP {user}```
+![Usage](img/twitchVIPUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **user** [str]: The user you want to make VIP.
 
 
-### TWITCHUNVIP (twitchUnVIP)
+### UnVIP Someone (twitchUnVIP)
 
 This command takes away a user's VIP on your Twitch's chat.
 
 #### Usage
 
-```TWITCHUNVIP {user}```
+![Usage](img/twitchUnVIPUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **user** [str]: The user from who you want to take away its VIP.
 
 
-### TWITCHBAN (twitchBan)
+### Ban Someone (twitchBan)
 
 This command bans a user from your Twitch's chat.
 
 #### Usage
 
-```TWITCHBAN {user}```
+![Usage](img/twitchBanUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **user** [str]: The user you want to ban.
 
-### TWITCHUNBAN (twitchUnban)
+### Unban Someone (twitchUnban)
 
 This command unbans a user from your Twitch's chat.
 
 #### Usage
 
-```TWITCHUNBAN {user}```
+![Usage](img/twitchUnbanUsage.png){style=max-width:60%;}
 
 #### Arguments
 

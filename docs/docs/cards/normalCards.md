@@ -2,8 +2,8 @@
 
 This type of Card execute Commands on redeem. 
 
-This commands can easily be edited on **Loot's Tools' Card Editor** . 
-<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button ( <ion-icon name="create-outline"></ion-icon> ) to open the Editor, to then select your Card on the selector.
+This commands can easily be edited on **Loot's Tools' Card Editor** .
+<br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button ( :material-playlist-edit: ) to open the Editor, to then select your Card on the selector.
 
 ---
 
@@ -15,7 +15,7 @@ Normal cards are pretty easy to make, let's see a couple of examples:
 
 This infamous prank, on a Card form, would be as simple as IRL: only pressing two keys and watch the rage emerge.
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here: [[Alt+F4](https://lootstrading.darye.dev/card/5fb7e18069cff0003945a512)]
+[Copy Card "Alt+F4" on your Collection with LootsTrading](lootstools://copyCard/5fb7e18069cff0003945a512){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 This is as easy as one command:
 
@@ -27,7 +27,7 @@ The `Send Keystroke` command sends a combination of keys, being the best for eas
 
 Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is very common, and a strike of luck always gets a smile on the viewer's face, but it always interrupts the action on the stream; here's the Solution: (Also as easy as one command ;D)
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Gift Chest](https://lootstrading.darye.dev/card/5e692668982ade003456a0c2)]
+[Copy Card "Gift Chest" on your Collection with LootsTrading](lootstools://copyCard/5e692668982ade003456a0c2){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 ![Gift Chest Commands](img/GiftChest.png)
 
@@ -37,9 +37,9 @@ We can modify the number of Packs, the collection the Pack is of and the user to
 
 Chat always likes to troll a bit, and nothing is worse than literally letting them close the stream your people are watching.
 
-This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending stream, changing source settings, changing texts...
+This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending our stream, changing source settings, changing texts...
 
-You can copy this card with **[LootsTrading](../../additionalFeatures/lootsTrading)** clicking here:  [[Goodbye Stream!](https://lootstrading.darye.dev/card/5fa9381dc1826900346e680c)] )
+[Copy Card "Goodbye Stream!" on your Collection with LootsTrading](lootstools://copyCard/5fa9381dc1826900346e680c){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 To cut off the stream with a Card, this is the command it has to execute:
 
