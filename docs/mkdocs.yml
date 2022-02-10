@@ -72,7 +72,7 @@ site_author: "Darye."
 extra:
   alternate:
     - name: English
-      link: /
+      link: .
       lang: en
     - name: Spanish
       link: es/
