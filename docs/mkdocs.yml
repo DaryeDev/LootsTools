@@ -64,7 +64,7 @@ plugins:
         - es
 
 
-site_url: https://daryedev.github.io/LootsTools/
+site_url: https://lootstools.darye.dev/docsMaterial/
 
 site_description: "Documentation for Loot's Tools"
 site_author: "Darye."
@@ -72,10 +72,10 @@ site_author: "Darye."
 extra:
   alternate:
     - name: English
-      link: /
+      link: .
       lang: en
     - name: Spanish
-      link: /es/
+      link: es/
       lang: es
   social:
     - icon: fontawesome/brands/twitter
@@ -103,7 +103,7 @@ extra_css:
 
 nav:
   - Home: https://lootstools.darye.dev
-  - Introduction to Loot's Tools: introduction.md
+  - Introduction to Loot's Tools: index.md
   - Getting Started: gettingStarted.md
   - Loot's Tools UI: lootsToolsUI.md
   - Cards:
