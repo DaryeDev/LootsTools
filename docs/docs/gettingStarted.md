@@ -38,7 +38,7 @@ To log in, once you install the extension, go to [Streamloots](https://www.strea
 
 ## A fresh new face: Loot's Tools UI
 
-Once you have installed ***Loot's Tools***, you can access the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank} (or open ```LootsTools.exe```) and be greeted with ***Loot's Tools UI***.
+Once you have installed ***Loot's Tools***, you can access [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank} (or open ```LootsTools.exe```) and be greeted with ***Loot's Tools UI***.
 
 <a href="https://lootstools.darye.dev/app">
 ![Loot's Tools UI's Home Page](img/lootsToolsUI_home.png){:style="margin: auto;"}

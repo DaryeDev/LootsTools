@@ -22,7 +22,7 @@ It makes possible things like **changing scenes**, **changing** the **text** of 
 
 ## Setup
 
-You need to have installed ```OBS Websocket```on your OBS. You can download it [here](https://github.com/Palakis/obs-websocket/releases/latest)
+You need to have installed ```OBS Websocket```on your OBS. You can download it [here](https://github.com/Palakis/obs-websocket/releases/latest).
 
 ---
 

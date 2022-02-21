@@ -134,7 +134,7 @@ class advCard:
 
 Using an *Advanced Card* also gives us access to information about the redeemed Card, like *Tags*, but with variables:
 
-- ```commandPath```: The path of the Card, where ```run.py``` is.
+- ```commandPath```: The path of the Card's folder, where ```run.py``` is.
 - ```streamer```: The streamer's name.
 - ```user```: The name of the user that redeemed the Card.
 - ```cardName```: The name of the Card redeemed.

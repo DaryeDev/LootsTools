@@ -64,4 +64,4 @@ This command summons a Pet for the player specified on Minecraft.
 
 ## Additional Notes
 
-If on the command of [```Execute a Command on Minecraft```](#minecraftcmd-minecraftcmd) you put ```%PLAYER%```, that command is executed for every player online, replacing the tag for their names.
+If on the command of [```Execute a Command on Minecraft```](#execute-a-command-on-minecraft-minecraftcmd) you put ```%PLAYER%```, that command is executed for every player online, replacing the tag for their names.

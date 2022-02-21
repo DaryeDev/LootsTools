@@ -10,7 +10,7 @@ It makes possible things like **sending messages** to Channels through **WebHook
 
 Uses for this could be sending **Twitch Clips**, **Card Alerts** or **Packs Purchased Alerts** to your server through **WebHooks**.
 
-&nbsp;
+Learn how to make **Webhooks** on your Discord Server [here](https://support.discord.com/hc/en-us/articles/228383668#:~:text=MAKING%20A%20WEBHOOK).
 
 ---
 
@@ -22,7 +22,9 @@ Uses for this could be sending **Twitch Clips**, **Card Alerts** or **Packs Purc
 
 ## Commands
 
-### DISCORDSEND (discordSend)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+
+### Send a Discord Message (discordSend)
 
 This command sends a message to your Chat on Twitch.
 

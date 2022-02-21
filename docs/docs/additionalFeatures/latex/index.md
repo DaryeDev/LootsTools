@@ -2,12 +2,11 @@
 
 <sup style="font-size: 90%">(Note: Using **LaTEX** doesn't need a [***Loot's Tools Plus***](../../plus) Account, however, you won't be able to use [*EXtensions*](../../extensions) without it.)</sup>
 
-**LaTEX** is an [Addicional Feature](../) which makes easy the **Creation**, **Sharing** and **Downloading** of *EXtensions* on ***Loot's Tools***
+**LaTEX** is an [Additional Feature](../) which makes easy the **Creation**, **Sharing** and **Downloading** of *EXtensions* on ***Loot's Tools***
 
 ---
 
 ## Usage
-
 
 Sharing *EXtensions* with **LaTEX** works by URL sharing, let's learn how to **Create**, **Share**, and **Download** *EXtensions* with **LaTEX**.
 
@@ -35,8 +34,8 @@ Next, write the ID of the *EXtension* you want to share, and you'll recieve a **
 
 ## Downloading EXtensions
 
-You can download and install *EXtensions* through **LaTEX** using a **LaTEX URL**. 
+You can download and install *EXtensions* through **LaTEX** using a **LaTEX URL**.
 
-To try it out, try with the URL of [Loot's Tools EX for Twitch](../../extensions/twitch): 
+To try it out, try with the URL of [Loot's Tools EX for Twitch](../../extensions/twitch):
 
-[[Download 'Loot's Tools EX for Twitch' with LaTEX](https://lootstrading.darye.dev/latex/twitchEX)] 
+[[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX)]{ .md-button .md-button--primary }
