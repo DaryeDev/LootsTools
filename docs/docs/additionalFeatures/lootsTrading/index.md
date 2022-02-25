@@ -42,7 +42,7 @@ To copy a *Card*, you'll need a **LootsTrading Card URL**.
 
 Don't worry if you don't have one, I'll give you one of mines: 
 
-[[Alt+F4](lootstools://copyCard//5fb7e18069cff0003945a512)]
+[[Alt+F4](lootstools:/copyCard//5fb7e18069cff0003945a512)]
 
 Once you have a **LootsTrading Card URL**, open it and use a *Card* of the *Collection* you want this new *Card* to be in.
 
