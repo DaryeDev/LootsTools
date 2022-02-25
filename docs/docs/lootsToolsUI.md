@@ -1,10 +1,10 @@
 # Loot's Tools UI
-<a href="https://lootstools.darye.dev">
+<a href="https://lootstools.darye.dev/app">
 ![Loot's Tools UI's Home Page](img/lootsToolsUI_home.png){: style="margin: auto;}
 </a>
 Introduced on v2, ***Loot's Tools UI*** offers a new and friendlier way to use ***Loot's Tools***. 
 
-You can access it on [lootstools.darye.dev](https://lootstools.darye.dev).
+You can access it on [lootstools.darye.dev/app](https://lootstools.darye.dev/app).
 
 Opening the UI opens the **Loot's Tools Console**, if necessary; and opening the **Loot's Tools Console**, from the executable, opens the UI on load.
 
@@ -48,7 +48,7 @@ Clicking on a Card offers the options to test the Card and or edit the Card's Co
 
 ![Loot's Tools UI's Card Context Menu](img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
 
-Also, this page has three buttons, the **Editor** Button, ( <ion-icon name="create-outline"></ion-icon> ), that opens the Editor; the **Enhance** Button (<ion-icon name="add-circle-outline"></ion-icon>), that makes a Card Enhanced; and the **Reload** Button (<ion-icon name="refresh-circle-outline"></ion-icon>), that reloads the Cards (Names, pictures and states).
+Also, this page has three buttons, the **Editor** Button, ( :material-playlist-edit: ), that opens the Editor; the **Enhance** Button ( :material-plus: ), that makes a Card Enhanced; and the **Reload** Button ( :material-sync: ), that reloads the Cards (Names, pictures and states).
 
 ---
 

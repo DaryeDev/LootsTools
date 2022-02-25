@@ -14,7 +14,7 @@ Check out [Cards](./normalCards.md) and [Advanced Cards](./advCards.md) for exam
 
 ## Method 2: Redeem Card to enhance
 
-To make a **Card** "Enhanced", go to the **Card Page** ( <ion-icon name="library-outline"></ion-icon> ) on the UI and click the *Enhance* Button ( <ion-icon name="add-circle-outline"></ion-icon> ).
+To make a **Card** "Enhanced", go to the **Card Page** ( <ion-icon name="library-outline"></ion-icon> ) on the UI and click the *Enhance* Button ( :material-plus: ).
 
 ![Loot's Tools UI's Cards Page](../img/lootsToolsUI_cards.png){: style="margin: auto;}
 

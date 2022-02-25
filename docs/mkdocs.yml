@@ -2,41 +2,126 @@ site_name: Loot's Tools Docs
 markdown_extensions:
   - attr_list
   - sane_lists
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 theme:
-  name: 'rtd-dropdown'
-  custom_dir: 'rtd_dropdown'
+  name: 'material'
+  custom_dir: overrides
+  language: en
+  icon:
+    logo: "material/file-document-multiple-outline"
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  favicon: favicon.ico
+  font:
+    text: Nunito
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.share
 
-site_url: https://daryedev.github.io/LootsTools/
+plugins:
+  - search:
+      lang: 
+        - en
+        - es
+
+
+site_url: https://lootstools.darye.dev/docsMaterial/
 
 site_description: "Documentation for Loot's Tools"
 site_author: "Darye."
 
+extra:
+  alternate:
+    - name: English
+      link: .
+      lang: en
+    - name: Spanish
+      link: es/
+      lang: es
+  social:
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/Darye__"
+      name: "Darye on Twitter"
+    - icon: fontawesome/brands/discord
+      link: "https://discord.io/Darye"
+      name: Official Discord Server
+    - icon: fontawesome/brands/twitch
+      link: "https://twitch.tv/Darye"
+      name: Darye on Twitch
+    - icon: fontawesome/brands/github
+      link: "https://github.com/DaryeDev"
+      name: Darye on Github
+    - icon: material/email
+      link: "mailto:correodedarye@gmail.com?subject=Loot%27s%20Tools%3A%20"
+      name: Email Darye
+
+copyright: Copyright &copy; 2020 - 2022 Darye
+
+use_directory_urls: false
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
-    - Introduction to Loot's Tools: index.md
-    - Getting Started: gettingStarted.md
-    - Loot's Tools UI: lootsToolsUI.md
-    - Cards:
-        - Introduction to Cards: cards/index.md
-        - Enhancing Cards: cards/enhanceCards.md
-        - Cards: cards/normalCards.md
-        - Advanced Cards: cards/advCards.md
-    - EXtensions: 
-        - Introduction to EXtensions: extensions/index.md
-        - Create EXtensions: extensions/developers.md
-        - LootsToolsEX for Twitch: extensions/twitch/index.md
-        - LootsToolsEX for Discord: extensions/discord/index.md
-        - LootsToolsEX for OBS: extensions/obs/index.md
-        - LootsToolsEX for Minecraft: extensions/minecraft/index.md
-    - Loot's Tools Plus: 
-        - About Loot's Tools Plus: plus/index.md
-    - Additional Features: 
-        - About Additional Features: additionalFeatures/index.md
-        - LootsTrading: additionalFeatures/lootsTrading/index.md
-        - LaTEX: additionalFeatures/latex/index.md
-        - LootsLabels: additionalFeatures/lootsLabels/index.md
-    - <ion-icon name="chatbubbles-outline"></ion-icon> Contact me:
-        - <ion-icon name="logo-github"></ion-icon> Github: "https://github.com/DaryeDev"
-        - <ion-icon name="logo-twitch"></ion-icon> Twitch: "https://twitch.tv/Darye"
-        - <ion-icon name="logo-discord"></ion-icon> Discord: "https://discord.io/Darye"
-        - <ion-icon name="logo-twitter"></ion-icon> Twitter: "https://twitter.com/Darye__"
-        - <ion-icon name="mail-outline"></ion-icon> Email Me!: "mailto:correodedarye@gmail.com?subject=Loot%27s%20Tools%3A%20"
+  - Home: https://lootstools.darye.dev
+  - Introduction to Loot's Tools: index.md
+  - Getting Started: gettingStarted.md
+  - Loot's Tools UI: lootsToolsUI.md
+  - Cards:
+      - cards/index.md
+      - Enhancing Cards: cards/enhanceCards.md
+      - Cards: cards/normalCards.md
+      - Advanced Cards: cards/advCards.md
+  - EXtensions: 
+      - extensions/index.md
+      - Create EXtensions: extensions/developers.md
+      - LootsToolsEX for Twitch: extensions/twitch/index.md
+      - LootsToolsEX for Discord: extensions/discord/index.md
+      - LootsToolsEX for OBS: extensions/obs/index.md
+      - LootsToolsEX for Minecraft: extensions/minecraft/index.md
+  - Loot's Tools Plus: plus/index.md
+  - Additional Features: 
+      - additionalFeatures/index.md
+      - LootsTrading: additionalFeatures/lootsTrading/index.md
+      - LaTEX: additionalFeatures/latex/index.md
+      - LootsLabels: additionalFeatures/lootsLabels/index.md
+  - Contact me: "javascript: (function() {alert('Contact Links are on the footer! ;)');window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: 'smooth' });})();"

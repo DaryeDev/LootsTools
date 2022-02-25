@@ -8,19 +8,21 @@
 
 It makes possible things like **changing scenes**, **changing** the **text** of a Text Source, **changing Source Settings** , **muting Sources** and **toggle Recording** and **Streaming**.
 
+&nbsp;
+
+&nbsp;
+
 ---
 
 ## Installation
 
-You can install *LootsToolsEX for OBS* with [LaTEX](../../additionalFeatures/latex) by clicking here:
-
-[[Download 'Loot's Tools EX for OBS' with LaTEX](https://lootstrading.darye.dev/latex/obsEX)]
+[Download 'Loot's Tools EX for OBS' with LaTEX](ltex://download/obsEX){ .md-button .md-button--primary }
 
 ---
 
 ## Setup
 
-You need to have installed ```OBS Websocket```on your OBS. You can download it [here](https://github.com/Palakis/obs-websocket/releases/latest)
+You need to have installed ```OBS Websocket```on your OBS. You can download it [here](https://github.com/Palakis/obs-websocket/releases/latest).
 
 ---
 
@@ -28,79 +30,105 @@ You need to have installed ```OBS Websocket```on your OBS. You can download it [
 
 (Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
 
-### OBSCHANGESCENE (obsChangeScene)
+### Change Scene (obsChangeScene)
 
 This command changes the active Scene on OBS.
 
 #### Usage
 
-```OBSCHANGESCENE {scene}```
+![Usage](img/obsChangeSceneUsage.png){style=max-width:60%;}
 
 #### Arguments
 
-- **scene** [str]: The scene you want to change to.
+- **scene** [choose]: The scene you want to change to.
 
-### OBSCHANGETEXT (obsChangeText)
+### Change Text (obsChangeText)
 
 This command changes the text of a Text Scene on OBS.
 
 #### Usage
 
-```OBSCHANGETEXT {source} {text}```
+![Usage](img/obsChangeTextUsage.png){style=max-width:60%;}
 
 #### Arguments
 
-- **source** [str]: The Text Source you want to change the text from.
+- **source** [choose]: The Text Source you want to change the text from.
 - **text** [str]: The text you want to be changed to.
 
-### OBSCHANGESETTINGS (obsChangeSettings)
+### Change a Source's Settings (obsChangeSettings)
 
 This command changes the Settings of a Source on OBS.
 
 #### Usage
 
-```OBSCHANGESETTINGS {source} {configChanged} {config}```
+![Usage](img/obsChangeSettingsUsage.png){style=max-width:60%;}
 
 #### Arguments
 
-- **source** [str]: The Source you want to change the setting of.
+- **source** [choose]: The Source you want to change the setting of.
 - **configChanged** [str]: The Setting you want to change.
 - **config** [str]: The value you want the Setting to be.
 
-### OBSMUTE (obsMute)
+### Mute a Source (obsMute)
 
 This command mutes a Source on OBS.
 
 #### Usage
 
-```OBSMUTE {source} {option}```
+![Usage](img/obsMuteUsage.png){style=max-width:60%;}
 
 #### Arguments
 
-- **source** [str]: The name of the Source to mute/unmute.
+- **source** [choose]: The name of the Source to mute/unmute.
 - **option** [str] (Optional): ```mute``` or ```unmute```. If not specified, it toggles the mute.
 
-
-### OBSSTREAMING (obsStreaming)
+### Start/Stop/Toggle Streaming (obsStreaming)
 
 This command toggles Streaming on OBS.
 
 #### Usage
 
-```OBSSTREAMING {option}```
+![Usage](img/obsStreamingUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **option** [str]: Possible values: ```start```, ```stop``` or ```toggle```.
 
-### OBSRECORDING (obsRecording)
+### Start/Stop/Toggle Recording (obsRecording)
 
 This command toggles Recording on OBS.
 
 #### Usage
 
-```OBSRECORDING {option}```
+![Usage](img/obsRecordingUsage.png){style=max-width:60%;}
 
 #### Arguments
 
 - **option** [str]: Possible values: ```start```, ```stop```, ```toggle```, ```pause``` or ```resume```.
+
+### Change a Filter Visibility (obsChangeFilterVisibility)
+
+This command toggles a Filter's Visibility on OBS.
+
+#### Usage
+
+![Usage](img/obsChangeFilterVisibilityUsage.png){style=max-width:60%;}
+
+#### Arguments
+
+- **source** [choose]: The source that has the filter you want to change the visibility of.
+- **filterName** [str] The name of the filter you want to change the visibility of.
+- **option** [str] Possible values: ```visible``` or ```invisible```.
+
+### Change a Source Visibility (obsChangeItemVisibility)
+
+This command toggles an Item's Visibility on OBS.
+
+#### Usage
+
+![Usage](img/obsChangeItemVisibilityUsage.png){style=max-width:60%;}
+
+#### Arguments
+
+- **source** [choose]: The source you want to change the visibility of.
+- **option** [str] Possible values: ```visible``` or ```invisible```.
