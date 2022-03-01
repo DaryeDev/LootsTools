@@ -571,6 +571,10 @@
             
           
         
+          
+            
+          
+        
       
       
         
@@ -629,6 +633,20 @@
     <li class="md-nav__item">
       <a href="../discord/index.html" class="md-nav__link">
         LootsToolsEX for Discord
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../streamloots/index.html" class="md-nav__link">
+        LootsToolsEX for Streamloots
       </a>
     </li>
   
@@ -756,19 +774,6 @@
   <a href="#arguments_1" class="md-nav__link">
     Arguments
   </a>
-  
-    <nav class="md-nav" aria-label="Arguments">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pet-attributes" class="md-nav__link">
-    Pet Attributes
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -979,13 +984,9 @@
 <p><img alt="Usage" src="img/minecraftPetUsage.png" style="max-width:60%;" /></p>
 <h4 id="arguments_1">Arguments</h4>
 <ul>
-<li><strong>petAttributes</strong> [json]: The pet's atributes. Example: <code>{"Type":"DOG","Owner":"ALL","Name":"woof"}</code>.</li>
-</ul>
-<h5 id="pet-attributes">Pet Attributes</h5>
-<ul>
-<li><code>Type</code>: The type of Pet. Possible values: <code>DOG</code>, <code>CAT</code>, <code>PARROT</code>.</li>
-<li><code>Owner</code>: The Owner of the Pet. If it's <code>ALL</code>, a Pet is given to every player online.</li>
-<li><code>Name</code>: The name of the Pet.</li>
+<li><strong>petType</strong> [choose]: The pet's type (DOG, CAT OR PARROT).</li>
+<li><strong>petOwner</strong> [str]: The pet's owner. If this field is ALL, the pet is given to all players on the server.</li>
+<li><strong>petName</strong> [str]: The pet's name.</li>
 </ul>
 <hr />
 <h2 id="additional-notes">Additional Notes</h2>

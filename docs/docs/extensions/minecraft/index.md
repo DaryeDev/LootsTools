@@ -52,13 +52,9 @@ This command summons a Pet for the player specified on Minecraft.
 
 #### Arguments
 
-- **petAttributes** [json]: The pet's atributes. Example: ```{"Type":"DOG","Owner":"ALL","Name":"woof"}```.
-
-##### Pet Attributes
-
-- ```Type```: The type of Pet. Possible values: ```DOG```, ```CAT```, ```PARROT```.
-- ```Owner```: The Owner of the Pet. If it's ```ALL```, a Pet is given to every player online.
-- ```Name```: The name of the Pet.
+- **petType** [choose]: The pet's type (DOG, CAT OR PARROT).
+- **petOwner** [str]: The pet's owner. If this field is ALL, the pet is given to all players on the server.
+- **petName** [str]: The pet's name.
 
 ---
 

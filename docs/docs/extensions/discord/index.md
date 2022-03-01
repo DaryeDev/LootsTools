@@ -24,7 +24,6 @@ Learn how to make **Webhooks** on your Discord Server [here](https://support.dis
 
 (Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
 
-=======
 ### Send a Discord Message (discordSend)
 
 This command sends a message to your Chat on Twitch.

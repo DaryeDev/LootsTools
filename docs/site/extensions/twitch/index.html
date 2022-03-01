@@ -571,6 +571,10 @@
             
           
         
+          
+            
+          
+        
       
       
         
@@ -657,6 +661,59 @@
   <a href="#setup" class="md-nav__link">
     Setup
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    Events
+  </a>
+  
+    <nav class="md-nav" aria-label="Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-twitch-message" class="md-nav__link">
+    On Twitch Message
+  </a>
+  
+    <nav class="md-nav" aria-label="On Twitch Message">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-data" class="md-nav__link">
+    Available Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-twitch-command" class="md-nav__link">
+    On Twitch Command
+  </a>
+  
+    <nav class="md-nav" aria-label="On Twitch Command">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-data_1" class="md-nav__link">
+    Available Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -918,6 +975,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../streamloots/index.html" class="md-nav__link">
+        LootsToolsEX for Streamloots
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../obs/index.html" class="md-nav__link">
         LootsToolsEX for OBS
       </a>
@@ -1109,6 +1180,51 @@
 <li>A ClientID and a Client Secret of the same account (<a href="http://faq.demostoreprestashop.com/faq.php?fid=144&amp;pid=41">You can learn how to get it here</a>)</li>
 </ul>
 <p>Then, go to the <code>Loot's Tools EX for Twitch</code> page on Loot's Tools UI, and put your values and credentials there to set everything up.</p>
+<hr />
+<h2 id="events">Events</h2>
+<p>Events behave like Cards; edit their Commands on the Editor or make them behave like <a href="../../cards/advCards.html">Advanced Cards</a>.</p>
+<h3 id="on-twitch-message">On Twitch Message</h3>
+<p>This Event is called when a message is sent on your Chat.</p>
+<h4 id="available-data">Available Data</h4>
+<p>This data is available as <a href="../../cards/normalCards.html#tags">Tags</a> on Normal Cards, and through <a href="../../cards/advCards.html#variables">Variables</a> on Advanced Cards and EXtensions.</p>
+<ul>
+<li>
+<p><code>twitchMessage</code>: Returns <code>{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}</code>.</p>
+</li>
+<li>
+<p><code>twitchMessageText</code>: Returns the message sent.</p>
+</li>
+<li>
+<p><code>twitchMessageAuthor</code>: Returns the message's author.</p>
+</li>
+</ul>
+<h3 id="on-twitch-command">On Twitch Command</h3>
+<p>This Event is called when a Command is sent on your Chat. (A way to add Commands through the UI is worked on.)</p>
+<h4 id="available-data_1">Available Data</h4>
+<p>This data is available as <a href="../../cards/normalCards.html#tags">Tags</a> on Normal Cards, and through <a href="../../cards/advCards.html#variables">Variables</a> on Advanced Cards and EXtensions.</p>
+<ul>
+<li>
+<p><code>twitchCommand</code>: Returns <code>{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}</code>.</p>
+</li>
+<li>
+<p><code>twitchCommandName</code>: Returns the Command's Name.</p>
+</li>
+<li>
+<p><code>twitchCommandText</code>: Returns the Command sent (with arguments).</p>
+</li>
+<li>
+<p><code>twitchCommandAuthor</code>: Returns the Command's author.</p>
+</li>
+<li>
+<p><code>1</code>: Returns the first argument.</p>
+</li>
+<li>
+<p><code>2</code>: Returns the second argument.</p>
+</li>
+<li>
+<p><code>...</code></p>
+</li>
+</ul>
 <hr />
 <h2 id="commands">Commands</h2>
 <p>(Note: the name between parenthesis is the function's name, used for calling them with <a href="../../cards/advCards.html">Advanced Cards</a>' Scripts)</p>

@@ -132,7 +132,7 @@ class advCard:
 
 ### Variables
 
-Using an *Advanced Card* also gives us access to information about the redeemed Card, like *Tags*, but with variables:
+Using an *Advanced Card* also gives us access to information about the redeemed Card, like *[Tags](../cards/normalCards.md#tags)*, but with variables. They are all inside ```args```, and some keys are as follow:
 
 - ```commandPath```: The path of the Card's folder, where ```run.py``` is.
 - ```streamer```: The streamer's name.

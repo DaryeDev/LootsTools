@@ -31,6 +31,48 @@ Then, go to the ```Loot's Tools EX for Twitch``` page on Loot's Tools UI, and pu
 
 ---
 
+## Events
+
+Events behave like Cards; edit their Commands on the Editor or make them behave like [Advanced Cards](../../cards/advCards.md).
+
+### On Twitch Message
+
+This Event is called when a message is sent on your Chat.
+
+#### Available Data
+
+This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Cards, and through [Variables](../../cards/advCards.md#variables) on Advanced Cards and EXtensions.
+
+- ```twitchMessage```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
+
+- ```twitchMessageText```: Returns the message sent.
+
+- ```twitchMessageAuthor```: Returns the message's author.
+
+### On Twitch Command
+
+This Event is called when a Command is sent on your Chat. (A way to add Commands through the UI is worked on.)
+
+#### Available Data
+
+This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Cards, and through [Variables](../../cards/advCards.md#variables) on Advanced Cards and EXtensions.
+
+- ```twitchCommand```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
+
+- ```twitchCommandName```: Returns the Command's Name.
+
+- ```twitchCommandText```: Returns the Command sent (with arguments).
+
+- ```twitchCommandAuthor```: Returns the Command's author.
+
+- ```1```: Returns the first argument.
+
+- ```2```: Returns the second argument.
+
+- ```...```
+
+---
+
 ## Commands
 
 (Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
