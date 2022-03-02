@@ -20,10 +20,11 @@ Click this link to install the EXtension, and that's it, really that simple.
 
 There are a few *EXtensions* available right now, but developers can make their own ([More info clicking here](developers))
 
-- [Loot's Tools EX for Minecraft](../../extensions/minecraft)
-- [Loot's Tools EX for Twitch](../../extensions/twitch)
-- [Loot's Tools EX for OBS](../../extensions/obs)
-- [Loot's Tools EX for Discord](../../extensions/discord)
+- [Loot's Tools EX for Minecraft](../extensions/minecraft)
+- [Loot's Tools EX for Twitch](../extensions/twitch)
+- [Loot's Tools EX for OBS](../extensions/obs)
+- [Loot's Tools EX for Discord](../extensions/discord)
+- [Loot's Tools EX for Streamloots](../extensions/streamloots)
 
 ---
 

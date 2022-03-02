@@ -2,7 +2,7 @@
 
 <sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is required.)</sup>
 
-![LootsToolsEX for Streamloots](http://127.0.0.1:8000/docsMaterial/extensions/discord/img/discordEX.png){: style="height: 150px;width: 150px;float: left;margin: 20px;"}
+![LootsToolsEX for Streamloots](img/streamlootsEX.png){: style="height: 150px;width: 150px;float: left;margin: 20px;"}
 
 *LootsToolsEX for Streamloots* is an *EXtension* which allows the interactivity between **Streamloots** and ***Loot's Tools***.
 

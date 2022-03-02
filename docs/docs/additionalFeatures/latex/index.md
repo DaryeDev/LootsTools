@@ -26,9 +26,7 @@ The *EXtension* created will be a template on which you'll base your new *EXtens
 
 You can share your *EXtension* by [clicking here](ltex://upload) or opening this on your Browser: ```ltex://upload```.
 
-Next, write the ID of the *EXtension* you want to share, and you'll recieve a **LaTEX URL**, that you can share for other people to [download your *EXtension*](#downloading-extensions)
-
-(Important Note: Before uploading your *EXtension* through **LaTEX**, make sure ```pluginAuthor``` contains your **Streamloots** username, at least between parenthesis. If not, you wont be able to update the *EXtension*.)
+Next, select the *EXtension* you want to share, and you'll recieve a **LaTEX URL**, that you can share for other people to [download your *EXtension*](#downloading-extensions)
 
 ---
 
