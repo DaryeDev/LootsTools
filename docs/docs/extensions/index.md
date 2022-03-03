@@ -14,7 +14,7 @@ EXtensions can be easily shared through [LaTEX](../additionalFeatures/latex/inde
 
 Click this link to install the EXtension, and that's it, really that simple.
 
---
+---
 
 ## Available EXtensions
 
