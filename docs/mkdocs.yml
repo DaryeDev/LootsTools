@@ -32,7 +32,7 @@ theme:
       quote: octicons/quote-16
   favicon: favicon.ico
   font:
-    text: Nunito
+    text: Open Sans
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
