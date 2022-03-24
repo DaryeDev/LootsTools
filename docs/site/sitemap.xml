@@ -91,6 +91,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://lootstools.darye.dev/docsMaterial/extensions/streamloots/index.html</loc>
+         <lastmod>2022-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://lootstools.darye.dev/docsMaterial/extensions/twitch/index.html</loc>
          <lastmod>2022-03-24</lastmod>
          <changefreq>daily</changefreq>

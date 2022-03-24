@@ -8,7 +8,7 @@
 
 It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards.md)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
 
-Commands on Events like Subs, Chat Commands, Messages, Donations and Channel Points is being worked on.
+Commands on Events like Subs, Chat Commands, Messages, Donations and Channel Points are being worked on.
 
 &nbsp;
 
@@ -51,7 +51,7 @@ This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Card
 
 ### On Twitch Command
 
-This Event is called when a Command is sent on your Chat. (A way to add Commands through the UI is worked on.)
+This Event is called when a Chat Command is sent on your Chat. You'll need to add these Chat Commands on this EXtension's Page on the UI.
 
 #### Available Data
 

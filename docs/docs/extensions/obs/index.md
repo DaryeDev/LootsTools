@@ -6,7 +6,7 @@
 
 *LootsToolsEX for OBS* is an *EXtension* which allows controlling **OBS** with ***Loot's Tools***.
 
-It makes possible things like **changing scenes**, **changing** the **text** of a Text Source, **changing Source Settings** , **muting Sources** and **toggle Recording** and **Streaming**.
+It makes possible things like **changing scenes**, **changing** the **text** of a Text Source, **changing Source Settings**, **muting Sources** and **toggle Recording** and **Streaming**.
 
 &nbsp;
 
