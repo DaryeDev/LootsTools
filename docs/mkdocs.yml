@@ -112,10 +112,11 @@ nav:
       - Cards: cards/normalCards.md
       - Advanced Cards: cards/advCards.md
   - EXtensions: 
-      - extensions/index.md
+      - Introduction to EXtensions: extensions/index.md
       - Create EXtensions: extensions/developers.md
       - LootsToolsEX for Twitch: extensions/twitch/index.md
       - LootsToolsEX for Discord: extensions/discord/index.md
+      - LootsToolsEX for Streamloots: extensions/streamloots/index.md
       - LootsToolsEX for OBS: extensions/obs/index.md
       - LootsToolsEX for Minecraft: extensions/minecraft/index.md
   - Loot's Tools Plus: plus/index.md

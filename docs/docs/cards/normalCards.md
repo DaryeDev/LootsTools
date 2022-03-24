@@ -179,8 +179,10 @@ In this Card, an additional *Tag* would be ````{message}````.
 
 The *EXtensions* currently available are the following:
 
-- [Loot's Tools EX for Minecraft](../../extensions/minecraft)
-- [Loot's Tools EX for Twitch](../../extensions/twitch)
-- [Loot's Tools EX for OBS](../../extensions/obs)
+- [Loot's Tools EX for Minecraft](../extensions/minecraft)
+- [Loot's Tools EX for Twitch](../extensions/twitch)
+- [Loot's Tools EX for OBS](../extensions/obs)
+- [Loot's Tools EX for Discord](../extensions/discord)
+- [Loot's Tools EX for Streamloots](../extensions/streamloots)
 
 Learn more about EXtensions [here](../../extensions) and about each EXtension on their respective page.

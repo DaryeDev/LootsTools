@@ -10,22 +10,9 @@ They can provide more Commands for [Normal Cards](../cards/normalCards.md), usef
 
 ## Instalation
 
-### LaTEX Method
-
 EXtensions can be easily shared through [LaTEX](../additionalFeatures/latex/index.md), and be shared with a link (```https://lootstrading.darye.dev/latex/{ltexID}```)
 
-Click this link to install the EXtension and restart Loot's Tools, if it's open.
-
----
-
-### Manual Method
-
-EXtensions come packed on a ZIP file, with the EXtension in itself and its Dependencies.
-
-![EXtensionsPakContents](img/EXtensionsPakContents.png)<br>
-<sup>Example of a *EXtension Package* content, in this case, of LootsToolsEX for OBS.</sup>
-
-To install them you only need to unzip the *Package* into ```<Loot's Tools' Root Folder>```.
+Click this link to install the EXtension, and that's it, really that simple.
 
 ---
 
@@ -33,9 +20,11 @@ To install them you only need to unzip the *Package* into ```<Loot's Tools' Root
 
 There are a few *EXtensions* available right now, but developers can make their own ([More info clicking here](developers))
 
-- [Loot's Tools EX for Minecraft](../../extensions/minecraft)
-- [Loot's Tools EX for Twitch](../../extensions/twitch)
-- [Loot's Tools EX for OBS](../../extensions/obs)
+- [Loot's Tools EX for Minecraft](../extensions/minecraft)
+- [Loot's Tools EX for Twitch](../extensions/twitch)
+- [Loot's Tools EX for OBS](../extensions/obs)
+- [Loot's Tools EX for Discord](../extensions/discord)
+- [Loot's Tools EX for Streamloots](../extensions/streamloots)
 
 ---
 
