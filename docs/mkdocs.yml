@@ -64,7 +64,7 @@ plugins:
         - es
 
 
-site_url: https://lootstools.darye.dev/docsMaterial/
+site_url: https://lootstools.darye.dev/docs/
 
 site_description: "Documentation for Loot's Tools"
 site_author: "Darye."
@@ -103,17 +103,17 @@ extra_css:
 
 nav:
   - Home: https://lootstools.darye.dev
-  - Introduction to Loot's Tools: index.md
-  - Getting Started: gettingStarted.md
-  - Loot's Tools UI: lootsToolsUI.md
+  - Introduction to Loot's Tools: .
+  - Getting Started: gettingStarted/index.md
+  - Loot's Tools UI: lootsToolsUI/index.md
   - Cards:
       - cards/index.md
-      - Enhancing Cards: cards/enhanceCards.md
-      - Cards: cards/normalCards.md
-      - Advanced Cards: cards/advCards.md
+      - Enhancing Cards: cards/enhanceCards/index.md
+      - Cards: cards/normalCards/index.md
+      - Advanced Cards: cards/advCards/index.md
   - EXtensions: 
       - Introduction to EXtensions: extensions/index.md
-      - Create EXtensions: extensions/developers.md
+      - Create EXtensions: extensions/developers/index.md
       - LootsToolsEX for Twitch: extensions/twitch/index.md
       - LootsToolsEX for Discord: extensions/discord/index.md
       - LootsToolsEX for Streamloots: extensions/streamloots/index.md

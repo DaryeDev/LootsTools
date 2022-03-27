@@ -19,7 +19,7 @@ This infamous prank, on a Card form, would be as simple as IRL: only pressing tw
 
 This is as easy as one command:
 
-![Alt+F4 Commands](img/AltF4.png)
+![Alt+F4 Commands](../img/AltF4.png)
 
 The `Send Keystroke` command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... >:)
 
@@ -29,7 +29,7 @@ Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is ve
 
 [Copy Card "Gift Chest" on your Collection with LootsTrading](lootstools://copyCard/5e692668982ade003456a0c2){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
-![Gift Chest Commands](img/GiftChest.png)
+![Gift Chest Commands](../img/GiftChest.png)
 
 We can modify the number of Packs, the collection the Pack is of and the user to give the Packs to (`{user}` represents the user that redeemed the Card. Learn more on Tags [here](#tags).).
 
@@ -43,7 +43,7 @@ This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../
 
 To cut off the stream with a Card, this is the command it has to execute:
 
-![Goodbye Stream Commands](img/GoodbyeStream.png)
+![Goodbye Stream Commands](../img/GoodbyeStream.png)
 
 (You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)
 
@@ -59,7 +59,7 @@ This Command allows the Streamer to gift a certain amount of Packs of a given co
 
 #### Usage
 
-![Gift Chest Command](img/GiftChest.png)
+![Gift Chest Command](../img/GiftChest.png)
 
 #### Arguments
 
@@ -73,7 +73,7 @@ This Command simulates being the keyboard and writes the given string.
 
 #### Usage
 
-![Write Command](img/WriteCommand.png)
+![Write Command](../img/WriteCommand.png)
 
 #### Arguments
 
@@ -84,7 +84,7 @@ This Command runs a program.
 
 #### Usage
 
-![Run Command](img/RunCommand.png)
+![Run Command](../img/RunCommand.png)
 
 #### Arguments
 
@@ -95,7 +95,7 @@ This Command runs a program, and then closes it in x seconds.
 
 #### Usage
 
-![Run and Close Command](img/RunCloseCommand.png)
+![Run and Close Command](../img/RunCloseCommand.png)
 
 #### Arguments
 
@@ -109,7 +109,7 @@ This Command simulates being the keyboard and sends a key combination.
 
 #### Usage
 
-![Send Keystrokes Command](img/KeystrokeCommand.png)
+![Send Keystrokes Command](../img/KeystrokeCommand.png)
 
 #### Arguments
 
@@ -121,7 +121,7 @@ This Command waits x seconds to resume execution of the Card's Commands.
 
 #### Usage
 
-![Wait Command](img/WaitCommand.png)
+![Wait Command](../img/WaitCommand.png)
 
 #### Arguments
 
@@ -133,7 +133,7 @@ This Command prints on the ***Loot's Tools*** Console Log.
 
 #### Usage
 
-![Print Command](img/PrintCommand.png)
+![Print Command](../img/PrintCommand.png)
 
 #### Arguments
 
@@ -167,7 +167,7 @@ This *Tag* is substituted by the name of the rarity of Card redeemed.
 
 If the Card requires input, the input's internal name can be used as a *Tag*.
 
-For example: ![Card's Input](img/AdditionalTags.png)
+For example: ![Card's Input](../img/AdditionalTags.png)
 
 In this Card, an additional *Tag* would be ````{message}````.
 

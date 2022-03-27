@@ -1,6 +1,6 @@
 # Loot's Tools UI
 <a href="https://lootstools.darye.dev/app">
-![Loot's Tools UI's Home Page](img/lootsToolsUI_home.png){: style="margin: auto;}
+![Loot's Tools UI's Home Page](../img/lootsToolsUI_home.png){: style="margin: auto;}
 </a>
 Introduced on v2, ***Loot's Tools UI*** offers a new and friendlier way to use ***Loot's Tools***. 
 
@@ -30,7 +30,7 @@ The UI is divided on pages:
 
 ### Home
 
-![Loot's Tools UI's Home Page](img/lootsToolsUI_home.png){: style="margin: auto;}
+![Loot's Tools UI's Home Page](../img/lootsToolsUI_home.png){: style="margin: auto;}
 
 The **Home Page** offers a handful of useful links for the **Start Guide**, **Docs**, **the Discord Server**, and the **Issues reporting page** on Github.
 
@@ -38,7 +38,7 @@ The **Home Page** offers a handful of useful links for the **Start Guide**, **Do
 
 ### Cards
 
-![Loot's Tools UI's Cards Page](img/lootsToolsUI_cards.png){: style="margin: auto;}
+![Loot's Tools UI's Cards Page](../img/lootsToolsUI_cards.png){: style="margin: auto;}
 
 The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections, categorized by them. 
 
@@ -46,7 +46,7 @@ The Name and Icon of the Card is shown on a grid, and Enhanced Cards are marked 
 
 Clicking on a Card offers the options to test the Card and or edit the Card's Commands, if the Card is enhanced, or to Enhance it, if not.
 
-![Loot's Tools UI's Card Context Menu](img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
+![Loot's Tools UI's Card Context Menu](../img/lootsToolsUI_cardContextMenu.png){: style="margin: auto;}
 
 Also, this page has three buttons, the **Editor** Button, ( :material-playlist-edit: ), that opens the Editor; the **Enhance** Button ( :material-plus: ), that makes a Card Enhanced; and the **Reload** Button ( :material-sync: ), that reloads the Cards (Names, pictures and states).
 
@@ -54,7 +54,7 @@ Also, this page has three buttons, the **Editor** Button, ( :material-playlist-e
 
 ### EXtensions
 
-![Loot's Tools UI's EXtensions Page](img/lootsToolsUI_extensions.png){: style="margin: auto;}
+![Loot's Tools UI's EXtensions Page](../img/lootsToolsUI_extensions.png){: style="margin: auto;}
 
 The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's Tools**.
 
@@ -62,7 +62,7 @@ The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's To
 
 ### Log
 
-![Loot's Tools UI's Log Page](img/lootsToolsUI_log.png){: style="margin: auto;}
+![Loot's Tools UI's Log Page](../img/lootsToolsUI_log.png){: style="margin: auto;}
 
 The **Log Page** shows the output of the **Loot's Tools Console**, with an auto scroll option.
 
@@ -70,7 +70,7 @@ The **Log Page** shows the output of the **Loot's Tools Console**, with an auto 
 
 ### LootsTrading
 
-![Loot's Tools UI's LootsTrading Page](img/lootsToolsUI_lootsTrading.png){: style="margin: auto;}
+![Loot's Tools UI's LootsTrading Page](../img/lootsToolsUI_lootsTrading.png){: style="margin: auto;}
 
 The **LootsTrading Page** shows a grid with your Cards, and if you click on them, you can Share them and get an LootsTrading Link for Sharing your Card and it's commands online.
 
@@ -82,7 +82,7 @@ Learn more about **LootsTrading** on here: [LootsTrading](additionalFeatures/loo
 
 ### User
 
-![Loot's Tools UI's User Page](img/lootsToolsUI_user.png){: style="margin: auto;}
+![Loot's Tools UI's User Page](../img/lootsToolsUI_user.png){: style="margin: auto;}
 
 The **User Page** shows the User's Name and Icon, with some info about their stats on **Streamloots** and **Loot's Tools**
 
@@ -94,7 +94,7 @@ Aside of closing the browser tab or window, the UI has an **Exit** button. (<ion
 
 On click, this button pops up a prompt to **Close only the UI** or **Close also the Loot's Tools Console**:
 
-![Loot's Tools UI's Exit Dialog](img/lootsToolsUI_exit.png){: style="margin: auto;}
+![Loot's Tools UI's Exit Dialog](../img/lootsToolsUI_exit.png){: style="margin: auto;}
 
 ---
 
