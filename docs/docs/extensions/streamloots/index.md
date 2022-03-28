@@ -21,7 +21,7 @@ It makes possible things like **creating Discount Codes**, **creating Gift Packs
 
 ## Commands
 
-(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards)' Scripts)
 
 ### Create a Streamloots' Coupon (createCoupon)
 

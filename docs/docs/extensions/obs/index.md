@@ -28,7 +28,7 @@ You need to have installed ```OBS Websocket```on your OBS. You can download it [
 
 ## Commands
 
-(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards)' Scripts)
 
 ### Change Scene (obsChangeScene)
 

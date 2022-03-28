@@ -80,7 +80,7 @@ class advCard:
 
 Install the following dependencies in the ```dependencies``` folder:
 
-- [rotatescreen](dependencies/rotatescreen.zip){target=_blank}
+- [rotatescreen](../dependencies/rotatescreen.zip){target=_blank}
 
 ---
 
@@ -132,7 +132,7 @@ class advCard:
 
 ### Variables
 
-Using an *Advanced Card* also gives us access to information about the redeemed Card, like *[Tags](../cards/normalCards.md#tags)*, but with variables. They are all inside ```args```, and some keys are as follow:
+Using an *Advanced Card* also gives us access to information about the redeemed Card, like *[Tags](../cards/normalCards#tags)*, but with variables. They are all inside ```args```, and some keys are as follow:
 
 - ```commandPath```: The path of the Card's folder, where ```run.py``` is.
 - ```streamer```: The streamer's name.

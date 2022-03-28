@@ -22,4 +22,4 @@ Let it be controlled by the audience Minecraft Streams (Examples [here](https://
 
 </center>
 
-Continue on [Getting Started](gettingStarted.md).
+Continue on [Getting Started](gettingStarted).

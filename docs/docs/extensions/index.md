@@ -4,7 +4,7 @@
 
 *EXtensions* are, as the name suggests, extensions for ***Loot's Tools***. 
 
-They can provide more Commands for [Normal Cards](../cards/normalCards.md), useful functions for [Advanced Cards](../cards/advCards.md) or even completely new Interpreters (for Cards).
+They can provide more Commands for [Normal Cards](../cards/normalCards), useful functions for [Advanced Cards](../cards/advCards) or even completely new Interpreters (for Cards).
 
 ---
 

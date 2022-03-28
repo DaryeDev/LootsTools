@@ -6,7 +6,7 @@
 
 *LootsToolsEX for Twitch* is an *EXtension* which allows the interactivity between **Twitch** and ***Loot's Tools***.
 
-It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards.md)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
+It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
 
 Commands on Events like Subs, Chat Commands, Messages, Donations and Channel Points are being worked on.
 
@@ -33,7 +33,7 @@ Then, go to the ```Loot's Tools EX for Twitch``` page on Loot's Tools UI, and pu
 
 ## Events
 
-Events behave like Cards; edit their Commands on the Editor or make them behave like [Advanced Cards](../../cards/advCards.md).
+Events behave like Cards; edit their Commands on the Editor or make them behave like [Advanced Cards](../../cards/advCards).
 
 ### On Twitch Message
 
@@ -41,7 +41,7 @@ This Event is called when a message is sent on your Chat.
 
 #### Available Data
 
-This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Cards, and through [Variables](../../cards/advCards.md#variables) on Advanced Cards and EXtensions.
+This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
 
 - ```twitchMessage```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
 
@@ -55,7 +55,7 @@ This Event is called when a Chat Command is sent on your Chat. You'll need to ad
 
 #### Available Data
 
-This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Cards, and through [Variables](../../cards/advCards.md#variables) on Advanced Cards and EXtensions.
+This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
 
 - ```twitchCommand```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
 
@@ -75,7 +75,7 @@ This data is available as [Tags](../../cards/normalCards.md#tags) on Normal Card
 
 ## Commands
 
-(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards)' Scripts)
 
 ### Send a Chat Message (twitchSend)
 

@@ -22,7 +22,7 @@ Learn how to make **Webhooks** on your Discord Server [here](https://support.dis
 
 ## Commands
 
-(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards)' Scripts)
 
 ### Send a Discord Message (discordSend)
 

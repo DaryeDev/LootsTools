@@ -28,7 +28,7 @@ It's **very important** to start **first** Loot's Tools and **then** the Minecra
 
 ## Commands
 
-(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards.md)' Scripts)
+(Note: the name between parenthesis is the function's name, used for calling them with [Advanced Cards](../../cards/advCards)' Scripts)
 
 ### Execute a Command on Minecraft (minecraftCMD)
 
