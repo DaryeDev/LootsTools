@@ -76,7 +76,7 @@ The **LootsTrading Page** shows a grid with your Cards, and if you click on them
 
 Also, on this page, there's a button to Share a Collection, that, as the button's name suggests, helps you Share a Collection.
 
-Learn more about **LootsTrading** on here: [LootsTrading](additionalFeatures/lootsTrading/index.md)
+Learn more about **LootsTrading** on here: [LootsTrading](../additionalFeatures/lootsTrading/index.md)
 
 ---
 

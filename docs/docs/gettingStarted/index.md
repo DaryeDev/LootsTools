@@ -44,7 +44,7 @@ Once you have installed ***Loot's Tools***, you can access [*Loot's Tools UI*](h
 ![Loot's Tools UI's Home Page](../img/lootsToolsUI_home.png){:style="margin: auto;"}
 </a>
 
-Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI.md)
+Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI)
 
 ---
 

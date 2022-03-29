@@ -112,10 +112,10 @@ class advCard:
 
 Install the following dependencies in the ```dependencies``` folder:
 
-- [py_win_keyboard_layout](dependencies/py_win_keyboard_layout.zip){target=_blank}
-- [playsound](dependencies/playsound.zip){target=_blank}
+- [py_win_keyboard_layout](../dependencies/py_win_keyboard_layout.zip){target=_blank}
+- [playsound](../dependencies/playsound.zip){target=_blank}
 
-Also, download ```kazotsky-kick-3.mp3``` on the Card's Name folder, on the same one than ```run.py```: [kazotsky-kick-3.mp3](dependencies/kazotsky-kick-3.mp3)
+Also, download ```kazotsky-kick-3.mp3``` on the Card's Name folder, on the same one than ```run.py```: [kazotsky-kick-3.mp3](../dependencies/kazotsky-kick-3.mp3)
 
 ---
 

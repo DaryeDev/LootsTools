@@ -12,7 +12,7 @@
 
 ### Sharing Cards and Collections (With Loot's Tools UI)
 
-[Click here to know how to share Cards and Collections with Loot's Tools UI.](../../lootsToolsUI.md#lootstrading){ .md-button .md-button--primary }
+[Click here to know how to share Cards and Collections with Loot's Tools UI.](../../lootsToolsUI#lootstrading){ .md-button .md-button--primary }
 
 ---
 
