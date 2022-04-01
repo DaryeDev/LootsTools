@@ -103,7 +103,7 @@ extra_css:
 
 nav:
   - Home: https://lootstools.darye.dev
-  - Introduction to Loot's Tools: /
+  - Introduction to Loot's Tools: .
   - Getting Started: gettingStarted/index.md
   - Loot's Tools UI: lootsToolsUI/index.md
   - Cards:
