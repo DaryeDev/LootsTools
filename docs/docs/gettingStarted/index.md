@@ -20,13 +20,25 @@ Loot's Tools needs his own space, so create a new folder on your computer and *d
 
 Open ```LootsTools.exe``` for first time to install and set up what it needs to work properly.
 
-You'll be prompted to restart, so restart your computer and lets continue with the setup!
+---
+
+## Optional: Setup DriveWay
+
+***DriveWay*** is a way to share Loot's Tools' Events with third-party apps, Mods or services.
+
+It is not required for ***Loot's Tools*** to work, but it might be needed for the before menctioned cases.
+
+When installing, ***Loot's Tools*** will ask you whether you want to set ***DriveWay*** up, leading you to this part of the tutorial.
+
+To setup ***DriveWay***, you'll need an ngrok account, create it on [*ngrok.com*](https://ngrok.com), and get your token. Copy it, and paste it on the window that asks for it.
+
+![getNgrokToken](getNgrokToken.gif)
 
 ---
 
 ## Login with Streamloots
 
-Once you restart your computer, you'll need to login with Streamloots, so you'll need to install a Browser extension to login:
+You'll now need to login with Streamloots to use Loot's Tools, so you'll need to install a Browser extension to login:
 
 - [Download *Login to Loot's Tools* for Chrome](https://chrome.google.com/webstore/detail/login-to-loots-tools/nkoepodlaleolfmllaibllelcefbphfp){target=_blank}
 
@@ -47,7 +59,6 @@ Once you have installed ***Loot's Tools***, you can access [*Loot's Tools UI*](h
 Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI)
 
 ---
-
 ## Optional: Install Loot's Tools UI as a Desktop App
 
 When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chrome** appears an "Install" icon on the right side of the address bar: ![Install Button](../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
