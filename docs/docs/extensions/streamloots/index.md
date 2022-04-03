@@ -69,3 +69,20 @@ This command enables or disables Cards on your Streamloots Collections.
 
 - **option** [choose]: Enable or disable the Card. Possible options: "Enable" or "Disable".
 - **cardAndCollectionsIDs** [chooseMultiple]: The Cards to enable or disable.
+
+---
+
+### Send a Custom Streamloots Alert (createGiftCode)
+
+This command sends a Custom Alert on the Streamloots Alerts Browser Source.
+
+#### Usage
+
+![Usage](img/streamlootsSendCustomAlertUsage.png){style=max-width:60%;}
+
+#### Arguments
+
+- **message** [str]: The Alert's Message.
+- **imageURL** [str]: The Alert's Image URL.
+- **soundURL** [str]: The Alert's Sound URL.
+- **ttsEnabled** [choose]: Enable or disable TTS.
