@@ -26,7 +26,7 @@ Open ```LootsTools.exe``` for first time to install and set up what it needs to 
 
 ***DriveWay*** is a way to share Loot's Tools' Events with third-party apps, Mods or services.
 
-It is not required for ***Loot's Tools*** to work, but it might be needed for the before menctioned cases.
+It is not required for ***Loot's Tools*** to work, but it might be needed for the previously mentioned cases.
 
 When installing, ***Loot's Tools*** will ask you whether you want to set ***DriveWay*** up, leading you to this part of the tutorial.
 
