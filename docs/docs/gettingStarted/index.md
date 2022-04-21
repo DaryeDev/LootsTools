@@ -8,31 +8,19 @@ Originality on streams is very important for me, thats why I made Loot's Tools, 
 
 ## Download Loot's Tools
 
-You can download the tool [clicking here](https://github.com/DaryeDev/LootsTools/releases/latest){target=_blank}.
-
-Loot's Tools needs his own space, so create a new folder on your computer and *drop 'em in*!
-
-![Create a folder for Loot's Tools](../img/CreateFolder.gif)
+You can download the Installer [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
 
 ---
 
-## Set it up!
+## Set it up! (Windows)
 
-Open ```LootsTools.exe``` for first time to install and set up what it needs to work properly.
+Open ```ltSetup.exe```, select the directory you want to install Loot's Tools in, let it download the latest Loot's Tools version and let's proceed.
 
 ---
 
-## Optional: Setup DriveWay
+## Set it up! (Mac)
 
-***DriveWay*** is a way to share Loot's Tools' Events with third-party apps, Mods or services.
-
-It is not required for ***Loot's Tools*** to work, but it might be needed for the previously mentioned cases.
-
-When installing, ***Loot's Tools*** will ask you whether you want to set ***DriveWay*** up, leading you to this part of the tutorial.
-
-To setup ***DriveWay***, you'll need an ngrok account, create it on [*ngrok.com*](https://ngrok.com), and get your token. Copy it, and paste it on the window that asks for it.
-
-![getNgrokToken](getNgrokToken.gif)
+Create a new folder and drop ```LootsTools.app``` on it, then run it for a first time to install and set up what it needs to work properly.
 
 ---
 
@@ -59,9 +47,10 @@ Once you have installed ***Loot's Tools***, you can access [*Loot's Tools UI*](h
 Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI)
 
 ---
+
 ## Optional: Install Loot's Tools UI as a Desktop App
 
-When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chrome** appears an "Install" icon on the right side of the address bar: ![Install Button](../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
+When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chromium-based browsers** appears an "Install" icon on the right side of the address bar: ![Install Button](../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
 
 Clicking this, you can install the UI as a Desktop App, looking better and independent from the browser!
 

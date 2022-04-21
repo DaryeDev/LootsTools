@@ -10,7 +10,7 @@
 
 ---
 
-### Sharing Cards and Collections (With Loot's Tools UI)
+### Sharing Cards and Collections
 
 [Click here to know how to share Cards and Collections with Loot's Tools UI.](../../lootsToolsUI#lootstrading){ .md-button .md-button--primary }
 
@@ -38,11 +38,11 @@ When it's finished, it'll give you a **LootsTrading Collection URL** to Share yo
 
 ### Copying Cards
 
-To copy a *Card*, you'll need a **LootsTrading Card URL**. 
+To copy a *Card*, you'll need a **LootsTrading Card URL** (``https://lootstrading.darye.dev/card/cardID``).
 
-Don't worry if you don't have one, I'll give you one of mines: 
+Don't worry if you don't have one, I'll give you one of mine:
 
-[[Alt+F4](lootstools:/copyCard//5fb7e18069cff0003945a512)]
+[Copy "Alt+F4" Card with LootsTrading](lootstools://copyCard/5fb7e18069cff0003945a512){ .md-button .md-button--primary }
 
 Once you have a **LootsTrading Card URL**, open it and use a *Card* of the *Collection* you want this new *Card* to be in.
 
@@ -56,9 +56,11 @@ As simple as that. Open **Streamloots** and see your new *Card* on your selected
 
 Copying *Collections* is, like the rest of the methods, very easy.
 
-For this one, you only need a **LootsTrading Collection URL**, here, have one of mine: 
+For this one, you only need a **LootsTrading Collection URL** (``https://lootstrading.darye.dev/collection/collectionID``).
 
-[[Minecraft Collection](lootstools://copyCollection/5fa6b8cfc365890037cce144)]
+Here, try it out with one of mine:
+
+[Copy "Minecraft" Collection with LootsTrading](lootstools://copyCollection/5fa6b8cfc365890037cce144){ .md-button .md-button--primary }
 
 Open it, let **LootsTrading** do its Magic, and that's it!
 

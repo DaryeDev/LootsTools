@@ -36,4 +36,4 @@ You can download and install *EXtensions* through **LaTEX** using a **LaTEX URL*
 
 To try it out, try with the URL of [Loot's Tools EX for Twitch](../../extensions/twitch):
 
-[[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX)]{ .md-button .md-button--primary }
+[Download 'Loot's Tools EX for Twitch' with LaTEX](ltex://download/twitchEX){ .md-button .md-button--primary }
