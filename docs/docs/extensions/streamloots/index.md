@@ -86,3 +86,33 @@ This command sends a Custom Alert on the Streamloots Alerts Browser Source.
 - **imageURL** [str]: The Alert's Image URL.
 - **soundURL** [str]: The Alert's Sound URL.
 - **ttsEnabled** [choose]: Enable or disable TTS.
+
+---
+
+### Pause a Streamloots Collection's Redemptions (pauseCollection)
+
+This command pauses a Streamloots Collection's Redemptions.
+
+#### Usage
+
+![Usage](img/streamlootsPauseCollectionUsage.png){style=max-width:60%;}
+
+#### Arguments
+
+- **collectionID** [choose]: The Collection to pause.
+- **time** [int]: The minutes you want to pause your Collection.
+- **reason** [str]: The reason why you want to pause your Collection.
+
+---
+
+### Resume a Streamloots Collection's Redemptions (resumeCollection)
+
+This command resumes a Streamloots Collection's Redemptions.
+
+#### Usage
+
+![Usage](img/streamlootsResumeCollectionUsage.png){style=max-width:60%;}
+
+#### Arguments
+
+- **collectionID** [choose]: The Collection to pause.

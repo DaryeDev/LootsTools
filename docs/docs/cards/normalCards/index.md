@@ -59,13 +59,14 @@ This Command allows the Streamer to gift a certain amount of Packs of a given co
 
 #### Usage
 
-![Gift Chest Command](../img/GiftChest.png)
+![Gift Chest Command](../img/GiftChest.png){: style="width: 69%;"}
 
 #### Arguments
 
 - **user** [str]: The user to gift the Pack to.
 - **quantity** [int]: The amount of Packs to gift.
 - **collectionName** [str] (Optional): The Collection you want the Pack to be of. If not given, it defaults to the main Collection.
+- **cardAmount** [int]: The amount of Cards this Packs gives.
 
 ### Write
 
@@ -73,7 +74,7 @@ This Command simulates being the keyboard and writes the given string.
 
 #### Usage
 
-![Write Command](../img/WriteCommand.png)
+![Write Command](../img/WriteCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -84,7 +85,7 @@ This Command runs a program.
 
 #### Usage
 
-![Run Command](../img/RunCommand.png)
+![Run Command](../img/RunCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -95,7 +96,7 @@ This Command runs a program, and then closes it in x seconds.
 
 #### Usage
 
-![Run and Close Command](../img/RunCloseCommand.png)
+![Run and Close Command](../img/RunCloseCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -109,7 +110,7 @@ This Command simulates being the keyboard and sends a key combination.
 
 #### Usage
 
-![Send Keystrokes Command](../img/KeystrokeCommand.png)
+![Send Keystrokes Command](../img/KeystrokeCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -121,7 +122,7 @@ This Command waits x seconds to resume execution of the Card's Commands.
 
 #### Usage
 
-![Wait Command](../img/WaitCommand.png)
+![Wait Command](../img/WaitCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -133,7 +134,7 @@ This Command prints on the ***Loot's Tools*** Console Log.
 
 #### Usage
 
-![Print Command](../img/PrintCommand.png)
+![Print Command](../img/PrintCommand.png){: style="width: 69%;"}
 
 #### Arguments
 
@@ -184,5 +185,6 @@ The *EXtensions* currently available are the following:
 - [Loot's Tools EX for OBS](../extensions/obs)
 - [Loot's Tools EX for Discord](../extensions/discord)
 - [Loot's Tools EX for Streamloots](../extensions/streamloots)
+- [Command Groups](../extensions/commandGroups)
 
 Learn more about EXtensions [here](../../extensions) and about each EXtension on their respective page.

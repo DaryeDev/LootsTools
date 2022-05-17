@@ -25,6 +25,7 @@ There are a few *EXtensions* available right now, but developers can make their 
 - [Loot's Tools EX for OBS](../extensions/obs)
 - [Loot's Tools EX for Discord](../extensions/discord)
 - [Loot's Tools EX for Streamloots](../extensions/streamloots)
+- [Command Groups](../extensions/commandGroups)
 
 ---
 

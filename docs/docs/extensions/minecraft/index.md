@@ -20,9 +20,23 @@ You can see some example clips of *LootsToolsEX for Minecraft* in-game [here](ht
 
 ## Setup
 
-It's needed for this *EXtension* to work a *Paper*, *Bukkit* or *Spigot* Minecraft server, and this plugin ([Loot's Tools for Minecraft (1.13 - 1.18)](https://www.spigotmc.org/resources/loots-tools-for-minecraft.99127/)) installed on it.
+The EXtension creates a Bot that connects to your Minecraft Server, to then send commands when needed.
 
-It's **very important** to start **first** Loot's Tools and **then** the Minecraft Server.
+### Use Loot's Tools on your server
+
+To use the Bot on your server, you will need to have the server on "Offline mode", since the bot doesn't have a "premium" account.
+
+Then, on the EXtension Page on the UI, set up the host and port of the server, and click "Connect Bot".
+
+This will connect the Bot to the Server.
+
+### Use Loot's Tools on your singleplayer world
+
+To use the Bot on your singleplayer world, click "Esc" on your keyboard, click "Open to LAN", enable cheats, and, when you open your world on LAN, you will have the server host and port on your chat.
+
+Then, on the EXtension Page on the UI, set up the host and port of the server, and click "Connect Bot".
+
+This will connect the Bot to your World.
 
 ---
 

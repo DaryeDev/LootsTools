@@ -58,6 +58,8 @@ Also, this page has three buttons, the **Editor** Button, ( :material-playlist-e
 
 The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's Tools**.
 
+EXtensions not correctly loaded will appear on black and white. Clicking on them (both loaded and not loaded) will give the user to reload the EXtension selected.
+
 ---
 
 ### Log
@@ -84,7 +86,9 @@ Learn more about **LootsTrading** on here: [LootsTrading](../additionalFeatures/
 
 ![Loot's Tools UI's User Page](../img/lootsToolsUI_user.png){: style="margin: auto;}
 
-The **User Page** shows the User's Name and Icon, with some info about their stats on **Streamloots** and **Loot's Tools**
+The **User Page** shows the User's Name and Icon, with some info about their stats on **Streamloots** and **Loot's Tools**.
+
+Here you can also find a button to copy your DriveWay ID, with which you can connect Loot's Tools with other Apps, Services, or Game Mods.
 
 ---
 

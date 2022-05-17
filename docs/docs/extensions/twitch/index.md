@@ -8,8 +8,7 @@
 
 It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
 
-Commands on Events like Subs, Chat Commands, Messages, Donations and Channel Points are being worked on.
-
+The most useful thing maybe being gifting Packs with Channel Points Rewards or Subs!
 &nbsp;
 
 ---
@@ -22,12 +21,9 @@ Commands on Events like Subs, Chat Commands, Messages, Donations and Channel Poi
 
 ## Setup
 
-After installing the *EXtension*, you need to provide some values in order for this *EXtension* to work:
+A setup is not required in order to use this EXtension. However, you can configure the Bot to listen to Chat Commands.
 
-- An OAuth Twitch Chat Token ([You can get it here](https://twitchapps.com/tmi/))
-- A ClientID and a Client Secret of the same account ([You can learn how to get it here](http://faq.demostoreprestashop.com/faq.php?fid=144&pid=41))
-
-Then, go to the ```Loot's Tools EX for Twitch``` page on Loot's Tools UI, and put your values and credentials there to set everything up.
+You can configure them on the EXtension page on the UI, but don't forget to apply changes!
 
 ---
 
@@ -43,7 +39,7 @@ This Event is called when a message is sent on your Chat.
 
 This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
 
-- ```twitchMessage```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
+- ```twitchMessage```: Returns all the info of the event.
 
 - ```twitchMessageText```: Returns the message sent.
 
@@ -57,7 +53,7 @@ This Event is called when a Chat Command is sent on your Chat. You'll need to ad
 
 This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
 
-- ```twitchCommand```: Returns ```{"prefix" : message.prefix, "user" : message.user, "channel" : message.channel, "irc_command" : message.irc_command, "irc_args" : message.irc_args, "text" : message.text, "text_command" : message.text_command, "text_args" : message.text_args}```.
+- ```twitchCommand```: Returns all the info of the event.
 
 - ```twitchCommandName```: Returns the Command's Name.
 
@@ -70,6 +66,78 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 - ```2```: Returns the second argument.
 
 - ```...```
+
+### On Twitch Channel Point Reward Redeem
+
+This Event is called when a Channel Point Reward is redeemed.
+
+#### Available Data
+
+This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
+
+- ```twitchChannelPoint{rewardName}```: Returns all the info of the event.
+
+- ```twitchChannelPointUser```: Returns the username of the user that redeemed the Channel Point Reward.
+
+- ```twitchChannelPointUserDisplayName```: Returns the Display Name (*el nombre bonico*) of the user that redeemed the Channel Point Reward.
+
+- ```twitchChannelPointText```: Returns the text imput of the Channel Point Reward redeem (If given).
+
+- ```twitchChannelPointRewardName```: Returns the Channel Point Reward Name.
+
+### On Twitch Bits Donation
+
+This Event is called when a Bit Donation is done.
+
+#### Available Data
+
+This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
+
+- ```twitchBits```: Returns all the info of the event.
+
+- ```twitchBitsSender```: Returns the username of the user that made the donation.
+
+- ```twitchBitsAmount```: Returns the amount of Bits donated.
+
+- ```twitchBitsTotalAmount```: Returns the total ammount of Bits donated by that user.
+
+- ```twitchBitsMessage```: Returns the Donation Message (If given).
+
+### On Twitch Subscription
+
+This Event is called when someone subscribes to your Twitch Channel.
+
+#### Available Data
+
+This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, and through [Variables](../../cards/advCards#variables) on Advanced Cards and EXtensions.
+
+- ```twitchSub```: Returns all the info of the event.
+
+- ```twitchSubUserName```: Returns the username of the user that subscribed (or recieved the Subscription as a gift).
+
+- ```twitchSubUserDisplayName```: Returns the Display Name (*el nombre bonico*) of the user that subscribed (or recieved the Subscription as a gift).
+
+- ```twitchSubUserID```: Returns the user ID of the user that subscribed (or recieved the Subscription as a gift).
+
+- ```twitchSubGifterUserName```: Returns the username of the user that gifted the Sub (If the Sub was gifted).
+
+- ```twitchSubGifterUserDisplayName```: Returns the Display Name (*el nombre bonico*) of the user that gifted the Sub (If the Sub was gifted).
+
+- ```twitchSubGifterUserID```: Returns the user ID of the user that gifted the Sub (If the Sub was gifted).
+
+- ```twitchSubTier```: Returns the tier of the Sub (1000, 2000, 3000, or Prime).
+
+- ```twitchSubIsGift```: Returns the boolean value if is Gift or not.
+
+- ```twitchSubContext```: Returns the event type associated with the subscription product. (sub, resub, subgift, anonsubgift, resubgift, anonresubgift)
+
+- ```twitchSubMessage```: Returns the Sub Message.
+
+- ```twitchSubGiftedMonths```: Returns the number of months gifted (If the Sub was gifted).
+
+- ```twitchSubTotalMonths```: Returns the number of months the user has been subscribed in total.
+
+- ```twitchSubStreakMonths```: Returns the user’s most recent (and contiguous) subscription tenure streak in the channel.
 
 ---
 
