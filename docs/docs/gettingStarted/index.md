@@ -8,7 +8,7 @@ Originality on streams is very important for me, thats why I made Loot's Tools, 
 
 ## Download Loot's Tools
 
-You can download the Installer [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
+You can download the Installer [clicking here](../ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
 
 ---
 
@@ -53,6 +53,13 @@ Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI)
 When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chromium-based browsers** appears an "Install" icon on the right side of the address bar: ![Install Button](../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
 
 Clicking this, you can install the UI as a Desktop App, looking better and independent from the browser!
+
+---
+## Ok, what now?
+
+You can head on to [Cards](../cards/index.md) and learn how to enhance your Cards, how to program them and have some examples for you to start!
+
+Also, take a look into the [EXtensions](../extensions/index.md), as they expand the capabilities of Loot's Tools with new Commands, new Functions and more Events that can trigger the last ones. Great examples are the [Twitch](../extensions/twitch/index.md) and [Commands Groups](../extensions/commandGroups/index.md) EXtensions, so check them out!
 
 ---
 

@@ -6,7 +6,7 @@
 
 *LootsToolsEX for Twitch* is an *EXtension* which allows the interactivity between **Twitch** and ***Loot's Tools***.
 
-It makes possible things like **changing the** **Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, **getting the Stream's info** (Useful for [Advanced Cards](../../cards/advCards)), manage **VIPs** (*VIPing* and *unVIPing*), and **bans** (*banning* and *unbanning*).
+It makes possible things like **changing the Stream's Title** and **Game**, **sending messages** to Chat, **marking a moment** on the VOD, managing **bans** (*banning* and *unbanning*), or triggering Events on Loot's Tools on **Chat Messages**, **Channel Points Rewards Redemptions**, **Chat Commands**, **Subscriptions** or **Donations**.
 
 The most useful thing maybe being gifting Packs with Channel Points Rewards or Subs!
 &nbsp;
@@ -41,9 +41,9 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchMessage```: Returns all the info of the event.
 
-- ```twitchMessageText```: Returns the message sent.
+- ```twitchMessageText``` or ```message```: Returns the message sent.
 
-- ```twitchMessageAuthor```: Returns the message's author.
+- ```twitchMessageAuthor``` or ```user```: Returns the message's author.
 
 ### On Twitch Command
 
@@ -57,9 +57,9 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchCommandName```: Returns the Command's Name.
 
-- ```twitchCommandText```: Returns the Command sent (with arguments).
+- ```twitchCommandText``` or ```message```: Returns the Command sent (with arguments).
 
-- ```twitchCommandAuthor```: Returns the Command's author.
+- ```twitchCommandAuthor``` or ```user```: Returns the Command's author.
 
 - ```1```: Returns the first argument.
 
@@ -77,11 +77,11 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchChannelPoint{rewardName}```: Returns all the info of the event.
 
-- ```twitchChannelPointUser```: Returns the username of the user that redeemed the Channel Point Reward.
+- ```twitchChannelPointUser``` or ```user```: Returns the username of the user that redeemed the Channel Point Reward.
 
 - ```twitchChannelPointUserDisplayName```: Returns the Display Name (*el nombre bonico*) of the user that redeemed the Channel Point Reward.
 
-- ```twitchChannelPointText```: Returns the text imput of the Channel Point Reward redeem (If given).
+- ```twitchChannelPointText``` or ```message```: Returns the text imput of the Channel Point Reward redeem (If given).
 
 - ```twitchChannelPointRewardName```: Returns the Channel Point Reward Name.
 
@@ -95,13 +95,13 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchBits```: Returns all the info of the event.
 
-- ```twitchBitsSender```: Returns the username of the user that made the donation.
+- ```twitchBitsSender``` or ```user```: Returns the username of the user that made the donation.
 
 - ```twitchBitsAmount```: Returns the amount of Bits donated.
 
 - ```twitchBitsTotalAmount```: Returns the total ammount of Bits donated by that user.
 
-- ```twitchBitsMessage```: Returns the Donation Message (If given).
+- ```twitchBitsMessage``` or ```message```: Returns the Donation Message (If given).
 
 ### On Twitch Subscription
 
@@ -113,7 +113,7 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchSub```: Returns all the info of the event.
 
-- ```twitchSubUserName```: Returns the username of the user that subscribed (or recieved the Subscription as a gift).
+- ```twitchSubUserName``` or ```user```: Returns the username of the user that subscribed (or recieved the Subscription as a gift).
 
 - ```twitchSubUserDisplayName```: Returns the Display Name (*el nombre bonico*) of the user that subscribed (or recieved the Subscription as a gift).
 
@@ -131,7 +131,7 @@ This data is available as [Tags](../../cards/normalCards#tags) on Normal Cards, 
 
 - ```twitchSubContext```: Returns the event type associated with the subscription product. (sub, resub, subgift, anonsubgift, resubgift, anonresubgift)
 
-- ```twitchSubMessage```: Returns the Sub Message.
+- ```twitchSubMessage``` or ```message```: Returns the Sub Message.
 
 - ```twitchSubGiftedMonths```: Returns the number of months gifted (If the Sub was gifted).
 
@@ -155,7 +155,7 @@ This command sends a message to your Chat on Twitch.
 
 #### Arguments
 
-- **message** [str]: The message you want to send.
+- **chatMessage** [str]: The message you want to send.
 
 ### Add a Marker on the Stream's VOD (twitchMarker)
 
@@ -194,7 +194,7 @@ This command sets the game of your Twitch's stream.
 
 - **title** [str]: The title you want to put on your Twitch's stream.
 
-
+<!--
 ### VIP Someone (twitchVIP)
 
 This command makes a user VIP on your Twitch's chat.
@@ -219,7 +219,7 @@ This command takes away a user's VIP on your Twitch's chat.
 #### Arguments
 
 - **user** [str]: The user from who you want to take away its VIP.
-
+ -->
 
 ### Ban Someone (twitchBan)
 
@@ -231,7 +231,7 @@ This command bans a user from your Twitch's chat.
 
 #### Arguments
 
-- **user** [str]: The user you want to ban.
+- **userToBan** [str]: The user you want to ban.
 
 ### Unban Someone (twitchUnban)
 
@@ -243,4 +243,4 @@ This command unbans a user from your Twitch's chat.
 
 #### Arguments
 
-- **user** [str]: The user you want to unban.
+- **userToUnban** [str]: The user you want to unban.

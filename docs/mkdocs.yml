@@ -119,6 +119,7 @@ nav:
       - LootsToolsEX for Streamloots: extensions/streamloots/index.md
       - LootsToolsEX for OBS: extensions/obs/index.md
       - LootsToolsEX for Minecraft: extensions/minecraft/index.md
+      - Command Groups: extensions/commandGroups/index.md
   - Loot's Tools Plus: plus/index.md
   - Additional Features: 
       - additionalFeatures/index.md

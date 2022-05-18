@@ -2,7 +2,7 @@
 
 This type of Card execute Commands on redeem. 
 
-This commands can easily be edited on **Loot's Tools' Card Editor** .
+This commands can easily be edited on the **Loot's Tools' Editor** .
 <br>To open it, click on the Card and then "Edit Card Commands" to open the Card's page, or click the Editor Button ( :material-playlist-edit: ) to open the Editor, to then select your Card on the selector.
 
 ---
@@ -19,7 +19,7 @@ This infamous prank, on a Card form, would be as simple as IRL: only pressing tw
 
 This is as easy as one command:
 
-![Alt+F4 Commands](../img/AltF4.png)
+![Alt+F4 Commands](../img/AltF4.png){: style="width: 69%;"}
 
 The `Send Keystroke` command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... >:)
 
@@ -29,7 +29,7 @@ Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is ve
 
 [Copy Card "Gift Chest" on your Collection with LootsTrading](lootstools://copyCard/5e692668982ade003456a0c2){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
-![Gift Chest Commands](../img/GiftChest.png)
+![Gift Chest Commands](../img/GiftChest.png){: style="width: 69%;"}
 
 We can modify the number of Packs, the collection the Pack is of and the user to give the Packs to (`{user}` represents the user that redeemed the Card. Learn more on Tags [here](#tags).).
 
@@ -37,13 +37,13 @@ We can modify the number of Packs, the collection the Pack is of and the user to
 
 Chat always likes to troll a bit, and nothing is worse than literally letting them close the stream your people are watching.
 
-This can be achieved by *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending our stream, changing source settings, changing texts...
+This can be achieved with *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending our stream, changing source settings, changing texts, etc.
 
 [Copy Card "Goodbye Stream!" on your Collection with LootsTrading](lootstools://copyCard/5fa9381dc1826900346e680c){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 To cut off the stream with a Card, this is the command it has to execute:
 
-![Goodbye Stream Commands](../img/GoodbyeStream.png)
+![Goodbye Stream Commands](../img/GoodbyeStream.png){: style="width: 69%;"}
 
 (You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)
 
@@ -180,11 +180,11 @@ In this Card, an additional *Tag* would be ````{message}````.
 
 The *EXtensions* currently available are the following:
 
-- [Loot's Tools EX for Minecraft](../extensions/minecraft)
-- [Loot's Tools EX for Twitch](../extensions/twitch)
-- [Loot's Tools EX for OBS](../extensions/obs)
-- [Loot's Tools EX for Discord](../extensions/discord)
-- [Loot's Tools EX for Streamloots](../extensions/streamloots)
-- [Command Groups](../extensions/commandGroups)
+- [Loot's Tools EX for Minecraft](../../extensions/minecraft)
+- [Loot's Tools EX for Twitch](../../extensions/twitch)
+- [Loot's Tools EX for OBS](../../extensions/obs)
+- [Loot's Tools EX for Discord](../../extensions/discord)
+- [Loot's Tools EX for Streamloots](../../extensions/streamloots)
+- [Command Groups](../../extensions/commandGroups)
 
 Learn more about EXtensions [here](../../extensions) and about each EXtension on their respective page.

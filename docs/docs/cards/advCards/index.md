@@ -4,7 +4,7 @@
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
-Put the "run.py" file on the Card's folder, that you can open clicking "Open folder" on the Editor's Card's page on the **Loot's Tools' Card Editor**.
+Put the "run.py" file on the Card's folder, that you can open clicking "Open folder" on the Editor's Card's page on the **Loot's Tools' Editor**.
 
 ---
 
@@ -18,7 +18,7 @@ You can do it through *pip* like this: ```pip install --target="<Loot's Tools Fo
 
 ## Examples
 
-*Advanced Cards*, despite it's name, doesn't need to be very complex.
+*Advanced Cards*, despite it's name, don't need to be very complex.
 
 Let's see some example *Advanced Cards*:
 

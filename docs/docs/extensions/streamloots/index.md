@@ -115,4 +115,4 @@ This command resumes a Streamloots Collection's Redemptions.
 
 #### Arguments
 
-- **collectionID** [choose]: The Collection to pause.
+- **collectionID** [choose]: The Collection to resume.

@@ -88,10 +88,17 @@ Learn more about **LootsTrading** on here: [LootsTrading](../additionalFeatures/
 
 The **User Page** shows the User's Name and Icon, with some info about their stats on **Streamloots** and **Loot's Tools**.
 
-Here you can also find a button to copy your DriveWay ID, with which you can connect Loot's Tools with other Apps, Services, or Game Mods.
+Here you can also find a button to copy your DriveWay ID, with which you can connect Loot's Tools with other Apps, Services, or Game Mods, and a toggle to turn ON or OFF Discord Rich Presence.
 
 ---
 
+### EXtension Pages
+
+EXtensions can have pages on Loot's Tools UI to manage configurations or to show information to the user.
+
+They will be the last icons, before the Exit icon, and their icons will be the ones of the EXtension they are from.
+
+---
 ## Exiting the UI
 
 Aside of closing the browser tab or window, the UI has an **Exit** button. (<ion-icon name="exit-outline"></ion-icon>).
