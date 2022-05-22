@@ -1,8 +1,13 @@
 site_name: Loot's Tools Docs
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - attr_list
   - sane_lists
   - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -104,7 +109,10 @@ extra_css:
 nav:
   - Home: https://lootstools.darye.dev
   - Introduction to Loot's Tools: .
-  - Getting Started: gettingStarted/index.md
+  - Quick Guides:
+      - guides/index.md
+      - Getting Started with Loot's Tools: guides/gettingStarted/index.md
+      - Gift Packs with Twitch Channel Points: guides/packsChannelPoints/index.md
   - Loot's Tools UI: lootsToolsUI/index.md
   - Cards:
       - cards/index.md
@@ -126,4 +134,5 @@ nav:
       - LootsTrading: additionalFeatures/lootsTrading/index.md
       - LaTEX: additionalFeatures/latex/index.md
       - LootsLabels: additionalFeatures/lootsLabels/index.md
+  
   - Contact me: "javascript: (function() {alert('Contact Links are on the footer! ;)');window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: 'smooth' });})();"

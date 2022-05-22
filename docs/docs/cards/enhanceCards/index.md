@@ -4,7 +4,7 @@
 
 To make a **Card** "Enhanced", go to the **Card Page** ( <ion-icon name="library-outline"></ion-icon> ) on the UI and click on the **Card** you want to enhance. Two options will appear: Click "Enhance Card".
 
-![Loot's Tools UI's Cards Options](../../img/lootsToolsUI_cardOptions.png){: style="margin: auto;}
+![Loot's Tools UI's Cards Options](../../img/lootsToolsUI_cardOptions.png){: style="margin: auto;"}
 
 And *voilà*, **Card** Enhanced!
 
@@ -16,11 +16,11 @@ Check out [Cards](../normalCards) and [Advanced Cards](../advCards) for examples
 
 To make a **Card** "Enhanced", go to the **Card Page** ( <ion-icon name="library-outline"></ion-icon> ) on the UI and click the *Enhance* Button ( :material-plus: ).
 
-![Loot's Tools UI's Cards Page](../../img/lootsToolsUI_cards.png){: style="margin: auto;}
+![Loot's Tools UI's Cards Page](../../img/lootsToolsUI_cards.png){: style="margin: auto;"}
 
 Then, a prompt will pop-up asking you to use the **Card** you want to Enhance and, when the alert on the UI appears, click "Continue".
 
-![Loot's Tools UI's Enhance Card Prompt](../../img/lootsToolsUI_addCard.png){: style="margin: auto;}
+![Loot's Tools UI's Enhance Card Prompt](../../img/lootsToolsUI_addCard.png){: style="margin: auto;"}
 
 And, just like this, your **Card** is now **Enhanced**!
 

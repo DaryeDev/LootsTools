@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started with Loot's Tools
 
 So you're new around here, huh? I'm glad you stopped by!
 
@@ -8,7 +8,7 @@ Originality on streams is very important for me, thats why I made Loot's Tools, 
 
 ## Download Loot's Tools
 
-You can download the Installer [clicking here](../ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
+You can download the Installer [clicking here](../../ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
 
 ---
 
@@ -41,25 +41,25 @@ To log in, once you install the extension, go to [Streamloots](https://www.strea
 Once you have installed ***Loot's Tools***, you can access [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank} (or open ```LootsTools.exe```) and be greeted with ***Loot's Tools UI***.
 
 <a href="https://lootstools.darye.dev/app">
-![Loot's Tools UI's Home Page](../img/lootsToolsUI_home.png){:style="margin: auto;"}
+![Loot's Tools UI's Home Page](../../img/lootsToolsUI_home.png){:style="margin: auto;"}
 </a>
 
-Continue learning about it clicking here: [Loot's Tools UI](lootsToolsUI)
+Continue learning about it clicking here: [Loot's Tools UI](../../lootsToolsUI)
 
 ---
 
 ## Optional: Install Loot's Tools UI as a Desktop App
 
-When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chromium-based browsers** appears an "Install" icon on the right side of the address bar: ![Install Button](../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
+When going to the [*Loot's Tools UI*](https://lootstools.darye.dev/app){target=_blank}, on **Chromium-based browsers** appears an "Install" icon on the right side of the address bar: ![Install Button](../../img/lootsToolsUI_installChrome.png){: style="height: auto;margin: 10px"}
 
 Clicking this, you can install the UI as a Desktop App, looking better and independent from the browser!
 
 ---
 ## Ok, what now?
 
-You can head on to [Cards](../cards/index.md) and learn how to enhance your Cards, how to program them and have some examples for you to start!
+You can head on to [Cards](../../cards/index.md) and learn how to enhance your Cards, how to program them and have some examples for you to start!
 
-Also, take a look into the [EXtensions](../extensions/index.md), as they expand the capabilities of Loot's Tools with new Commands, new Functions and more Events that can trigger the last ones. Great examples are the [Twitch](../extensions/twitch/index.md) and [Commands Groups](../extensions/commandGroups/index.md) EXtensions, so check them out!
+Also, take a look into the [EXtensions](../../extensions/index.md), as they expand the capabilities of Loot's Tools with new Commands, new Functions and more Events that can trigger the last ones. Great examples are the [Twitch](../../extensions/twitch/index.md) and [Commands Groups](../../extensions/commandGroups/index.md) EXtensions, so check them out!
 
 ---
 
