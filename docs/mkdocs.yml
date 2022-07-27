@@ -114,6 +114,7 @@ nav:
       - Getting Started with Loot's Tools: guides/gettingStarted/index.md
       - Gift Packs with Twitch Channel Points: guides/packsChannelPoints/index.md
   - Loot's Tools UI: lootsToolsUI/index.md
+  - Overlay: overlay/index.md
   - Cards:
       - cards/index.md
       - Enhancing Cards: cards/enhanceCards/index.md
