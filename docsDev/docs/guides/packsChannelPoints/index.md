@@ -22,7 +22,7 @@ Loot's Tools is an automation tool focused on **Streamloots**, made by a Content
 
 However, Loot's Tools can automate much more than only Streamloots Cards, like Subscriptions or Packs Purchases, or, outside of Streamloots for example, Twitch Channel Points Rewards, Chat Messages and Commands, Subscriptions or Donations, but we'll talk about it later.
 
-Find out how to install and set it up here: [Getting Started](../../gettingStarted)
+Find out how to install and set it up here: [Getting Started](../gettingStarted)
 
 ---
 
@@ -36,13 +36,13 @@ Let's first learn how to edit Cards and Events:
 
 ![Test Gift](https://lh4.googleusercontent.com/uroLxoUOnvg_X90GQR7JML0I8aK8rGOUQ6uB7BnRlwzGRZMylzfFWYq6MV7ZqRiAo-ALQa4xAo9QwSy2Z-TbTWyslo0pLI8qArMfyrJGzf6TphNXbMeeN6Ee86zlmnyHdpotK05GljMvin9H6A){: style="width: 80%;"}
 
-1. [Enhance a Card to test](../..//cards/enhanceCards), then edit its Commands by clicking on the Card and selecting “Edit Card Commands”.
+1. [Enhance a Card to test](../../desktop/cards/enhanceCards), then edit its Commands by clicking on the Card and selecting “Edit Card Commands”.
 
 2. Press TAB and choose “**Gift Pack**”.
 
 3. With that Command we can choose **the number of Packs** we want to gift, **the Collection they are from**, **who to give them to**, and **how many Cards** they have (1-3).
 
-    On Giftee’s username, we’d like to tell Loot’s Tools to give it to who had used the Card, so we’ll use [Tags](../../cards/normalCards#tags), to introduce variables on Commands
+    On Giftee’s username, we’d like to tell Loot’s Tools to give it to who had used the Card, so we’ll use [Tags](../../desktop/cards/normalCards#tags), to introduce variables on Commands
 
     In this case, we’ll use **{user}**, which will be changed for the user that used that Card when the Command executes.
 

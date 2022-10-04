@@ -1,4 +1,4 @@
-# Quick Guides
+# Guides
 
 This section is for How-Tos on things that people might want to do, I'll be publishing some from time to time.
 

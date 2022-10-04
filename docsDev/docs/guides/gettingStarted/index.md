@@ -2,13 +2,13 @@
 
 So you're new around here, huh? I'm glad you stopped by!
 
-Originality on streams is very important for me, thats why I made Loot's Tools, but let's not distract ourselves, let's see how you can start using ***Loot's Tools***!
+Originality on streams is very important for me, thats why I made Loot's Tools, but let's not distract ourselves, let's see how you can start using ***Loot's Tools Desktop***!
 
 ---
 
 ## Download Loot's Tools Desktop
 
-You can download the Installer [clicking here](../../ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
+You can download the Installer [clicking here](../../desktop/ltSetup.exe){target=_blank} if you are on Windows, or download Loot's Tools [clicking here](https://github.com/daryedev/lootstools/releases/latest/download/LootsTools.app.zip){target=_blank} if you are on Mac.
 
 ---
 
@@ -46,7 +46,7 @@ Once you have installed ***Loot's Tools Desktop***, you can access [*Loot's Tool
 ![Loot's Tools UI's Home Page](../../img/lootsToolsUI_home.png){:style="margin: auto;"}
 </a>
 
-Continue learning about it clicking here: [Loot's Tools UI](../../lootsToolsUI)
+Continue learning about it clicking here: [Loot's Tools UI](../../desktop/lootsToolsUI)
 
 ---
 
@@ -59,9 +59,9 @@ Clicking this, you can install the UI as a Desktop App, looking better and indep
 ---
 ## Ok, what now?
 
-You can head on to [Cards](../../cards/index.md) and learn how to enhance your Cards, how to program them and have some examples for you to start!
+You can head on to [Cards](../../desktop/cards/index.md) and learn how to enhance your Cards, how to program them and have some examples for you to start!
 
-Also, take a look into the [EXtensions](../../extensions/index.md), as they expand the capabilities of Loot's Tools with new Commands, new Functions and more Events that can trigger the last ones. Great examples are the [Twitch](../../extensions/twitch/index.md) and [Commands Groups](../../extensions/commandGroups/index.md) EXtensions, so check them out!
+Also, take a look into the [EXtensions](../../desktop/extensions/index.md), as they expand the capabilities of Loot's Tools with new Commands, new Functions and more Events that can trigger the last ones. Great examples are the [Twitch](../../desktop/extensions/twitch/index.md) and [Commands Groups](../../desktop/extensions/commandGroups/index.md) EXtensions, so check them out!
 
 ---
 
