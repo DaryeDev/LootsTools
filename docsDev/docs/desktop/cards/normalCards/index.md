@@ -19,7 +19,7 @@ This infamous prank, on a Card form, would be as simple as IRL: only pressing tw
 
 This is as easy as one command:
 
-![Alt+F4 Commands](../img/AltF4.png){: style="width: 69%;"}
+![Alt+F4 Commands](../img/AltF4.png){: style="max-width: 800px;max-height: 90px;"}
 
 The `Send Keystroke` command sends a combination of keys, being the best for easy mischiefs like this or Rickrolls... >:)
 
@@ -29,7 +29,7 @@ Having a "*You won a Chest*" Card in any streamer's Streamloots Collection is ve
 
 [Copy Card "Gift Chest" on your Collection with LootsTrading](lootstools://copyCard/5e692668982ade003456a0c2){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
-![Gift Chest Commands](../img/GiftChest.png){: style="width: 69%;"}
+![Gift Chest Commands](../img/GiftChest.png){: style="max-width: 800px;max-height: 90px;"}
 
 We can modify the number of Packs, the collection the Pack is of and the user to give the Packs to (`{user}` represents the user that redeemed the Card. Learn more on Tags [here](#tags).).
 
@@ -37,29 +37,64 @@ We can modify the number of Packs, the collection the Pack is of and the user to
 
 Chat always likes to troll a bit, and nothing is worse than literally letting them close the stream your people are watching.
 
-This can be achieved with *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, we will be using the OBS one, which allows control over this streaming tool on things like ending our stream, changing source settings, changing texts, etc.
+This can be achieved with *EXtensions*, a feature of [***Loot's Tools Plus***](../../plus), and in this case, **we will be using the OBS EXtension**, which allows control over this streaming tool on things like ending our stream, changing source settings, changing texts, etc.
 
 [Copy Card "Goodbye Stream!" on your Collection with LootsTrading](lootstools://copyCard/5fa9381dc1826900346e680c){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 To cut off the stream with a Card, this is the command it has to execute:
 
-![Goodbye Stream Commands](../img/GoodbyeStream.png){: style="width: 69%;"}
+![Goodbye Stream Commands](../img/GoodbyeStream.png){: style="max-width: 800px;max-height: 90px;"}
 
 (You can always use as many Commands as you want, obviously, but I focused the examples on fun little commands that will refresh your streams.)
 
 ---
 
-## Commands
+## Command Blocks
 
-By default, ***Loot's Tools*** offers a selection of Commands out of the box:
+By default, ***Loot's Tools*** offers a selection of Command Blocks out of the box, categorized:
 
-### Gift Chest 
+### Event Stuff & Tags
+
+Includes the Starter Block and the different Tags available for that Event.
+
+#### Starter
+
+Starts an execution line of Commands. You can have *n* Starter Blocks to run those execution lines on parallel.
+
+##### Usage
+
+![Starter](../img/starterBlock.png){: style="max-width: 800px;max-height: 90px;"}
+
+On parallel...
+
+![Starter Parallel Execution](../img/parallelExecutionExample.png){: style="height: 300px;"}
+
+#### Tags
+
+Variable data given by the Event, such as the user that redeemed the Event. It varies between Events.
+
+![Tags](../img/tags.png){: style="height: 300px;"}
+
+### Streamloots
+
+This category includes Command Blocks related to Streamloots Automation or information, like gifting Packs or gathering the Active Streamloots' Subs.
+
+#### Gift Packs
+
+This Command allows the Streamer to gift a certain amount of Packs of a given collection to a user.
+
+##### Usage
+
+![Gift Packs Block](../img/giftPackBlock.png){: style="max-width: 800px;max-height: 90px;"}
+
+
+<!-- ### Gift Chest 
 
 This Command allows the Streamer to gift a certain amount of Packs of a given collection to a user.
 
 #### Usage
 
-![Gift Chest Command](../img/GiftChest.png){: style="width: 69%;"}
+![Gift Chest Command](../img/GiftChest.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -74,7 +109,7 @@ This Command simulates being the keyboard and writes the given string.
 
 #### Usage
 
-![Write Command](../img/WriteCommand.png){: style="width: 69%;"}
+![Write Command](../img/WriteCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -85,7 +120,7 @@ This Command runs a program.
 
 #### Usage
 
-![Run Command](../img/RunCommand.png){: style="width: 69%;"}
+![Run Command](../img/RunCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -96,7 +131,7 @@ This Command runs a program, and then closes it in x seconds.
 
 #### Usage
 
-![Run and Close Command](../img/RunCloseCommand.png){: style="width: 69%;"}
+![Run and Close Command](../img/RunCloseCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -110,7 +145,7 @@ This Command simulates being the keyboard and sends a key combination.
 
 #### Usage
 
-![Send Keystrokes Command](../img/KeystrokeCommand.png){: style="width: 69%;"}
+![Send Keystrokes Command](../img/KeystrokeCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -122,7 +157,7 @@ This Command waits x seconds to resume execution of the Card's Commands.
 
 #### Usage
 
-![Wait Command](../img/WaitCommand.png){: style="width: 69%;"}
+![Wait Command](../img/WaitCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -134,7 +169,7 @@ This Command prints on the ***Loot's Tools*** Console Log.
 
 #### Usage
 
-![Print Command](../img/PrintCommand.png){: style="width: 69%;"}
+![Print Command](../img/PrintCommand.png){: style="max-width: 800px;max-height: 90px;"}
 
 #### Arguments
 
@@ -170,7 +205,7 @@ If the Card requires input, the input's internal name can be used as a *Tag*.
 
 For example: ![Card's Input](../img/AdditionalTags.png)
 
-In this Card, an additional *Tag* would be ````{message}````.
+In this Card, an additional *Tag* would be ````{message}````. -->
 
 ---
 

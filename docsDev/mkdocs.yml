@@ -118,7 +118,7 @@ nav:
       - Loot's Tools UI: desktop/lootsToolsUI/index.md
       - Overlay: desktop/overlay/index.md
       - Cards:
-          - dsektop/cards/index.md
+          - desktop/cards/index.md
           - Enhancing Cards: desktop/cards/enhanceCards/index.md
           - Cards: desktop/cards/normalCards/index.md
           - Advanced Cards: desktop/cards/advCards/index.md
