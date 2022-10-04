@@ -131,12 +131,9 @@ nav:
           - LootsToolsEX for OBS: desktop/extensions/obs/index.md
           - LootsToolsEX for Minecraft: desktop/extensions/minecraft/index.md
           - Command Groups: desktop/extensions/commandGroups/index.md
-      
-      - Additional Features: 
-          - desktop/additionalFeatures/index.md
-          - LootsTrading: desktop/additionalFeatures/lootsTrading/index.md
-          - LaTEX: desktop/additionalFeatures/latex/index.md
-          - LootsLabels: desktop/additionalFeatures/lootsLabels/index.md
+      - LootsTrading: desktop/lootsTrading/index.md
+      - LaTEX: desktop/latex/index.md
+      - LootsLabels: desktop/lootsLabels/index.md
   - Loot's Tools Browser Companion: browserCompanion/index.md
   - Loot's Tools Discord Bot: discordBot/index.md
   - Loot's Tools Plus: plus/index.md

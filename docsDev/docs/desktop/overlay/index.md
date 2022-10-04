@@ -6,11 +6,11 @@
 
 Introduced on v3, the ***Loot's Tools Overlay*** offers a way for ***Loot's Tools*** users to overlay images over their screen with Streamloots Cards or other events.
 
-This could be useful for jumpscares (could help using it with the [Play Sound Command]()), scares (like a [example we will see later on](#example).), "flashbanging" (with an all-white image), blinding the streamer (with an all-black image) or hiding information from the game's UI superposing these images.
+This could be useful for jumpscares (could help using it with the [Play Sound Command](../cards/normalCards#play-sound)), scares (like a [example we will see later on](#example).), "flashbanging" (with an all-white image), blinding the streamer (with an all-black image) or hiding information from the game's UI superposing these images.
 
 !!! note
 
-    The Overlay will not work on Fullscreen apps or games. Find a way to execute your app or game in windowed borderless mode.
+    The Overlay will not work on Fullscreen apps or games. [Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming/releases/download/9.5.6/BorderlessGaming9.5.6_admin_setup.exe) is your friend here to execute your app or game in windowed borderless mode.
 
 ---
 

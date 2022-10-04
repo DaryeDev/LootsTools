@@ -40,7 +40,7 @@ The **Home Page** offers a handful of useful links for the **Start Guide**, **Do
 
 ![Loot's Tools UI's Cards Page](../img/lootsToolsUI_cards.png){: style="margin: auto;}
 
-The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections, categorized by them. 
+The **Cards Page** offers a glimpse at the Cards of your Streamloots Collections, categorized by them.
 
 The Name and Icon of the Card is shown on a grid, and Enhanced Cards are marked with a star on the top-left corner.
 
@@ -58,7 +58,7 @@ Also, this page has three buttons, the **Editor** Button, ( :material-playlist-e
 
 The **EXtensions Page** shows us the EXtensions that are loaded into **Loot's Tools**.
 
-EXtensions not correctly loaded will appear on black and white. Clicking on them (both loaded and not loaded) will give the user to reload the EXtension selected.
+EXtensions not correctly loaded will appear on black and white. Clicking on them (both loaded and not loaded) will give the user the option to reload the EXtension selected.
 
 ---
 
@@ -74,11 +74,11 @@ The **Log Page** shows the output of the **Loot's Tools Console**, with an auto 
 
 ![Loot's Tools UI's LootsTrading Page](../img/lootsToolsUI_lootsTrading.png){: style="margin: auto;}
 
-The **LootsTrading Page** shows a grid with your Cards, and if you click on them, you can Share them and get an LootsTrading Link for Sharing your Card and it's commands online.
+The **LootsTrading Page** shows a grid with your Cards, and if you click on them, you can Share them and get an LootsTrading File for Sharing your Card and it's Commands.
 
 Also, on this page, there's a button to Share a Collection, that, as the button's name suggests, helps you Share a Collection.
 
-Learn more about **LootsTrading** on here: [LootsTrading](../additionalFeatures/lootsTrading/index.md)
+Learn more about **LootsTrading** on here: [LootsTrading](../lootsTrading)
 
 ---
 

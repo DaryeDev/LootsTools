@@ -1,6 +1,8 @@
-# Command Groups 
+##### (EXtension Docs need to be updated, sorry for the inconveniences.)
 
-<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is required.)</sup>
+# Command Groups
+
+<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../../plus). A ***Plus*** Account is required.)</sup>
 
 ![Command Groups](https://i.imgur.com/PFaIAqn.png){: style="height: 150px;width: 150px;float: left;margin: 20px;"}
 

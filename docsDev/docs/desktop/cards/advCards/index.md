@@ -1,6 +1,6 @@
 # Advanced Cards
 
-<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../plus). A ***Plus*** Account is required.)</sup>
+<sup style="font-size: 90%">(This is a feature unlocked with [***Loot's Tools Plus***](../../../plus). A ***Plus*** Account is required.)</sup>
 
 This type of Card lets you execute a Python Script (run.py) when a Card is redeemed.
 
@@ -132,7 +132,7 @@ class advCard:
 
 ### Variables
 
-Using an *Advanced Card* also gives us access to information about the redeemed Card, like *[Tags](../cards/normalCards#tags)*, but with variables. They are all inside ```args```, and some keys are as follow:
+Using an *Advanced Card* also gives us access to information about the redeemed Card, like *[Tags](../normalCards#tags)*, but with variables. They are all inside ```args```, and some keys are as follow:
 
 - ```commandPath```: The path of the Card's folder, where ```run.py``` is.
 - ```streamer```: The streamer's name.
